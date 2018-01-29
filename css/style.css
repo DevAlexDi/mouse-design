@@ -1,0 +1,121 @@
+@font-face {
+  font-family: AvenirLTStdBook;
+  src: url(../fonts/AvenirLTStdBook.otf); }
+.inp-style-1 {
+  font-family: AvenirLTStdBook;
+  display: block;
+  width: 100%;
+  outline: none;
+  border: none;
+  font-size: 14px;
+  letter-spacing: 0.4px;
+  color: #fff;
+  padding: 18px 21px;
+  border-radius: 50px;
+  background: rgba(255, 255, 255, 0.3);
+  margin-bottom: 19px; }
+  .inp-style-1::-webkit-input-placeholder {
+    color: rgba(255, 255, 255, 0.8); }
+  .inp-style-1::-moz-placeholder {
+    color: rgba(255, 255, 255, 0.8); }
+  .inp-style-1:-moz-placeholder {
+    color: rgba(255, 255, 255, 0.8); }
+  .inp-style-1:-ms-input-placeholder {
+    color: rgba(255, 255, 255, 0.8); }
+
+.butt-style-1 {
+  display: block;
+  font-family: AvenirLTStdBook;
+  color: #fff;
+  outline: none;
+  border: none;
+  font-size: 14px;
+  letter-spacing: 0.4px;
+  background: transparent;
+  border-radius: 50px;
+  width: 100%;
+  border: 8px solid rgba(235, 45, 100, 0.5);
+  transition: 0.3s; }
+  .butt-style-1:hover {
+    border: 8px solid rgba(235, 45, 100, 0.9); }
+    .butt-style-1:hover span {
+      background-color: rgba(235, 45, 100, 0.5); }
+  .butt-style-1 span {
+    display: block;
+    width: 100%;
+    height: 100%;
+    padding: 13px 21px;
+    transition: 0.3s;
+    background-color: #eb2d64;
+    border-radius: 50px; }
+
+.login-register .login {
+  height: 100vh;
+  min-height: 500px;
+  background-image: url(../img/bg-login.jpg);
+  background-size: cover;
+  background-position: center; }
+  .login-register .login .m-w-log {
+    max-width: 370px;
+    width: 100%;
+    padding: 0 15px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    position: relative; }
+    .login-register .login .m-w-log .login-form {
+      width: 100%; }
+      .login-register .login .m-w-log .login-form .mouse-logo-1 {
+        margin: 0 auto 24px auto; }
+      .login-register .login .m-w-log .login-form .mouse-logo-2 {
+        margin: 0 auto 38px auto;
+        max-width: 281px; }
+      .login-register .login .m-w-log .login-form .forgot-password-wr {
+        display: flex;
+        justify-content: flex-end; }
+        .login-register .login .m-w-log .login-form .forgot-password-wr span {
+          display: block;
+          color: #fff;
+          font-family: AvenirLTStdBook;
+          transition: 0.3s;
+          cursor: pointer;
+          margin-bottom: 17px; }
+          .login-register .login .m-w-log .login-form .forgot-password-wr span:hover {
+            color: #eb2d64; }
+      .login-register .login .m-w-log .login-form .outher-butt {
+        padding-top: 36px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column; }
+        .login-register .login .m-w-log .login-form .outher-butt a, .login-register .login .m-w-log .login-form .outher-butt p {
+          font-family: AvenirLTStdBook;
+          color: #fff;
+          margin-bottom: 30px; }
+        .login-register .login .m-w-log .login-form .outher-butt a {
+          font-size: 16px;
+          transition: 0.3s; }
+          .login-register .login .m-w-log .login-form .outher-butt a:hover {
+            color: #eb2d64; }
+        .login-register .login .m-w-log .login-form .outher-butt p {
+          font-size: 14px; }
+        .login-register .login .m-w-log .login-form .outher-butt .socials {
+          width: 100%;
+          display: flex;
+          justify-content: space-between; }
+          .login-register .login .m-w-log .login-form .outher-butt .socials .soc {
+            width: 52px;
+            height: 52px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 50%;
+            background: rgba(235, 45, 100, 0.5);
+            cursor: pointer;
+            transition: 0.3s; }
+            .login-register .login .m-w-log .login-form .outher-butt .socials .soc:hover {
+              background: rgba(235, 45, 100, 0.9); }
+
+/*# sourceMappingURL=style.css.map */
