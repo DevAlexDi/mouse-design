@@ -10,8 +10,9 @@
 @font-face {
   font-family: AvenirLTStdLight;
   src: url(../fonts/AvenirLTStd-Light.otf); }
-body {
-  font-family: AvenirLTStdBook; }
+html, body {
+  font-family: AvenirLTStdBook;
+  height: 100%; }
 
 .inp-style-1 {
   font-family: AvenirLTStdBook;
@@ -486,5 +487,226 @@ body {
   justify-content: center; }
   .choose-to-follow .butt-to-continue .butt-style-1 {
     max-width: 200px; }
+
+.main-mw {
+  max-width: 1366px;
+  margin: 0 auto; }
+
+.main_content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  height: 100%;
+  background: #f3f3f3; }
+  .main_content .for-flex-height {
+    -webkit-box-flex: 1;
+    -ms-flex: 1 0 auto;
+    flex: 1 0 auto; }
+  .main_content footer {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 auto;
+    flex: 0 0 auto; }
+
+.main-router-outlet {
+  height: 100%; }
+
+header {
+  padding: 20px 80px;
+  background: #0f0f0f;
+  box-shadow: 0px -5px 38px 0 rgba(0, 0, 0, 0.91); }
+  header .main-mw {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; }
+    header .main-mw .left-side .logo-wr {
+      display: flex;
+      align-items: center; }
+    header .main-mw .left-side .logo-one {
+      max-width: 52px;
+      margin-right: 24px; }
+    header .main-mw .left-side .logo-two {
+      max-width: 125px; }
+    header .main-mw .right-side .flex-menu-items {
+      display: flex; }
+
+.shows-main-wrapp .head-shows {
+  padding: 30px 0 22px 0;
+  display: flex;
+  align-items: center; }
+  .shows-main-wrapp .head-shows .ham-ham {
+    display: block;
+    width: 55px;
+    height: 55px;
+    flex-shrink: 0;
+    margin-right: 16px;
+    border: none;
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    outline: none;
+    background-color: #ee2862;
+    transition: 0.3s;
+    box-shadow: 0px 3px 10px 0 rgba(255, 41, 103, 0.61); }
+    .shows-main-wrapp .head-shows .ham-ham .ham {
+      width: 29px;
+      height: 2px;
+      background: #fff;
+      position: relative;
+      margin: 4px 0; }
+      .shows-main-wrapp .head-shows .ham-ham .ham:before {
+        content: "";
+        display: block;
+        position: absolute;
+        top: 1px;
+        left: 0;
+        width: 8px;
+        height: 8px;
+        border: 2px solid #fff;
+        border-radius: 50%;
+        background: #eb2d64;
+        transition: 0.3s;
+        transform: translateY(-50%); }
+      .shows-main-wrapp .head-shows .ham-ham .ham:nth-child(1):before {
+        left: 10px; }
+      .shows-main-wrapp .head-shows .ham-ham .ham:nth-child(2):before {
+        left: 5px; }
+      .shows-main-wrapp .head-shows .ham-ham .ham:nth-child(3):before {
+        left: 15px; }
+    .shows-main-wrapp .head-shows .ham-ham:hover {
+      box-shadow: 0px 3px 10px 0 rgba(255, 41, 103, 0.1); }
+      .shows-main-wrapp .head-shows .ham-ham:hover .ham:nth-child(1):before {
+        transform: translate(-5px, -50%); }
+      .shows-main-wrapp .head-shows .ham-ham:hover .ham:nth-child(2):before {
+        transform: translate(10px, -50%); }
+      .shows-main-wrapp .head-shows .ham-ham:hover .ham:nth-child(3):before {
+        transform: translate(-10px, -50%); }
+  .shows-main-wrapp .head-shows h1 {
+    font-family: AvenirLTStdBlack;
+    font-size: 55px;
+    color: #0f0f0f;
+    text-transform: uppercase;
+    font-weight: bold; }
+.shows-main-wrapp .flex-shows {
+  display: flex;
+  flex-wrap: wrap; }
+  .shows-main-wrapp .flex-shows .one-show-wr {
+    width: 33.33%;
+    padding: 8px; }
+    .shows-main-wrapp .flex-shows .one-show-wr .one-show {
+      overflow: hidden;
+      position: relative; }
+      .shows-main-wrapp .flex-shows .one-show-wr .one-show:hover .img-show {
+        transform: scale(1.1); }
+      .shows-main-wrapp .flex-shows .one-show-wr .one-show.buy-ticket .description .bott-info .butt-by-or-f {
+        background: #ff2967; }
+        .shows-main-wrapp .flex-shows .one-show-wr .one-show.buy-ticket .description .bott-info .butt-by-or-f:hover {
+          background: rgba(255, 41, 103, 0.7);
+          border-color: #ff2967; }
+      .shows-main-wrapp .flex-shows .one-show-wr .one-show .img-show {
+        background-position: center;
+        background-size: cover;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        transition: 0.3s; }
+      .shows-main-wrapp .flex-shows .one-show-wr .one-show .description {
+        position: relative;
+        z-index: 10;
+        height: 285px;
+        display: flex;
+        flex-direction: column;
+        background-color: rgba(0, 0, 0, 0.5);
+        padding: 11px; }
+        .shows-main-wrapp .flex-shows .one-show-wr .one-show .description .top-info {
+          margin-bottom: auto;
+          width: 100%;
+          display: flex;
+          align-items: flex-start; }
+          .shows-main-wrapp .flex-shows .one-show-wr .one-show .description .top-info .side-1 {
+            margin-right: auto; }
+          .shows-main-wrapp .flex-shows .one-show-wr .one-show .description .top-info .side-2 {
+            margin-left: auto;
+            cursor: pointer; }
+          .shows-main-wrapp .flex-shows .one-show-wr .one-show .description .top-info .sale {
+            width: 68px;
+            height: 68px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-repeat: no-repeat;
+            background-position: center;
+            background-image: url(../img/ping-sun.png); }
+            .shows-main-wrapp .flex-shows .one-show-wr .one-show .description .top-info .sale p {
+              font-size: 12px;
+              text-transform: uppercase;
+              color: #fff;
+              text-align: center;
+              font-weight: 100;
+              line-height: 14px; }
+          .shows-main-wrapp .flex-shows .one-show-wr .one-show .description .top-info .funded {
+            position: relative;
+            width: 68px;
+            border-radius: 10px;
+            border: 1px solid #00b8f4; }
+            .shows-main-wrapp .flex-shows .one-show-wr .one-show .description .top-info .funded p {
+              color: #fff;
+              padding: 5px;
+              font-weight: 100;
+              text-align: center;
+              position: relative;
+              z-index: 10;
+              font-size: 11px;
+              line-height: 12px;
+              text-transform: uppercase; }
+              .shows-main-wrapp .flex-shows .one-show-wr .one-show .description .top-info .funded p span {
+                font-size: 12px;
+                line-height: 14px; }
+            .shows-main-wrapp .flex-shows .one-show-wr .one-show .description .top-info .funded .complete {
+              display: block;
+              position: absolute;
+              bottom: 0;
+              left: 0;
+              width: 100%;
+              border-radius: 10px;
+              background: rgba(0, 184, 244, 0.5); }
+        .shows-main-wrapp .flex-shows .one-show-wr .one-show .description .bott-info {
+          margin-top: auto;
+          width: 100%; }
+          .shows-main-wrapp .flex-shows .one-show-wr .one-show .description .bott-info p {
+            color: #fff;
+            text-align: center;
+            text-transform: uppercase;
+            margin: 0;
+            font-size: 14px; }
+          .shows-main-wrapp .flex-shows .one-show-wr .one-show .description .bott-info .genre {
+            margin-bottom: 7px; }
+          .shows-main-wrapp .flex-shows .one-show-wr .one-show .description .bott-info .name {
+            font-size: 22px; }
+          .shows-main-wrapp .flex-shows .one-show-wr .one-show .description .bott-info .butt-by-or-f {
+            display: block;
+            max-width: 110px;
+            margin: 0 auto;
+            background: #00b8f4;
+            border-radius: 50px;
+            padding: 7px 0;
+            text-align: center;
+            color: #fff;
+            font-size: 14px;
+            cursor: pointer;
+            transition: 0.3s;
+            margin-bottom: 5px;
+            border: 2px solid transparent; }
+            .shows-main-wrapp .flex-shows .one-show-wr .one-show .description .bott-info .butt-by-or-f:hover {
+              background: rgba(0, 184, 244, 0.7);
+              border-color: #00b8f4; }
 
 /*# sourceMappingURL=style.css.map */

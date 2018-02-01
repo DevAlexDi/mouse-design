@@ -14,8 +14,9 @@
     font-family: AvenirLTStdLight;
     src: url(../fonts/AvenirLTStd-Light.otf);
 }
-body{
-   font-family: AvenirLTStdBook; 
+html,body{
+   font-family: AvenirLTStdBook;
+    height: 100%;
 }
 $main_color: #eb2d64;
 .inp-style-1{
@@ -618,4 +619,303 @@ $main_color: #eb2d64;
         }
     }
     
+}
+.main-mw{
+    max-width: 1366px;
+    margin: 0 auto;
+    
+}
+.main_content{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    height: 100%;
+     background: #f3f3f3;
+    .for-flex-height{
+        -webkit-box-flex: 1;
+        -ms-flex: 1 0 auto;
+        flex: 1 0 auto;  
+    }
+    footer{
+            -webkit-box-flex: 0;
+    -ms-flex: 0 0 auto;
+    flex: 0 0 auto;
+    }
+}
+.main-router-outlet{
+    height: 100%;
+}
+header{
+    padding: 20px 80px;
+    background: #0f0f0f;
+    box-shadow: 0px -5px 38px 0 rgba(0, 0, 0, 0.91);
+    .main-mw{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        .left-side{
+            .logo-wr{
+                display: flex;
+                align-items: center;
+            }
+            .logo-one{
+                max-width: 52px;
+                margin-right: 24px;
+            }
+            .logo-two{
+                max-width: 125px;
+            }
+            
+        }
+        .right-side{
+            .flex-menu-items{
+                display: flex;
+            }
+        }
+    }
+}
+
+
+.shows-main-wrapp{
+    .head-shows{
+        padding: 30px 0 22px 0;
+        display: flex;
+        align-items: center;
+        .ham-ham{
+            display: block;
+            width: 55px;
+            height: 55px;
+            flex-shrink: 0;
+            margin-right: 16px;
+            border: none;
+            border-radius: 50%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            cursor: pointer;
+            outline: none;
+            background-color: #ee2862;
+            transition: 0.3s;
+            box-shadow: 0px 3px 10px 0 rgba(255, 41, 103, 0.61);
+            .ham{
+                width: 29px;
+                height: 2px;
+                background: #fff;
+                position: relative;
+                margin: 4px 0;
+                &:before{
+                    content: "";
+                    display: block;
+                    position: absolute;
+                    top: 1px;
+                    left: 0;
+                    width: 8px;
+                    height: 8px;
+                    border: 2px solid #fff;
+                    border-radius: 50%;
+                    background: $main_color;
+                    transition: 0.3s;
+                    transform: translateY(-50%);
+                }
+                &:nth-child(1){
+                    &:before{
+                        left: 10px;
+                    }
+                }
+                &:nth-child(2){
+                     &:before{
+                        left: 5px;
+                    }
+                }
+                &:nth-child(3){
+                     &:before{
+                        left: 15px;
+                    }
+                }
+            }
+            &:hover{
+                box-shadow: 0px 3px 10px 0 rgba(255, 41, 103, 0.1);
+                .ham{
+                   &:nth-child(1){
+                        &:before{
+                            transform: translate(-5px,-50%);
+                        }
+                    }
+                    &:nth-child(2){
+                         &:before{
+                            transform: translate(10px,-50%);
+                        }
+                    }
+                    &:nth-child(3){
+                         &:before{
+                            transform: translate(-10px,-50%);
+                        }
+                    }
+                }
+            }
+        }
+        h1{
+            font-family: AvenirLTStdBlack;
+            font-size: 55px;
+            color: #0f0f0f;
+            text-transform: uppercase;
+            font-weight: bold;
+        }
+    }
+    .flex-shows{
+        display: flex;
+        flex-wrap: wrap;
+        .one-show-wr{
+            width: 33.33%;
+            padding: 8px;
+            .one-show{
+                overflow: hidden;
+                position: relative;
+                &:hover{
+                    .img-show{
+                        transform: scale(1.1);
+                    }
+                }
+                &.buy-ticket{
+                    .description{
+                        .bott-info{
+                            .butt-by-or-f{
+                                background: #ff2967;
+                                &:hover{
+                                    background: rgba(255, 41, 103, 0.7);
+                                    border-color: #ff2967;
+                                }
+                            }
+                        }
+                    }
+                }
+                .img-show{
+                    background-position: center;
+                    background-size: cover;
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    width: 100%;
+                    height: 100%;
+                    transition: 0.3s;
+                }
+                .description{
+                    position: relative;
+                    z-index: 10;
+                    height: 285px;
+                    display: flex;
+                    flex-direction: column;
+                    background-color: rgba(0, 0, 0, 0.5);
+                    padding: 11px;
+                    .top-info{
+                        margin-bottom: auto;
+                        width: 100%;
+                        display: flex;
+                        align-items: flex-start;
+                        .side-1{
+                           margin-right: auto;
+                        }
+                        .side-2{
+                           margin-left: auto;
+                            cursor: pointer;
+                        }
+                        .sale{
+                           width: 68px;
+                            height: 68px;
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                            background-repeat: no-repeat;
+                            background-position: center;
+                            background-image: url(../img/ping-sun.png);
+                            p{
+                                font-size: 12px;
+                                text-transform: uppercase;
+                                color: #fff;
+                                text-align: center;
+                                font-weight: 100;
+                                line-height: 14px;
+                            }
+                        }
+                        .funded{
+                            position: relative;
+                            width: 68px;
+                            border-radius: 10px;
+                            border: 1px solid #00b8f4;
+                            p{
+                                color: #fff;
+                                padding: 5px;
+                                font-weight: 100;
+                                text-align: center;
+                                position: relative;
+                                z-index: 10;
+                                font-size: 11px;
+                                line-height: 12px;
+                                text-transform: uppercase;
+                                span{
+                                    font-size: 12px;
+                                    line-height: 14px;
+                                    
+                                }
+                            }
+                            .complete{
+                                
+                                display: block;
+                                position: absolute;
+                                bottom: 0;
+                                left: 0;
+                                width: 100%;
+                                border-radius: 10px;
+                                background: rgba(0, 184, 244,0.5);
+                            }
+                        }
+                        
+                    }
+                    .bott-info{
+                        margin-top: auto;
+                        width: 100%;
+                        p{
+                            color: #fff;
+                            text-align: center;
+                            text-transform: uppercase;
+                            margin: 0;
+                            font-size: 14px;
+                           
+                        }
+                        .genre{
+                            margin-bottom: 7px;
+                        }    
+                        .name{
+                            font-size: 22px;
+                            
+                        }
+                        .butt-by-or-f{
+                            display: block;
+                            max-width: 110px;
+                            margin: 0 auto;
+                            background: #00b8f4;
+                            border-radius: 50px;
+                            padding: 7px 0;
+                            text-align: center;
+                            color: #fff;
+                            font-size: 14px;
+                            cursor: pointer;
+                            transition: 0.3s;
+                            margin-bottom: 5px;
+                            border: 2px solid transparent;
+                            &:hover{
+                                background: rgba(0, 184, 244, 0.7);
+                                border-color: #00b8f4;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
 }
