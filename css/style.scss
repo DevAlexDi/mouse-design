@@ -919,3 +919,82 @@ header{
         }
     }
 }
+.shows-main-wrapp{
+    padding: 0 80px;
+}
+footer{
+    margin-bottom: 0;
+    padding: 25px 80px 20px 80px;
+    background: #0f0f0f;
+    .copyright{
+        color: #fff;
+        margin: 0;
+        text-align: center;
+        font-size: 14px;
+        text-transform: inherit;
+    }
+    .for-flex-footer{
+        display: flex;
+        margin-bottom: 10px;
+        
+        .side{
+            width: 25%;
+            padding: 0 15px;
+            h5{
+                font-family: AvenirLTStdBlack;
+                color: #fff;
+                font-size: 20px;
+                text-transform: uppercase;
+                margin-bottom: 25px;
+            }
+            ul{
+                list-style: none;
+                margin: 0;
+                li{
+                    a{
+                        font-size: 16px;
+                        transition: 0.3s;
+                        color: #fff;
+                        display: block;
+                        margin-bottom: 5px;
+                        &:hover{
+                            color: $main_color;
+                        }
+                    }
+                }
+            }
+            &.side-2{
+                .flex-socials{
+                    display: flex;
+                    flex-wrap: wrap;
+                    max-width: 220px;
+                    a{
+                        display: block;
+                        max-width: 33px;
+                        margin-bottom: 30px;
+                        path{
+                            transition: 0.3s;
+                            
+                        }
+                        &:hover{
+                            path{
+                                fill:$main_color;
+                            }
+                        }
+                    }
+                }
+                .one-soc{
+                    width: 33.33%;
+                    
+                }
+            }
+            &.side-3{
+                a{
+                    display: block;
+                    max-width: 182px;
+                    margin-bottom: 10px;
+                }
+            }
+        }
+    }
+}

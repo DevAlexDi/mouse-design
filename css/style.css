@@ -709,4 +709,59 @@ header {
               background: rgba(0, 184, 244, 0.7);
               border-color: #00b8f4; }
 
+.shows-main-wrapp {
+  padding: 0 80px; }
+
+footer {
+  margin-bottom: 0;
+  padding: 25px 80px 20px 80px;
+  background: #0f0f0f; }
+  footer .copyright {
+    color: #fff;
+    margin: 0;
+    text-align: center;
+    font-size: 14px;
+    text-transform: inherit; }
+  footer .for-flex-footer {
+    display: flex;
+    margin-bottom: 10px; }
+    footer .for-flex-footer .side {
+      width: 25%;
+      padding: 0 15px; }
+      footer .for-flex-footer .side h5 {
+        font-family: AvenirLTStdBlack;
+        color: #fff;
+        font-size: 20px;
+        text-transform: uppercase;
+        margin-bottom: 25px; }
+      footer .for-flex-footer .side ul {
+        list-style: none;
+        margin: 0; }
+        footer .for-flex-footer .side ul li a {
+          font-size: 16px;
+          transition: 0.3s;
+          color: #fff;
+          display: block;
+          margin-bottom: 5px; }
+          footer .for-flex-footer .side ul li a:hover {
+            color: #eb2d64; }
+      footer .for-flex-footer .side.side-2 .flex-socials {
+        display: flex;
+        flex-wrap: wrap;
+        max-width: 220px; }
+        footer .for-flex-footer .side.side-2 .flex-socials a {
+          display: block;
+          max-width: 33px;
+          margin-bottom: 30px; }
+          footer .for-flex-footer .side.side-2 .flex-socials a path {
+            transition: 0.3s; }
+          footer .for-flex-footer .side.side-2 .flex-socials a:hover path {
+            fill: #eb2d64; }
+      footer .for-flex-footer .side.side-2 .one-soc {
+        width: 33.33%; }
+      footer .for-flex-footer .side.side-3 a {
+        display: block;
+        max-width: 182px;
+        margin-bottom: 10px; }
+
 /*# sourceMappingURL=style.css.map */
