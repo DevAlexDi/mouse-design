@@ -651,12 +651,12 @@ $main_color: #eb2d64;
 }
 header{
     padding: 20px 80px;
+    padding-bottom: 0;
     background: #0f0f0f;
     box-shadow: 0px -5px 38px 0 rgba(0, 0, 0, 0.91);
     .main-mw{
         display: flex;
         justify-content: space-between;
-        align-items: center;
         .left-side{
             .logo-wr{
                 display: flex;
@@ -672,8 +672,195 @@ header{
             
         }
         .right-side{
+            width: 70%;
+            .search-inp{
+                .inp-style-1{
+                    margin: 0;
+                    text-align: center;
+                    padding: 12px 21px;
+                }
+                
+                
+            }
             .flex-menu-items{
                 display: flex;
+                justify-content: space-between;
+                .name-and-ava-wr{
+                    .name-and-ava{
+                        display: flex;
+                        align-items: center;
+                        .ava{
+                            width: 40px;
+                            height: 40px;
+                            border-radius: 50%;
+                            border: 2px solid $main_color;
+                            background-size: cover;
+                            background-position: center;
+                            flex-shrink: 0;
+                            background-repeat: no-repeat;
+                        }
+                        p{
+                            margin: 0;
+                            padding-right: 17px;
+                            font-size: 14px;
+                            color: #fff;
+                            line-height: 18px;
+                            text-align:right;
+                        }
+                    }
+                }
+                ul{
+                    margin: 0;
+                    list-style: none;
+                    display: flex;
+                    width: 500px;
+                    li{
+                        padding: 0 10px;
+                        width: 20%;
+                        a{
+                            
+                            display: block;
+                            &.active{
+                                span{
+                                    opacity: 1;
+                                    color: $main_color;
+                                }
+                                path{
+                                    fill: $main_color;
+                                }
+                                .img-menu{
+                                    &:before{
+                                        opacity: 1;
+                                    }
+                                    &:after{
+                                        opacity: 0;
+                                    }
+                                }
+                            }
+                            path{
+                                transition: 0.3s;
+                            }
+                            &:hover{
+                                span{
+                                    opacity: 1;
+                                }
+                            }
+                            span{
+                                display: block;
+                                text-align: center;
+                                color: #fff;
+                                font-size: 14px;
+                                position: relative;
+                                transition: 0.3s;
+                                opacity: 0;
+                            }
+                            .img-menu{
+                                position: relative;
+                                &:before{
+                                    position: absolute;
+                                    left: 0;
+                                    top: 0;
+                                    transition: 0.3s;
+                                    opacity: 0;
+                                    content: '';
+                                    display: block;
+                                }
+                                &:after{
+                                    position: absolute;
+                                    left: 0;
+                                    top: 0;
+                                    transition: 0.3s;
+                                    opacity: 1;
+                                    content: '';
+                                    display: block;
+                                }
+                            }
+                            .img-menu{
+                                margin: 0 auto 0 auto;
+                            }
+                            &.icon-1{
+                                margin-top: 3px;
+                                .img-menu{
+                                    max-width: 34px;
+                                   
+                                }
+                                
+                            }
+                            &.icon-2{
+                                padding-top: 2px;
+                                 .img-menu{
+                                    max-width: 38px;
+                                    
+                                }
+                                span{
+                                    top: -5px;
+                                }
+                            }
+                            &.icon-3{
+                                padding-top: 2px;
+                                 .img-menu{
+                                    width: 40px;
+                                    height: 35px;
+                                 
+                                     &:after{
+                                         width: 40px;
+                                        height: 35px;
+                                        background: url(../img/sprite-menu.png) -10px -10px;
+                                     }
+                                     &:before{
+                                         width: 40px;
+                                         height: 35px;
+                                        background: url(../img/sprite-menu.png) -70px -10px;
+                                     }
+                                }
+                                span{
+                                    top: 6px;
+                                }
+                            }
+                            &.icon-4{
+                                padding-top: 5px;
+                                 .img-menu{
+                                    width: 36px;
+                                    height: 31px;
+                                   
+                                     &:after{
+                                         width: 36px;
+                                        height: 31px;
+                                         background: url(../img/sprite-menu.png) -130px -59px;
+                                     }
+                                    &:before{
+                                        width: 36px;
+                                        height: 31px;
+                                        background: url(../img/sprite-menu.png) -10px -114px;
+                                     }
+                                }
+                                span{
+                                    top: 7px;
+                                }
+                            }
+                            &.icon-5{
+                                padding-top: 6px;
+                                 .img-menu{
+                                    width: 42px;
+                                    height: 29px;
+                                     &:after{
+                                         width: 42px;
+                                         height: 29px;
+                                        background: url(../img/sprite-menu.png) -10px -65px;
+                                     }
+                                     &:before{
+                                        width: 42px;
+                                        height: 29px;
+                                        background: url(../img/sprite-menu.png) -130px -10px;
+                                     }
+                                }
+                                span{
+                                    top: 8px;
+                                }
+                            }
+                        }
+                    }
+                }
             }
         }
     }
@@ -940,6 +1127,8 @@ footer{
         .side{
             width: 25%;
             padding: 0 15px;
+            display: flex;
+            justify-content: center;
             h5{
                 font-family: AvenirLTStdBlack;
                 color: #fff;
@@ -967,7 +1156,7 @@ footer{
                 .flex-socials{
                     display: flex;
                     flex-wrap: wrap;
-                    max-width: 220px;
+                    width: 220px;
                     a{
                         display: block;
                         max-width: 33px;
