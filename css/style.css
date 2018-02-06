@@ -10,7 +10,8 @@
 @font-face {
   font-family: AvenirLTStdLight;
   src: url(../fonts/AvenirLTStd-Light.otf); }
-html, body {
+html,
+body {
   font-family: AvenirLTStdBook;
   height: 100%; }
 
@@ -129,6 +130,48 @@ html, body {
     text-transform: uppercase;
     font-size: 14px; }
 
+.flex-radio {
+  display: flex;
+  flex-wrap: wrap; }
+  .flex-radio .one-radio {
+    display: flex;
+    position: relative;
+    overflow: hidden;
+    align-items: center;
+    margin-right: 30px; }
+    .flex-radio .one-radio .radio-b {
+      width: 0;
+      height: 0;
+      display: block;
+      position: absolute;
+      left: -5000px;
+      top: 0; }
+    .flex-radio .one-radio .radio-style {
+      padding-right: 10px; }
+    .flex-radio .one-radio label {
+      display: block;
+      width: 22px;
+      height: 22px;
+      border-radius: 50%;
+      background: #fff;
+      position: relative;
+      cursor: pointer;
+      display: flex;
+      padding: 2px;
+      border: 1px solid #9c9c9c; }
+      .flex-radio .one-radio label:before {
+        border-radius: 50%;
+        content: "";
+        display: block;
+        width: 100%;
+        height: 100%;
+        opacity: 0;
+        background: #eb2d64; }
+    .flex-radio .one-radio .radio-b:checked + label {
+      border-color: #eb2d64; }
+      .flex-radio .one-radio .radio-b:checked + label:before {
+        opacity: 1; }
+
 .login-register {
   height: 100vh; }
   .login-register .login {
@@ -175,7 +218,8 @@ html, body {
           justify-content: center;
           align-items: center;
           flex-direction: column; }
-          .login-register .login .m-w-log .login-form .outher-butt a, .login-register .login .m-w-log .login-form .outher-butt p {
+          .login-register .login .m-w-log .login-form .outher-butt a,
+          .login-register .login .m-w-log .login-form .outher-butt p {
             font-family: AvenirLTStdBook;
             color: #fff;
             margin-bottom: 30px; }
@@ -505,7 +549,8 @@ html, body {
   .main_content .for-flex-height {
     -webkit-box-flex: 1;
     -ms-flex: 1 0 auto;
-    flex: 1 0 auto; }
+    flex: 1 0 auto;
+    position: relative; }
   .main_content footer {
     -webkit-box-flex: 0;
     -ms-flex: 0 0 auto;
@@ -518,6 +563,8 @@ header {
   padding: 20px 80px;
   padding-bottom: 0;
   background: #0f0f0f;
+  position: relative;
+  z-index: 500;
   box-shadow: 0px -5px 38px 0 rgba(0, 0, 0, 0.91); }
   header .main-mw {
     display: flex;
@@ -845,9 +892,12 @@ header {
   padding: 0 80px; }
 
 footer {
+  position: relative;
+  z-index: 500;
   margin-bottom: 0;
   padding: 25px 80px 20px 80px;
-  background: #0f0f0f; }
+  background: #0f0f0f;
+  margin-top: 0; }
   footer .copyright {
     color: #fff;
     margin: 0;
@@ -897,5 +947,202 @@ footer {
         display: block;
         max-width: 182px;
         margin-bottom: 10px; }
+
+.second-router-outlet {
+  position: relative;
+  padding-bottom: 54px; }
+
+.nav-holder-3 {
+  position: absolute;
+  overflow: inherit !important;
+  padding-left: 0;
+  padding-right: 0;
+  width: 370px;
+  right: 100%;
+  transform: translateX(-470px);
+  padding-top: 125px;
+  height: 100%;
+  box-shadow: 0px -7px 40px 0 rgba(0, 0, 0, 0.23); }
+  .nav-holder-3.is-active {
+    transform: translateX(80px); }
+  .nav-holder-3:before {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 145px;
+    left: calc(100%);
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 7.5px 0 7.5px 10px;
+    border-color: transparent transparent transparent #ffffff; }
+  .nav-holder-3 .wrapp-for-filter::-webkit-scrollbar {
+    width: 0; }
+  .nav-holder-3 .wrapp-for-filter {
+    -ms-overflow-style: none; }
+  .nav-holder-3 .wrapp-for-filter {
+    overflow: -moz-scrollbars-none; }
+  .nav-holder-3 .wrapp-for-filter {
+    position: relative;
+    overflow: auto;
+    height: 100%;
+    padding: 0 40px; }
+    .nav-holder-3 .wrapp-for-filter .inp-style-1 {
+      background: #e2e2e2;
+      color: #898989;
+      text-align: center;
+      padding: 11px 21px;
+      margin-bottom: 25px; }
+      .nav-holder-3 .wrapp-for-filter .inp-style-1::-webkit-input-placeholder {
+        color: #898989; }
+      .nav-holder-3 .wrapp-for-filter .inp-style-1::-moz-placeholder {
+        color: #898989; }
+      .nav-holder-3 .wrapp-for-filter .inp-style-1:-moz-placeholder {
+        color: #898989; }
+      .nav-holder-3 .wrapp-for-filter .inp-style-1:-ms-input-placeholder {
+        color: #898989; }
+    .nav-holder-3 .wrapp-for-filter .groupe-form {
+      margin-bottom: 30px; }
+      .nav-holder-3 .wrapp-for-filter .groupe-form .head-input-groupe {
+        font-family: AvenirLTStdMedium;
+        font-size: 20px;
+        color: #232021;
+        margin-bottom: 10px; }
+      .nav-holder-3 .wrapp-for-filter .groupe-form .wrapp-for-triangle {
+        position: relative; }
+        .nav-holder-3 .wrapp-for-filter .groupe-form .wrapp-for-triangle:before {
+          content: "";
+          display: block;
+          position: absolute;
+          top: 21px;
+          right: 0;
+          width: 0;
+          height: 0;
+          border-style: solid;
+          border-width: 5px 5.5px 0 5.5px;
+          border-color: #918f90 transparent transparent transparent; }
+      .nav-holder-3 .wrapp-for-filter .groupe-form .date-picker-inp {
+        display: block;
+        background: transparent;
+        padding: 10px 18px 10px 0;
+        border: none;
+        font-size: 16px;
+        color: #232021;
+        outline: none;
+        border-bottom: 1px solid #232021;
+        display: block;
+        width: 100%; }
+      .nav-holder-3 .wrapp-for-filter .groupe-form .location-wr {
+        display: flex;
+        align-items: center; }
+        .nav-holder-3 .wrapp-for-filter .groupe-form .location-wr .mark {
+          width: 42px;
+          height: 42px;
+          flex-shrink: 0;
+          margin-right: 15px;
+          border-radius: 50%;
+          background: #ee2862;
+          border: 3px solid #f693b0;
+          background-image: url(../img/mark.svg);
+          background-repeat: no-repeat;
+          background-position: center;
+          background-size: 18px; }
+        .nav-holder-3 .wrapp-for-filter .groupe-form .location-wr .location-inp {
+          display: block;
+          width: 100%;
+          border: none;
+          outline: none;
+          font-size: 16px; }
+      .nav-holder-3 .wrapp-for-filter .groupe-form .irs-line {
+        height: 3px;
+        border-top: 1px solid #fff;
+        border-bottom: 1px solid #fff;
+        background-color: #918f90; }
+      .nav-holder-3 .wrapp-for-filter .groupe-form .irs-bar {
+        background-color: #ee2862;
+        height: 3px; }
+        .nav-holder-3 .wrapp-for-filter .groupe-form .irs-bar:before {
+          content: "";
+          display: block;
+          position: absolute;
+          height: 3px;
+          width: 13px;
+          background: #ee2862;
+          top: 0;
+          left: -5px;
+          left: -12px; }
+      .nav-holder-3 .wrapp-for-filter .groupe-form .irs-from,
+      .nav-holder-3 .wrapp-for-filter .groupe-form .irs-to,
+      .nav-holder-3 .wrapp-for-filter .groupe-form .irs-single {
+        top: 45px;
+        font-size: 16px;
+        background: #fff;
+        font-family: AvenirLTStdBook;
+        color: #232021; }
+        .nav-holder-3 .wrapp-for-filter .groupe-form .irs-from:after,
+        .nav-holder-3 .wrapp-for-filter .groupe-form .irs-to:after,
+        .nav-holder-3 .wrapp-for-filter .groupe-form .irs-single:after {
+          display: none; }
+      .nav-holder-3 .wrapp-for-filter .groupe-form .irs-slider {
+        width: 24px;
+        height: 24px;
+        border-radius: 50%;
+        background: #ee2862;
+        border: 3px solid #f693b0;
+        cursor: pointer;
+        top: 15px; }
+      .nav-holder-3 .wrapp-for-filter .groupe-form .flex-genres {
+        display: flex;
+        flex-wrap: wrap;
+        margin-bottom: 10px; }
+        .nav-holder-3 .wrapp-for-filter .groupe-form .flex-genres .one-checkbox {
+          width: 50%; }
+          .nav-holder-3 .wrapp-for-filter .groupe-form .flex-genres .one-checkbox .check-style .checkbox:checked + label {
+            border: 1px solid transparent; }
+          .nav-holder-3 .wrapp-for-filter .groupe-form .flex-genres .one-checkbox p {
+            color: #232021; }
+          .nav-holder-3 .wrapp-for-filter .groupe-form .flex-genres .one-checkbox label {
+            border: 1px solid #9c9c9c; }
+            .nav-holder-3 .wrapp-for-filter .groupe-form .flex-genres .one-checkbox label:before {
+              top: 4px;
+              right: 1px;
+              width: 16px;
+              background-size: contain;
+              background-repeat: no-repeat; }
+      .nav-holder-3 .wrapp-for-filter .groupe-form .more {
+        display: flex; }
+        .nav-holder-3 .wrapp-for-filter .groupe-form .more span {
+          display: block;
+          position: relative;
+          color: #232021;
+          font-size: 16px;
+          cursor: pointer;
+          transition: 0.3s; }
+          .nav-holder-3 .wrapp-for-filter .groupe-form .more span:hover {
+            color: #eb2d64; }
+            .nav-holder-3 .wrapp-for-filter .groupe-form .more span:hover:after {
+              border-color: #eb2d64 transparent transparent transparent; }
+          .nav-holder-3 .wrapp-for-filter .groupe-form .more span:after {
+            content: "";
+            display: block;
+            position: absolute;
+            top: 11px;
+            right: -14px;
+            width: 0;
+            height: 0;
+            transition: 0.3s;
+            border-style: solid;
+            border-width: 4px 4.5px 0 4.5px;
+            border-color: #918f90 transparent transparent transparent; }
+      .nav-holder-3 .wrapp-for-filter .groupe-form .form-control {
+        border: none;
+        border-bottom: 1px solid #9c9c9c;
+        box-shadow: none;
+        padding: 10px 18px 10px 0;
+        height: auto;
+        border-radius: 0; }
+
+.mainWrapper.has-push-left {
+  transform: translateX(470px); }
 
 /*# sourceMappingURL=style.css.map */
