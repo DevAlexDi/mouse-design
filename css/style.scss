@@ -1458,3 +1458,92 @@ footer {
 .mask-nav-3{
     background-color: #000;
 }
+
+.modal{
+    background-color: rgba(0,0,0,0.4);
+}
+
+.modal-slider{
+    .modal-dialog{
+        max-width: 930px;
+        width: 100%;
+        margin: 40px auto;
+        background-color: #fff;
+        border-radius: 10px;
+        background-image: url(../img/modal-image.jpg);
+        background-size: cover;
+        background-position: center;
+        &:before{
+            content: "";
+            display: block;
+            position: absolute;
+            top: 0;
+            left: 0;
+            border-radius: 10px;
+            width: 100%;
+            height: 100%;
+            background: $main_color;
+            opacity: 0.4;
+        }
+        .rel-modal{
+            position: relative;
+            .close-modal{
+                position: absolute;
+                right: 0;
+                top: 0;
+                width: 14px;
+                height: 14px;
+                display: block;
+                cursor: pointer;
+                &:before{
+                    content: "";
+                    display: block;
+                    position: absolute;
+                    width: 100%;
+                    height: 2px;
+                    background: #fff;
+                    top: 0;
+                    left: 0;
+                    transform-origin: center;
+                    transform: rotate(45deg);
+                    
+                }
+                &:after{
+                    content: "";
+                    display: block;
+                    position: absolute;
+                    width: 100%;
+                    height: 2px;
+                    background: #fff;
+                    top: 0;
+                    left: 0;
+                    transform-origin: center;
+                    transform: rotate(-45deg);
+                }
+            }
+            .slider-padd{
+                padding: 10px 110px;
+                
+                .slider-modal-wr{
+                    .one-slide{
+                        outline: none;
+                        min-height: 300px;
+                        
+                        h4{
+                            text-align: center;
+                            font-size: 70px;
+                            color: #fff;
+                            span{
+                                color: #eb2d64;
+                                
+                            }
+                        }
+                    }
+                }
+                
+            }
+            
+        }
+        
+    }
+}

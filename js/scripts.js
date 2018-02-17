@@ -41,7 +41,18 @@ $(document).ready(function () {
         }
     });
     
+    $('#modal-slider').modal('show');
+    $('.description').click(function(){
+        $('#modal-slider').modal('show');
+    });
     
+    $('.slider-modal-wr').slick({
+        dots: false,
+        arrows: false,
+      infinite: true,
+      slidesToShow: 1
+      
+    });
     
     
     
