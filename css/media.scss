@@ -9,6 +9,13 @@
     header .main-mw .right-side{
         width: 100%;
     }
+    .all-info-profile .uniq-padd-2 .flex--info .side.uniq-padd-style-funs .blocks-funs .one-block .photo {
+        height: 80px;
+    }
+    .all-info-profile .uniq-padd-2 .flex--info .side .blocks .one-block {
+        height: 280px;
+    }
+    
 }
 
 @media (max-width: 1199px) {
@@ -37,6 +44,40 @@
     footer{
         padding: 25px 40px 20px 40px;
     }
+    .head-info-profile-wr {
+        padding: 20px 40px;
+    }
+    .all-info-profile .uniq-padd{
+        padding: 0 40px;
+    }
+    .all-info-profile .uniq-padd-2{
+        padding: 0;
+    }
+    .all-info-profile .uniq-padd-2 .flex--info .side.uniq-padd-style-funs .blocks-funs .one-block{
+        width: 50%;
+    }
+    .all-info-profile .uniq-padd-2 .flex--info .side .blocks .one-block .desc{
+        padding: 10px 10px 20px 10px;
+    }
+    .all-info-profile .uniq-padd-2 .flex--info .side .blocks .one-block .desc .name{
+        font-size: 21px;
+    }
+    .all-info-profile .uniq-padd-2 .flex--info{
+        flex-wrap: wrap;
+    }
+    .all-info-profile .uniq-padd-2 .flex--info .side .blocks .one-block {
+        height: 250px;
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
 }
 
 @media (max-width: 991px) {
@@ -89,6 +130,36 @@
     .nav-holder-3{
         position: fixed;
     }
+    .all-info-profile .uniq-padd-2 .flex--info .side{
+        width: 50%;
+    }
+    .all-info-profile .uniq-padd-2 .flex--info .side.uniq-padd-style-funs{
+        width: 100%;
+        padding-top: 20px;
+    }
+    
+    .all-info-profile .uniq-padd-2 .flex--info .side.uniq-padd-style-funs .blocks-funs .one-block{
+        width: 25%;
+    }
+    .head-info-profile-wr .head-info-profile{
+        flex-wrap: wrap;
+    }
+    .head-info-profile-wr .head-info-profile .side-1{
+        width: 100%;
+    }
+    .head-info-profile-wr .head-info-profile .side-1 .mouse-bg-image{
+        margin: 0 auto 20px auto;
+    }
+    .head-info-profile-wr .head-info-profile .side-2 .big-name{
+        font-size: 45px;
+        line-height: 50px;
+    }
+    .all-info-profile .uniq-padd-2 .flex--info .side{
+        border-right: none;
+        &:first-child{
+            border-right: 1px solid #f3f3f3;
+        }
+    }  
 }
 @media (max-width: 767px) {
     .register .m-v-reg .reg-wr .for-flex{
@@ -229,6 +300,74 @@
     .one-checkbox p{
         font-size: 12px;
     }
+    .all-info-profile .uniq-padd{
+        padding: 0 15px;
+    }
+    .all-info-profile .uniq-padd-2 .flex--info{
+        display: block;
+    }
+    .head-info-profile-wr .head-info-profile .side-1{
+        padding-right: 0;
+    }
+    .head-info-profile-wr {
+        padding: 20px 15px;
+    }
+    
+    .head-info-profile-wr .head-info-profile .side-2{
+        padding-right: 0;
+        margin-bottom: 20px;
+    }
+    
+    .head-info-profile-wr .head-info-profile{
+        display: block;
+    }
+    .circles-info .for-flex-inf .circle{
+        width: 90px;
+        height: 90px;
+        
+            margin: -15px 10px 20px 10px;
+    }
+    .circles-info .for-flex-inf .circle{
+        p{
+            font-size: 12px;
+        }
+    }
+    .all-info-profile .uniq-padd .genres-info .flex-genres .one-genre{
+        font-size: 12px;
+    }
+    
+    .all-info-profile .uniq-padd-2 .flex--info .side:first-child{
+        border: none;
+    }
+    .all-info-profile .uniq-padd-2 .flex--info .side{
+        width: 100%;
+        padding: 0 15px;
+            max-width: 400px;
+    margin: 0 auto;
+    }
+    .all-info-profile .uniq-padd-2 .flex--info .side.uniq-padd-style-funs .uniq-padd-3{
+        padding: 0;
+    }
+    .all-info-profile .uniq-padd-2 .flex--info .side.uniq-padd-style-funs{
+        padding: 20px 15px 10px 15px;
+    }
+    .all-info-profile .uniq-padd-2 .flex--info .side.uniq-padd-style-funs .blocks-funs{
+        padding: 0;
+    }
+    .all-info-profile .uniq-padd-2 .flex--info .side.uniq-padd-style-funs .blocks-funs .one-block{
+        width: 50%;
+    }
+    .head-info-profile-wr .head-info-profile .side-2 .big-name{
+        text-align: center;
+    }
+    .head-info-profile-wr .head-info-profile .side-2 .insta-link-sp{
+        text-align: center;
+    }
+    
+    
+    
+    
+    
     
     
     

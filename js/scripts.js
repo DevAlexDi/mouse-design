@@ -30,7 +30,6 @@ $(document).ready(function () {
         min: 0,
         max: 300,
         from: 150,
-        
         type: "single",
         hide_min_max: true,
         postfix: " km",
@@ -40,9 +39,6 @@ $(document).ready(function () {
            
         }
     });
-    
-   
-    
     $('.slider-modal-wr').slick({
             dots: false,
             arrows: true,
@@ -50,12 +46,12 @@ $(document).ready(function () {
               slidesToShow: 1
 
         });
+    //открытие модалки
+//    $('.description').click(function(){
+//        $('#modal-slider').modal('show');
+//    });
     
-    $('.description').click(function(){
-        $('#modal-slider').modal('show');
-    });
-    
-    
+    //страница shows.html
     
     
     

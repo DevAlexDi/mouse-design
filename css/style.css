@@ -591,7 +591,8 @@ header {
           header .main-mw .right-side .flex-menu-items .name-and-ava-wr .flex-auth {
             display: flex;
             padding-top: 10px; }
-            header .main-mw .right-side .flex-menu-items .name-and-ava-wr .flex-auth a, header .main-mw .right-side .flex-menu-items .name-and-ava-wr .flex-auth span {
+            header .main-mw .right-side .flex-menu-items .name-and-ava-wr .flex-auth a,
+            header .main-mw .right-side .flex-menu-items .name-and-ava-wr .flex-auth span {
               cursor: pointer;
               display: block;
               color: #fff;
@@ -599,7 +600,8 @@ header {
               margin-left: 23px;
               font-size: 14px;
               white-space: nowrap; }
-              header .main-mw .right-side .flex-menu-items .name-and-ava-wr .flex-auth a:hover, header .main-mw .right-side .flex-menu-items .name-and-ava-wr .flex-auth span:hover {
+              header .main-mw .right-side .flex-menu-items .name-and-ava-wr .flex-auth a:hover,
+              header .main-mw .right-side .flex-menu-items .name-and-ava-wr .flex-auth span:hover {
                 color: #eb2d64; }
           header .main-mw .right-side .flex-menu-items .name-and-ava-wr .name-and-ava {
             display: flex;
@@ -794,7 +796,8 @@ header {
     font-weight: bold; }
 .shows-main-wrapp .flex-shows {
   display: flex;
-  flex-wrap: wrap; }
+  flex-wrap: wrap;
+  padding-bottom: 54px; }
   .shows-main-wrapp .flex-shows .one-show-wr {
     width: 33.33%;
     padding: 8px; }
@@ -969,8 +972,7 @@ footer {
         margin-bottom: 10px; }
 
 .second-router-outlet {
-  position: relative;
-  padding-bottom: 54px; }
+  position: relative; }
 
 .nav-holder-3 {
   position: absolute;
@@ -1290,7 +1292,8 @@ footer {
             transition: 0.3s; }
           .modal-slider .modal-dialog .rel-modal .flex-buttons-modal .one-butt-wr .style-b-op:hover:before {
             background-color: rgba(220, 30, 85, 0.9); }
-          .modal-slider .modal-dialog .rel-modal .flex-buttons-modal .one-butt-wr .style-b-op a, .modal-slider .modal-dialog .rel-modal .flex-buttons-modal .one-butt-wr .style-b-op span {
+          .modal-slider .modal-dialog .rel-modal .flex-buttons-modal .one-butt-wr .style-b-op a,
+          .modal-slider .modal-dialog .rel-modal .flex-buttons-modal .one-butt-wr .style-b-op span {
             padding: 25px 0;
             cursor: pointer;
             font-size: 20px;
@@ -1306,5 +1309,223 @@ footer {
 
 .modal.in {
   visibility: visible; }
+
+.head-info-profile-wr {
+  padding: 20px 80px;
+  background: linear-gradient(to top, #6c1555, #360c4d); }
+  .head-info-profile-wr .head-info-profile {
+    max-width: 1190px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+    .head-info-profile-wr .head-info-profile .side-1 {
+      padding-right: 18px; }
+      .head-info-profile-wr .head-info-profile .side-1 .mouse-bg-image {
+        width: 273px;
+        height: 228px;
+        background-image: url(../img/mouse-big-logo-2x.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: contain;
+        display: flex;
+        justify-content: center;
+        align-items: center; }
+        .head-info-profile-wr .head-info-profile .side-1 .mouse-bg-image .big-avatar {
+          width: 164px;
+          height: 164px;
+          background-color: #fff;
+          border: 7px solid #fff;
+          background-size: cover;
+          background-position: center;
+          position: relative;
+          border-radius: 50%; }
+    .head-info-profile-wr .head-info-profile .side-2 {
+      padding-right: 62px; }
+      .head-info-profile-wr .head-info-profile .side-2 .big-name {
+        color: #fff;
+        font-family: AvenirLTStdBlack;
+        font-size: 60px;
+        line-height: 62px;
+        text-transform: uppercase; }
+        .head-info-profile-wr .head-info-profile .side-2 .big-name span {
+          display: block; }
+      .head-info-profile-wr .head-info-profile .side-2 .insta-link-sp {
+        color: #eb2d64;
+        font-size: 35px;
+        font-family: AvenirLTStdBlack;
+        font-weight: 900; }
+    .head-info-profile-wr .head-info-profile .side-3 .edit-and-settings {
+      display: flex;
+      align-items: center;
+      margin-bottom: 33px; }
+      .head-info-profile-wr .head-info-profile .side-3 .edit-and-settings .edit-profile {
+        font-family: AvenirLTStdLight;
+        display: block;
+        padding: 7px 18px;
+        border: 1px solid #fff;
+        border-radius: 5px;
+        color: #fff;
+        font-weight: 100;
+        transition: 0.3;
+        margin-right: 38px; }
+        .head-info-profile-wr .head-info-profile .side-3 .edit-and-settings .edit-profile:hover {
+          color: #eb2d64;
+          border-color: #eb2d64; }
+      .head-info-profile-wr .head-info-profile .side-3 .edit-and-settings .settings {
+        width: 25px;
+        height: 26px;
+        background-image: url(../img/settings.png);
+        display: block;
+        cursor: pointer; }
+    .head-info-profile-wr .head-info-profile .side-3 .desc-wr {
+      max-width: 325px; }
+      .head-info-profile-wr .head-info-profile .side-3 .desc-wr .description {
+        color: #fff; }
+
+.for-white-bg {
+  background: #fff;
+  position: relative; }
+
+.circles-info {
+  position: relative;
+  z-index: 10; }
+  .circles-info .for-flex-inf {
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+    .circles-info .for-flex-inf .circle {
+      width: 111px;
+      height: 111px;
+      border-radius: 50%;
+      margin: -20px 35px 20px 35px;
+      box-shadow: 0px -5px 9px 0 rgba(147, 13, 113, 0.39);
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      background-color: #fff; }
+      .circles-info .for-flex-inf .circle span {
+        font-family: AvenirLTStdBlack;
+        font-size: 24px; }
+        .circles-info .for-flex-inf .circle span p {
+          font-size: 18px; }
+
+.all-info-profile .uniq-padd {
+  padding: 0 80px; }
+  .all-info-profile .uniq-padd .genres-info {
+    margin-bottom: 50px; }
+    .all-info-profile .uniq-padd .genres-info h3 {
+      font-size: 35px;
+      font-family: AvenirLTStdBlack;
+      margin-bottom: 26px;
+      text-transform: uppercase; }
+    .all-info-profile .uniq-padd .genres-info .flex-genres {
+      display: flex;
+      flex-wrap: wrap; }
+      .all-info-profile .uniq-padd .genres-info .flex-genres .one-genre {
+        display: block;
+        text-transform: uppercase;
+        margin-right: 15px;
+        background-color: #eb2d64;
+        font-size: 14px;
+        padding: 2px 10px;
+        color: #fff;
+        margin-bottom: 10px;
+        font-weight: bold;
+        border-radius: 50px; }
+.all-info-profile .uniq-padd-2 {
+  padding: 0 32.5px; }
+  .all-info-profile .uniq-padd-2 .main-mw {
+    max-width: 1461px; }
+  .all-info-profile .uniq-padd-2 .flex--info {
+    display: flex;
+    justify-content: center; }
+    .all-info-profile .uniq-padd-2 .flex--info .side {
+      width: 33.33%;
+      padding: 0 47.5px;
+      padding-bottom: 40px;
+      border-right: 1px solid #f3f3f3; }
+      .all-info-profile .uniq-padd-2 .flex--info .side:last-child {
+        border: none; }
+      .all-info-profile .uniq-padd-2 .flex--info .side.uniq-padd-style-funs {
+        padding: 0 22.5px; }
+        .all-info-profile .uniq-padd-2 .flex--info .side.uniq-padd-style-funs .uniq-padd-3 {
+          padding: 0 25px; }
+        .all-info-profile .uniq-padd-2 .flex--info .side.uniq-padd-style-funs .blocks-funs {
+          display: flex;
+          flex-wrap: wrap;
+          padding: 0 12.5px; }
+          .all-info-profile .uniq-padd-2 .flex--info .side.uniq-padd-style-funs .blocks-funs .one-block {
+            padding: 0 12.5px;
+            margin-bottom: 20px;
+            width: 33.33%; }
+            .all-info-profile .uniq-padd-2 .flex--info .side.uniq-padd-style-funs .blocks-funs .one-block .photo {
+              height: 105px;
+              background-position: center;
+              background-size: cover;
+              margin-bottom: 5px; }
+            .all-info-profile .uniq-padd-2 .flex--info .side.uniq-padd-style-funs .blocks-funs .one-block .name {
+              font-size: 14px;
+              letter-spacing: 0.7px;
+              display: block;
+              color: #000; }
+              .all-info-profile .uniq-padd-2 .flex--info .side.uniq-padd-style-funs .blocks-funs .one-block .name span {
+                display: block;
+                text-align: center;
+                text-overflow: ellipsis;
+                white-space: nowrap;
+                overflow: hidden; }
+      .all-info-profile .uniq-padd-2 .flex--info .side h6 {
+        font-size: 35px;
+        font-family: AvenirLTStdBlack;
+        margin-bottom: 10px;
+        text-transform: uppercase; }
+      .all-info-profile .uniq-padd-2 .flex--info .side .blocks .one-block {
+        height: 334px;
+        background-size: cover;
+        background-position: center;
+        position: relative;
+        margin-bottom: 20px; }
+        .all-info-profile .uniq-padd-2 .flex--info .side .blocks .one-block .desc {
+          position: absolute;
+          left: 0;
+          bottom: 0;
+          padding: 10px 10px 50px 10px;
+          width: 100%;
+          height: 180px;
+          display: flex;
+          flex-direction: column;
+          justify-content: flex-end;
+          align-items: center;
+          background: linear-gradient(to top, rgba(0, 0, 0, 0.5), transparent); }
+          .all-info-profile .uniq-padd-2 .flex--info .side .blocks .one-block .desc .name {
+            color: #fff;
+            letter-spacing: 1.2px;
+            margin: 0;
+            font-size: 25px;
+            font-family: AvenirLTStdBlack;
+            text-transform: uppercase;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+            overflow: hidden; }
+          .all-info-profile .uniq-padd-2 .flex--info .side .blocks .one-block .desc .when {
+            color: #fff;
+            letter-spacing: 1.2px;
+            margin: 0;
+            font-size: 24px;
+            font-family: AvenirLTStdBlack; }
+
+.search-profile-inp-style {
+  background: transparent;
+  padding: 10px 18px 10px 0;
+  border: none;
+  font-size: 16px;
+  color: #232021;
+  outline: none;
+  border-bottom: 1px solid #232021;
+  display: block;
+  width: 100%;
+  margin-bottom: 25px; }
 
 /*# sourceMappingURL=style.css.map */
