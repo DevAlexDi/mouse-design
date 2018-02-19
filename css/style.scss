@@ -1839,6 +1839,48 @@ footer {
                 &:last-child {
                     border: none;
                 }
+                &.side-info{
+                    border: none;
+                    padding-top: 50px;
+                    padding-bottom: 50px;
+                    .about-text{
+                        font-size: 14px;
+                    }
+                }
+                &.side-contact{
+                    .flex-contact-venue{
+                        display: flex;
+                        flex-wrap: wrap;
+                        .column-cont{
+                            width: 50%;
+                            &:first-child{
+                                padding-right: 7.5px;
+                            }
+                            &:last-child{
+                                padding-left: 7.5px;
+                            }
+                            .one-cont{
+                                margin-bottom: 15px;
+                                .head-cont{
+                                    font-size: 14px;
+                                    font-family: AvenirLTStdBlack;
+                                    margin: 0;
+                                }
+                                a,span{
+                                    display: block;
+                                    font-size: 14px;    
+                                }
+                            }
+                        }
+                    }
+                }
+                &.side-map{
+                    .map{
+                        height: 160px;
+                        width: 100%;
+                    }
+                }
+                
                 &.uniq-padd-style-funs {
                     padding: 0 22.5px;
                     .uniq-padd-3 {
@@ -1874,11 +1916,37 @@ footer {
                         }
                     }
                 }
+                &.flex-header{
+                    h6{
+                        display: flex;
+                        align-items: flex-end;
+                        min-height: 100px; 
+                    }
+                }
+                &.scroller{
+                   
+                    padding: 0 20px;
+                     padding-bottom: 30px;
+                    .for-scroll-padd{
+                        padding: 0 27.5px;
+                    }
+                    &.uniq-padd-style-funs{
+                        .new-scroll-wr{
+                            padding: 0;
+                        }
+                    }
+                    .new-scroll-wr{
+                        padding: 0 27.5px;
+                        max-height: 1055px;
+                        overflow: auto;
+                    }
+                }
                 h6 {
                     font-size: 35px;
                     font-family: AvenirLTStdBlack;
                     margin-bottom: 10px;
                     text-transform: uppercase;
+                   
                 }
                 .blocks {
                     .one-block {
@@ -1925,6 +1993,17 @@ footer {
     }
 }
 
+.new-scroll-wr::-webkit-scrollbar {
+  background: #fff;
+  width: 5px; }
+
+.new-scroll-wr::-webkit-scrollbar-thumb {
+  background: rgba(0,0,0,0.1);
+   
+  border-radius: 2.5px;
+  cursor: pointer; }
+
+
 .search-profile-inp-style {
     background: transparent;
     padding: 10px 18px 10px 0;
@@ -1936,4 +2015,53 @@ footer {
     display: block;
     width: 100%;
     margin-bottom: 25px;
+}
+
+.venue-main-info{
+    padding: 20px 0;
+    .name-venue{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        h2{
+            font-size: 60px;
+            font-family: AvenirLTStdBlack;
+            text-transform: uppercase;
+            color: #fff;
+           
+        }
+         .settings {
+              margin-left: 18px;
+             flex-shrink: 0;
+            width: 25px;
+            height: 26px;
+            background-image: url(../img/settings.png);
+            display: block;
+            cursor: pointer;
+        }
+    }
+    .oficial-page{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        .of-p{
+            color: $main_color;
+            font-size: 35px;
+            font-family: AvenirLTStdBlack;
+            
+        }
+        .ok-image{
+            margin-left: 15px;
+        }
+    }
+    .follow-wr{
+        display: flex;
+        justify-content: center;
+        padding-top: 30px;
+        .butt-style-1{
+            max-width: 130px;
+        }
+    }
 }

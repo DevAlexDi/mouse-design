@@ -1448,6 +1448,33 @@ footer {
       border-right: 1px solid #f3f3f3; }
       .all-info-profile .uniq-padd-2 .flex--info .side:last-child {
         border: none; }
+      .all-info-profile .uniq-padd-2 .flex--info .side.side-info {
+        border: none;
+        padding-top: 50px;
+        padding-bottom: 50px; }
+        .all-info-profile .uniq-padd-2 .flex--info .side.side-info .about-text {
+          font-size: 14px; }
+      .all-info-profile .uniq-padd-2 .flex--info .side.side-contact .flex-contact-venue {
+        display: flex;
+        flex-wrap: wrap; }
+        .all-info-profile .uniq-padd-2 .flex--info .side.side-contact .flex-contact-venue .column-cont {
+          width: 50%; }
+          .all-info-profile .uniq-padd-2 .flex--info .side.side-contact .flex-contact-venue .column-cont:first-child {
+            padding-right: 7.5px; }
+          .all-info-profile .uniq-padd-2 .flex--info .side.side-contact .flex-contact-venue .column-cont:last-child {
+            padding-left: 7.5px; }
+          .all-info-profile .uniq-padd-2 .flex--info .side.side-contact .flex-contact-venue .column-cont .one-cont {
+            margin-bottom: 15px; }
+            .all-info-profile .uniq-padd-2 .flex--info .side.side-contact .flex-contact-venue .column-cont .one-cont .head-cont {
+              font-size: 14px;
+              font-family: AvenirLTStdBlack;
+              margin: 0; }
+            .all-info-profile .uniq-padd-2 .flex--info .side.side-contact .flex-contact-venue .column-cont .one-cont a, .all-info-profile .uniq-padd-2 .flex--info .side.side-contact .flex-contact-venue .column-cont .one-cont span {
+              display: block;
+              font-size: 14px; }
+      .all-info-profile .uniq-padd-2 .flex--info .side.side-map .map {
+        height: 160px;
+        width: 100%; }
       .all-info-profile .uniq-padd-2 .flex--info .side.uniq-padd-style-funs {
         padding: 0 22.5px; }
         .all-info-profile .uniq-padd-2 .flex--info .side.uniq-padd-style-funs .uniq-padd-3 {
@@ -1476,6 +1503,21 @@ footer {
                 text-overflow: ellipsis;
                 white-space: nowrap;
                 overflow: hidden; }
+      .all-info-profile .uniq-padd-2 .flex--info .side.flex-header h6 {
+        display: flex;
+        align-items: flex-end;
+        min-height: 100px; }
+      .all-info-profile .uniq-padd-2 .flex--info .side.scroller {
+        padding: 0 20px;
+        padding-bottom: 30px; }
+        .all-info-profile .uniq-padd-2 .flex--info .side.scroller .for-scroll-padd {
+          padding: 0 27.5px; }
+        .all-info-profile .uniq-padd-2 .flex--info .side.scroller.uniq-padd-style-funs .new-scroll-wr {
+          padding: 0; }
+        .all-info-profile .uniq-padd-2 .flex--info .side.scroller .new-scroll-wr {
+          padding: 0 27.5px;
+          max-height: 1055px;
+          overflow: auto; }
       .all-info-profile .uniq-padd-2 .flex--info .side h6 {
         font-size: 35px;
         font-family: AvenirLTStdBlack;
@@ -1516,6 +1558,15 @@ footer {
             font-size: 24px;
             font-family: AvenirLTStdBlack; }
 
+.new-scroll-wr::-webkit-scrollbar {
+  background: #fff;
+  width: 5px; }
+
+.new-scroll-wr::-webkit-scrollbar-thumb {
+  background: rgba(0, 0, 0, 0.1);
+  border-radius: 2.5px;
+  cursor: pointer; }
+
 .search-profile-inp-style {
   background: transparent;
   padding: 10px 18px 10px 0;
@@ -1527,5 +1578,43 @@ footer {
   display: block;
   width: 100%;
   margin-bottom: 25px; }
+
+.venue-main-info {
+  padding: 20px 0; }
+  .venue-main-info .name-venue {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap; }
+    .venue-main-info .name-venue h2 {
+      font-size: 60px;
+      font-family: AvenirLTStdBlack;
+      text-transform: uppercase;
+      color: #fff; }
+    .venue-main-info .name-venue .settings {
+      margin-left: 18px;
+      flex-shrink: 0;
+      width: 25px;
+      height: 26px;
+      background-image: url(../img/settings.png);
+      display: block;
+      cursor: pointer; }
+  .venue-main-info .oficial-page {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap; }
+    .venue-main-info .oficial-page .of-p {
+      color: #eb2d64;
+      font-size: 35px;
+      font-family: AvenirLTStdBlack; }
+    .venue-main-info .oficial-page .ok-image {
+      margin-left: 15px; }
+  .venue-main-info .follow-wr {
+    display: flex;
+    justify-content: center;
+    padding-top: 30px; }
+    .venue-main-info .follow-wr .butt-style-1 {
+      max-width: 130px; }
 
 /*# sourceMappingURL=style.css.map */

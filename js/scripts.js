@@ -51,9 +51,72 @@ $(document).ready(function () {
 //        $('#modal-slider').modal('show');
 //    });
     
-    //страница shows.html
+    ///страница shows.html
+    
+    //страница profile-venue
     
     
+    
+    
+    $('.galary-main-wrapp').each(function () {
+        var pic = $(this)
+            , getItems = function () {
+                var items = [];
+                pic.find('.for-galary-item').each(function () {
+                    var href = $(this).attr('data-hreff')
+                        , size = $(this).data('size').split('x')
+                        , width = size[0]
+                        , height = size[1];
+                    var item = {
+                        src: href
+                        , w: width
+                        , h: height
+                    }
+                    items.push(item);
+                });
+                return items;
+            }
+        var items = getItems();
+        var pswp = $('.pswp')[0];
+        pic.on('click', '.one-block', function (event) {
+            event.preventDefault();
+            var index = $(this).index();
+            var options = {
+                    index: parseInt(index)
+                    , bgOpacity: 1
+                    , showHideOpacity: true
+                }
+                // Initialize PhotoSwipe
+          
+            
+            
+            
+            
+            
+            options.history = false;
+            
+            options.getThumbBoundsFn = function(index) {
+
+   
+                var thumbnail = document.querySelectorAll('.for-galary-item')[index];
+
+
+                var pageYScroll = window.pageYOffset || document.documentElement.scrollTop; 
+
+                var rect = thumbnail.getBoundingClientRect(); 
+
+
+                return {x:rect.left, y:rect.top + pageYScroll, w:rect.width};
+
+
+            }
+            
+            
+            console.log(options);
+            var lightBox = new PhotoSwipe(pswp, PhotoSwipeUI_Default, items, options);
+            lightBox.init();
+        });
+    });
     
     
     

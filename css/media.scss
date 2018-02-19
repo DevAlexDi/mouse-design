@@ -68,8 +68,9 @@
     .all-info-profile .uniq-padd-2 .flex--info .side .blocks .one-block {
         height: 250px;
     }
-    
-    
+    .venue-main-info .name-venue h2 {
+        font-size: 43px;
+    }
     
     
     
@@ -159,7 +160,13 @@
         &:first-child{
             border-right: 1px solid #f3f3f3;
         }
-    }  
+    } 
+    .all-info-profile .uniq-padd-2 .flex--info .side.scroller .new-scroll-wr{
+        max-height: 532px;
+    }
+    
+    
+    
 }
 @media (max-width: 767px) {
     .register .m-v-reg .reg-wr .for-flex{
@@ -363,13 +370,34 @@
     .head-info-profile-wr .head-info-profile .side-2 .insta-link-sp{
         text-align: center;
     }
-    
-    
-    
-    
-    
-    
-    
+   .all-info-profile .uniq-padd-2 .flex--info .side.scroller .new-scroll-wr {
+        padding: 0px 10px;
+        max-height: 263px;
+    }
+    .all-info-profile .uniq-padd-2 .flex--info .side.scroller .for-scroll-padd{
+        padding: 0;
+    }
+    .venue-main-info .name-venue{
+        margin-bottom: 15px;
+    }
+    .venue-main-info .name-venue h2 {
+        font-size: 20px;
+    }
+    .venue-main-info .oficial-page .of-p{
+        font-size: 20px;
+    }
+    .all-info-profile .uniq-padd-2 .flex--info .side.side-contact .flex-contact-venue{
+        display: block;
+        
+    }
+    .all-info-profile .uniq-padd-2 .flex--info .side.side-contact .flex-contact-venue .column-cont:first-child{
+        width: 100%;
+        padding-right: 0;
+    }
+    .all-info-profile .uniq-padd-2 .flex--info .side.side-contact .flex-contact-venue .column-cont:last-child{
+        width: 100%;
+        padding-left: 0;
+    }
     
     
     
