@@ -118,14 +118,23 @@ $(document).ready(function () {
         });
     });
     
+    ///страница profile-venue
+    
+    //страница profile-artist
+    $('.iframe-slider-wrapp').slick({
+            dots: false,
+            arrows: true,
+          infinite: false,
+          slidesToShow: 1
+
+    });
+    $('.iframe-slider-wrapp').on('beforeChange', function(event, slick, currentSlide, nextSlide){
+        //тут выполняется код при смене слайда.
+    });
     
     
     
-    
-    
-    
-    
-    
+    ///страница profile-artist
     
 
 });
