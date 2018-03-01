@@ -2231,3 +2231,48 @@ footer {
         }
     }
 }
+.create-event-nav-tabs{
+   
+    
+    .for-header-shadow{
+        box-shadow: 0 0 16px 0 rgba(0, 0, 0, 0.13);
+         padding: 20px 80px;
+        background: #fff;
+    }
+    .create-event-header{
+        padding-top: 40px;
+        padding-bottom: 40px;
+    
+        h1{
+            font-size: 80px;
+            font-family: AvenirLTStdBlack;
+            text-transform: uppercase;
+            margin-bottom: 40px;
+        }
+        ul{
+            list-style: none;
+            margin: 0;
+            display: flex;
+            li{
+                padding: 0 32px;
+                &:first-child{
+                    padding-left: 0;
+                    
+                }
+                .nav-second-outlet{
+                    transition: 0.3s;
+                    color: rgba(15, 15, 15, 0.5);
+                    font-size: 20px;
+                    display: block;
+                    font-family: AvenirLTStdBlack;
+                    text-transform: uppercase;
+                }
+                &.active{
+                    .nav-second-outlet{
+                        color: $main_color;
+                    }
+                }
+            }
+        }
+    }
+}

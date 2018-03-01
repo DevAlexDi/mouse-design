@@ -1726,4 +1726,34 @@ footer {
     .venue-main-info .follow-wr .butt-style-1 {
       max-width: 130px; }
 
+.create-event-nav-tabs .for-header-shadow {
+  box-shadow: 0 0 16px 0 rgba(0, 0, 0, 0.13);
+  padding: 20px 80px;
+  background: #fff; }
+.create-event-nav-tabs .create-event-header {
+  padding-top: 40px;
+  padding-bottom: 40px; }
+  .create-event-nav-tabs .create-event-header h1 {
+    font-size: 80px;
+    font-family: AvenirLTStdBlack;
+    text-transform: uppercase;
+    margin-bottom: 40px; }
+  .create-event-nav-tabs .create-event-header ul {
+    list-style: none;
+    margin: 0;
+    display: flex; }
+    .create-event-nav-tabs .create-event-header ul li {
+      padding: 0 32px; }
+      .create-event-nav-tabs .create-event-header ul li:first-child {
+        padding-left: 0; }
+      .create-event-nav-tabs .create-event-header ul li .nav-second-outlet {
+        transition: 0.3s;
+        color: rgba(15, 15, 15, 0.5);
+        font-size: 20px;
+        display: block;
+        font-family: AvenirLTStdBlack;
+        text-transform: uppercase; }
+      .create-event-nav-tabs .create-event-header ul li.active .nav-second-outlet {
+        color: #eb2d64; }
+
 /*# sourceMappingURL=style.css.map */
