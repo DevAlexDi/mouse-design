@@ -137,7 +137,7 @@
                                         <li class="active">
                                             <a href="#" class="nav-second-outlet">about</a>
                                         </li>
-                                        <li>
+                                        <li class="started">
                                             <a href="#" class="nav-second-outlet">artist</a>
                                         </li>
                                         <li>
@@ -163,30 +163,183 @@
                                         <h2>About</h2>
                                         <p>Please fill in all required fields <br>to proceed to the Next Step</p>
                                     </div>
-                                    <div class="flex-body-1">
+                                    <form class="flex-body-1">
                                         <div class="side">
-                                            <div class="input-groupe-1">
-                                                <label for="inp-create-1" class="lbl-1">Event name<span>*</span></label>
-                                                <input id="inp-create-1" type="text">
+                                            <div class="input-groupe-1 lbl-1">
+                                                
+                                                <input id="inp-create-1" name="" type="text">
+                                                <label for="inp-create-1">Event name<span>*</span></label>
                                             </div>
                                             <div class="input-groupe-1">
+                                                <input id="inp-create-2" name="" type="text">
                                                 <label for="inp-create-2">Hashtag<span>*</span></label>
-                                                <input id="inp-create-2" type="text">
+                                                
                                             </div>
                                             <div class="input-groupe-1">
+                                                <input id="inp-create-3" name="" type="text">
                                                 <label for="inp-create-3">Tagline<span>*</span></label>
-                                                <input id="inp-create-3" type="text">
+                                               
+                                            </div>
+                                            <div class="flex-mac-checkbox">
+                                                <p>Crowdfunding  Event?</p>
+                                                <div class="yes-no">
+                                                    <span>Yes</span>
+                                                    <div class="mac-checkbox">
+                                                        <input class="checkbox" checked type="checkbox" id="mac-checkbox-1">
+                                                        <label for="mac-checkbox-1"></label>
+                                                    </div>
+                                                    <span>No</span>
+                                                </div>
+                                            </div>
+                                            <div class="flex-input-groupes">
+                                                <div class="input-groupe-1">
+                                                    <select id="inp-create-4" >
+                                                        <option>None</option>
+                                                        <option>1</option>
+                                                        <option>2</option>
+                                                        <option>3</option>
+                                                        <option>4</option>
+                                                        <option>5</option>
+                                                        <option>6</option>
+                                                        
+                                                    </select>
+                                                    <label for="inp-create-4">Number of Artists<span>*</span></label>
+
+                                                </div>
+                                                <div class="input-groupe-1">
+                                                    
+                                                    <div class="rel-wr">
+                                                        <span class="abs-backs">$</span>
+                                                        <input id="inp-create-5" class="dollar" name="" type="text">
+                                                    </div>
+                                                    <label for="inp-create-5">Funding Goal</label>
+                                                    
+                                                </div>
                                             </div>
                                         </div>
+                                        <div class="side">
+                                            <div class="input-groupe-1 whithout-label">
+                                                <span class="head-groupe">Genre</span>
+                                                <div class="flex-genres">
+                                                    <span class="one-genre">HIP HOP</span>
+                                                    <span class="one-genre">HIP HOP</span>
+                                                    <span class="one-genre">HIP HOP</span>
+                                                    <span class="one-genre">HIP HOP</span>
+                                                    <span class="one-genre">HIP HOP</span>
+                                                    <span class="one-genre">HIP HOP</span>
+                                                    <span class="one-genre">HIP HOP</span>
+                                                    <div class="add-to-genres">
+                                                        
+                                                        <span class="plus"></span>
+                                                        <!--клик на плюсик добавляем absgenres-pick-wr класс showed-->
+                                                        <div class="absgenres-pick-wr ">
+                                                            <input class="search" type="text" placeholder="Search">
+                                                            <div class="flex-genres for-pick">
+                                                                <!--Добавляем класс picked-->
+                                                                <span class="one-genre picked">HIP HOP</span>
+                                                                <span class="one-genre picked">HIP HOP</span>
+                                                                <span class="one-genre">HIP HOP</span>
+                                                                <span class="one-genre">HIP HOP</span>
+                                                                <span class="one-genre">HIP HOP</span>
+                                                                <span class="one-genre">HIP HOP</span>
+                                                                <span class="one-genre">HIP HOP</span>
+                                                                <span class="one-genre">HIP HOP</span>
+                                                                <span class="one-genre">HIP HOP</span>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="flex-input-groupes">
+                                                <div class="input-groupe-1">
+                                                    <select id="inp-create-5" >
+                                                        <option>Spring</option>
+                                                        <option>Spring</option>
+                                                        <option>Spring</option>
+                                                        <option>Spring</option>
+                                                        <option>Spring</option>
+                                                        
+                                                    </select>
+                                                    <label for="inp-create-5">Event Date<span>*</span></label>
+
+                                                </div>
+                                                <div class="input-groupe-1">
+                                                    <select id="inp-create-6" >
+                                                        <option>2018</option>
+                                                        <option>2019</option>
+                                                        <option>2020</option>
+                                                        <option>2021</option>
+                                                        <option>2022</option>
+                                                        
+                                                    </select>
+                                                    
+
+                                                </div>
+                                            </div>
+                                            <div class="flex-input-groupes">
+                                                <div class="input-groupe-1">
+                                                    <select id="inp-create-7" >
+                                                        <option>Morning</option>
+                                                        <option>Morning</option>
+                                                        <option>Morning</option>
+                                                        
+                                                        
+                                                    </select>
+                                                    <label for="inp-create-7">Event Time Range<span>*</span></label>
+
+                                                </div>
+                                                <div class="input-groupe-1">
+                                                    <select id="inp-create-8" >
+                                                        <option>1</option>
+                                                        <option>2</option>
+                                                        <option>3</option>
+                                                        <option>4</option>
+                                                        <option>5</option>
+                                                        
+                                                    </select>
+                                                    <label for="inp-create-8">Event Length<span>*</span></label>
+
+                                                </div>
+                                            </div>
+                                            <div class="location-wr">
+                                                <div class="mark"></div>
+                                                <input type="text" class="location-inp" placeholder="location">
+                                            </div>
+                                        </div>
+                                        <div class="side">
+                                            <div class="input-groupe-1 whithout-label">
+                                                
+                                                <textarea id="inp-create-9"></textarea>
+                                                <label for="inp-create-9" class="head-groupe">Short Description<span>*</span></label>
+                                                
+                                            </div>
+                                            
+                                        </div>
+                                    </form>
+                                    <div class="scroll-wrapp">
+                                        <div class="circle-scroll"></div>
                                     </div>
+                                    
                                 </div>
                             </div>
                         </div>
+                        
+                        <div class="create-event-body-1">
+                            <div class="main-mw">
+                                <div class="create-event-body">
+                                    <div class="head-ev-body">
+                                        <h2>Artist</h2>
+                                        <p>Please fill in all required fields in the Artist Screen<br>to Add a Venue. (You can add only 6 artists)</p>
+                                    </div>
+                                
+                                </div>
+                            
+                            </div>
+                        
+                        </div>
+                        
+                                    
                     </div>
-                    
-                    
-                    
-                    
                 </section>
             </div>
             <footer>
