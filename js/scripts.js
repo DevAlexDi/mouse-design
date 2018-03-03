@@ -136,5 +136,14 @@ $(document).ready(function () {
     
     ///страница profile-artist
     
+    
+    //страница create-event-1
+    
+    //переносим внутриность функции на ангулар click
+        $(".add-artist-block .plus").click(function(){
+            $('#modal-pick-artist').modal('show');
+        });
+    
+    ///страница create-event-1
 
 });

@@ -193,6 +193,7 @@
                                             </div>
                                             <div class="flex-input-groupes">
                                                 <div class="input-groupe-1">
+                                                    <!--тут пока селекты. но если вы найдете норм плагин таких селектов которые можно будет стилизовать и которые работают с ангуларом - буду очень признателен-->
                                                     <select id="inp-create-4" >
                                                         <option>None</option>
                                                         <option>1</option>
@@ -331,13 +332,141 @@
                                         <h2>Artist</h2>
                                         <p>Please fill in all required fields in the Artist Screen<br>to Add a Venue. (You can add only 6 artists)</p>
                                     </div>
-                                
+                                    
                                 </div>
                             
                             </div>
-                        
+                            
                         </div>
-                        
+                        <div class="tabs-artist-wrapp">
+                            <div class="main-mw">
+                                <ul class="tabs-menu-active-decline">
+                                    <li>
+                                        <!--Добавляем active табу или удаляем "p.s. наш любимый ngClass"-->
+                                        <span class="active">Active</span>
+                                    </li>
+                                    <li>
+                                        <span>declined</span>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="bg-wr-tabs">
+                                <div class="main-mw">
+                                    <!-- "p.s. наш любимый *ngIf"-->
+                                    <div class="tab-artist">
+                                        <div class="flex-wrapp-cards">
+                                            <div class="one-card">
+                                                <div class="card">
+                                                    <div class="delete-card"></div>
+                                                    <div class="left-side">
+                                                        <!--если есть галочка - добавляем класс checked-->
+                                                        <div class="ava checked" style="background-image: url(img/drake.jpg)"></div>
+                                                        <p class="desc-head-info">status</p>
+                                                        <p class="status">Accepted by Artist and Event owner</p>
+                                                    </div>
+                                                    <div class="right-side">
+                                                        <p class="name">Drake</p>
+                                                        <p class="desc-head-info">Genre</p>
+                                                        <p class="info">Baroque pop, dream pop, trip hop, indie</p>
+                                                        <p class="desc-head-info">Location</p>
+                                                        <p class="info">Los Angeles, California USA</p>
+                                                        <div class="flex-buttons">
+                                                            <span class="button-card">accept</span>
+                                                            <span class="button-card">Decline</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="one-card">
+                                                <div class="card">
+                                                    <div class="delete-card"></div>
+                                                    <div class="left-side">
+                                                        <div class="ava" style="background-image: url(img/drake.jpg)"></div>
+                                                        <p class="desc-head-info">status</p>
+                                                        <p class="status">Accepted by Artist and Event owner</p>
+                                                    </div>
+                                                    <div class="right-side">
+                                                        <p class="name">Drake</p>
+                                                        <p class="desc-head-info">Genre</p>
+                                                        <p class="info">Baroque pop, dream pop, trip hop, indie</p>
+                                                        <p class="desc-head-info">Location</p>
+                                                        <p class="info">Los Angeles, California USA</p>
+                                                        <div class="flex-buttons">
+                                                            <span class="button-card">accept</span>
+                                                            <span class="button-card">Decline</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            
+                                            <!--для добавления артиста-->
+                                            <div class="one-card">
+                                                <div class="add-artist-block">
+                                                    <div class="plus"></div>
+                                                    <span class="add">Add New Artist</span>
+                                                    <span class="or">or</span>
+                                                    <span class="invite">Artist Invite</span>
+                                                </div>
+                                            </div>
+                                            
+                                            
+                                        </div>
+                                    </div>
+                                    <!-- "p.s. наш любимый *ngIf"-->
+                                    <div class="tab-artist">
+                                        <div class="flex-wrapp-cards">
+                                            <!--сюда копипастим "one-card" c "tab-artist" который выше-->
+                                        
+                                        
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="modal fade modal-pick-artist" id="modal-pick-artist">
+                                <div class="modal-dialog">
+                                    <div class="modal-body">
+                                       
+                                        <h3 class="head-m-p-a">Add Artist</h3>
+                                        <div class="content-bodal input-groupe-1">
+                                            <input class="search" type="text" placeholder="Search">
+                                            <div class="flex-genres for-pick">
+                                                <!--Добавляем класс picked-->
+                                                <span class="one-genre picked">HIP HOP</span>
+                                                <span class="one-genre picked">HIP HOP</span>
+                                                <span class="one-genre">HIP HOP</span>
+                                                <span class="one-genre">HIP HOP</span>
+                                                <span class="one-genre">HIP HOP</span>
+                                                <span class="one-genre">HIP HOP</span>
+                                                <span class="one-genre">HIP HOP</span>
+                                                <span class="one-genre">HIP HOP</span>
+                                                <span class="one-genre">HIP HOP</span>
+                                            </div>
+                                        </div>
+                                       
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="scroll-wrapp">
+                            <div class="circle-scroll"></div>
+                        </div>
+                        <div class="create-event-body-1">
+                            <div class="main-mw">
+                                <div class="create-event-body">
+                                    <div class="head-ev-body">
+                                        <h2>Venue</h2>
+                                        <p>Please fill in all required fields in<br>the Venue Screen to Add a Funding</p>
+                                    </div>
+                                    <div class="flex-tabs-menu-venue">
+                                        <p class="some-text">At first choose residence :)</p>
+                                        <ul class="v-tabs-menu">
+                                            <li class="active">Public Venue</li>
+                                             <li class="active">Private Residence</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                                     
                     </div>
                 </section>
