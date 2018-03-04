@@ -24,8 +24,8 @@ $(document).ready(function () {
     
     
     
-    //страница shows.html
-    
+    //страница shows.html раскоментить
+    /*
     var hu = $(".current-slider").ionRangeSlider({
         min: 0,
         max: 300,
@@ -46,6 +46,7 @@ $(document).ready(function () {
               slidesToShow: 1
 
         });
+        */
     //открытие модалки
 //    $('.description').click(function(){
 //        $('#modal-slider').modal('show');
@@ -140,9 +141,72 @@ $(document).ready(function () {
     //страница create-event-1
     
     //переносим внутриность функции на ангулар click
-        $(".add-artist-block .plus").click(function(){
+        $(".artist-modal-open .plus").click(function(){
             $('#modal-pick-artist').modal('show');
         });
+    
+    
+        $(".send-request-modal").click(function(){
+            $('#modal-send-request').modal('show');
+        });
+    
+    
+    //range slider http://ionden.com/a/plugins/ion.rangeSlider/index.html документация
+    var hu_2 = $(".current-slider").ionRangeSlider({
+        min: 0,
+        max: 100000,
+        from: 20000,
+        type: "single",
+        hide_min_max: false,
+        prefix: "$ ",
+        grid: false,
+        prettify_enabled:true,
+        prettify_separator: ',',
+        grid_num: 5,
+        onChange: function(){
+           
+        }
+    });
+    
+    var hu_3 = $(".current-slider-price-venue").ionRangeSlider({
+        min: 0,
+        max: 100000,
+        from: 20000,
+        type: "single",
+        hide_min_max: false,
+        prefix: "$ ",
+        grid: false,
+        prettify_enabled:true,
+        prettify_separator: ',',
+        grid_num: 5,
+        onChange: function(){
+           
+        }
+    });
+    
+    var hu_4 = $(".current-slider-capacity-venue").ionRangeSlider({
+        min: 0,
+        max: 100000,
+        from: 10000,
+        type: "single",
+        hide_min_max: false,
+     
+        grid: false,
+        prettify_enabled:true,
+        prettify_separator: ',',
+        grid_num: 5,
+        onChange: function(){
+           
+        }
+    });
+    
+    
+    
+    
+    
+    
+    
+    
     
     ///страница create-event-1
 
