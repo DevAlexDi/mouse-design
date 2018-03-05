@@ -2899,9 +2899,11 @@ footer {
             text-transform: uppercase;
             text-align: center; }
       .tickets-flex-body .right-ticket .shadow-wr .ticket-options {
-        display: flex;
+        display: none;
         width: 100%;
         height: 100%; }
+        .tickets-flex-body .right-ticket .shadow-wr .ticket-options.active {
+          display: flex; }
         .tickets-flex-body .right-ticket .shadow-wr .ticket-options .l-s {
           width: 50%;
           padding-right: 20px; }
