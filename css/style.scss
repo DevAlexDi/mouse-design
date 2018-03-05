@@ -92,6 +92,7 @@ $main_color: #eb2d64;
     background: transparent;
     border-radius: 50px;
     width: 100%;
+    cursor: pointer;
     border: 8px solid rgba(235, 45, 100, 0.5);
     transition: 0.3s;
     &:hover {
@@ -2531,9 +2532,8 @@ footer {
     margin-bottom: 30px;
     p {
         margin: 0;
-        font-size: 15px;
-        text-transform: uppercase;
-        font-family: AvenirLTStdBlack;
+        font-size: 16px;
+        opacity: 0.5;
     }
     .yes-no {
         display: flex;
@@ -3287,7 +3287,7 @@ footer {
                 }
                 .flex-photos {
                     display: flex;
-                        flex-wrap: wrap;
+                    flex-wrap: wrap;
                     .photo {
                         width: 65px;
                         height: 65px;
@@ -3299,18 +3299,18 @@ footer {
 
                     }
                     .photo-wr-1 {
-                        label{
+                        label {
                             display: block;
                         }
-                        .bg-image{
+                        .bg-image {
                             width: 65px;
-                        height: 65px;
+                            height: 65px;
                             border-radius: 4px;
-                                border: 1px dashed #cecece;
-                            &:before{
+                            border: 1px dashed #cecece;
+                            &:before {
                                 background: #cecece;
                             }
-                            &:after{
+                            &:after {
                                 background: #cecece;
                             }
                         }
@@ -3320,14 +3320,14 @@ footer {
 
             }
         }
-        .add-to-active-b{
+        .add-to-active-b {
             display: flex;
             justify-content: center;
             align-items: center;
             padding-top: 20px;
-            .butt-style-1{
+            .butt-style-1 {
                 max-width: 180px;
-                span{
+                span {
                     text-transform: uppercase;
                 }
             }
@@ -3342,8 +3342,9 @@ footer {
         }
     }
 }
-.modal-send-request{
-     .modal-dialog {
+
+.modal-send-request {
+    .modal-dialog {
         max-width: 470px;
         margin: 50px auto;
         background: #fff;
@@ -3361,70 +3362,483 @@ footer {
             font-family: AvenirLTStdBlack;
             margin-bottom: 12px;
         }
-         .name-and-ava{
-             padding: 15px 30px;
-             display: flex;
-             align-items: center;
-             border-bottom: 1px solid #cccccc;
-             margin-bottom: 15px;
-             .ava{
+        .name-and-ava {
+            padding: 15px 30px;
+            display: flex;
+            align-items: center;
+            border-bottom: 1px solid #cccccc;
+            margin-bottom: 15px;
+            .ava {
                 flex-shrink: 0;
-                 width: 65px;
-                 height: 65px;
-                 margin-right: 30px;
-                 border-radius: 50%;
-                 background-color: #a1a1a1;
-                 background-size: cover;
-                 background-position: center;
-                 
-             }
-             .n-h{
-                 .name{
-                     margin-bottom: 5px;
-                     font-family: AvenirLTStdBlack;
-                     display: block;
-                     font-size: 16px;
-                     
-                 }
-                 .hash{
+                width: 65px;
+                height: 65px;
+                margin-right: 30px;
+                border-radius: 50%;
+                background-color: #a1a1a1;
+                background-size: cover;
+                background-position: center;
+
+            }
+            .n-h {
+                .name {
+                    margin-bottom: 5px;
+                    font-family: AvenirLTStdBlack;
+                    display: block;
                     font-size: 16px;
-                     span{
-                         color: $main_color;
-                     }
-                 }
-                 
-             }
-         }
-         .content-modal{
-             padding: 15px 30px 30px 30px;
-             .e-n{
-                 text-align: center;
-                 font-family: AvenirLTStdBlack;
-                 text-transform: uppercase;
-                 font-size: 20px;
-                 margin-bottom: 20px;
-             }
-         }
-         .flex-mac-checkbox{
-             margin-bottom: 25px;
-         }
-         .location-wr{
-             margin-bottom: 20px;
-         }
-         .send-request-b{
+
+                }
+                .hash {
+                    font-size: 16px;
+                    span {
+                        color: $main_color;
+                    }
+                }
+
+            }
+        }
+        .content-modal {
+            padding: 15px 30px 30px 30px;
+            .e-n {
+                text-align: center;
+                font-family: AvenirLTStdBlack;
+                text-transform: uppercase;
+                font-size: 20px;
+                margin-bottom: 20px;
+            }
+        }
+        .flex-mac-checkbox {
+            margin-bottom: 25px;
+        }
+        .location-wr {
+            margin-bottom: 20px;
+        }
+        .send-request-b {
             display: flex;
             justify-content: center;
             align-items: center;
             padding-top: 20px;
-            .butt-style-1{
+            .butt-style-1 {
                 max-width: 180px;
-                span{
+                span {
                     text-transform: uppercase;
                 }
             }
         }
     }
 }
-.flex-input-groupes .input-groupe-1.more-padd{
+
+.flex-input-groupes .input-groupe-1.more-padd {
     padding-top: 40px;
+}
+
+.padd-head-event {
+    padding: 0 25px;
+    font-size: 20px;
+    font-family: AvenirLTStdBlack;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.flex-funding-columns {
+    display: flex;
+    margin-bottom: 40px;
+    &.no-marg {
+        margin-bottom: 0;
+
+    }
+    .side {
+        width: 33.33%;
+        padding: 0 25px;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        &.no-border {
+            .top-gum {
+                border: none;
+            }
+        }
+
+
+        .top-gum {
+            height: 100%;
+            border-bottom: 1px solid #cccccc;
+            width: 100%;
+            h6 {
+                font-family: AvenirLTStdBlack;
+                font-size: 20px;
+                text-transform: uppercase;
+                margin-bottom: 35px;
+                &.grey {
+                    color: #a1a1a1;
+                }
+                &.bordered {
+                    text-decoration: underline;
+                }
+                &.lower-case-t {
+                    text-transform: inherit;
+                }
+            }
+            .input-groupe-1 {
+                padding-top: 0;
+                select {
+                    padding-top: 0;
+                }
+            }
+
+
+            .empty-side {
+                font-size: 16px;
+                color: rgba(0, 0, 0, 0.5);
+                width: 100%;
+            }
+            .second-funding-info {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                margin-bottom: 20px;
+                .info-text {
+                    margin: 0;
+                    padding-right: 20px;
+                    color: rgba(0, 0, 0, 0.5);
+                    font-size: 16px;
+                }
+                .price {
+                    display: block;
+                    font-size: 16px;
+                    font-family: AvenirLTStdMedium;
+                }
+            }
+            .additional-costs {
+                margin-bottom: 20px;
+                .addit-t {
+                    color: rgba(0, 0, 0, 0.5);
+                    font-size: 16px;
+                    margin-bottom: 10px;
+                }
+                .price {
+                    font-size: 20px;
+                    font-family: AvenirLTStdMedium;
+                    padding-bottom: 7px;
+                    border-bottom: 1px dashed #cccccc;
+                }
+            }
+            .some-text {
+                font-size: 16px;
+                margin-bottom: 15px;
+            }
+            .status {
+                font-family: AvenirLTStdBlack;
+                font-size: 18px;
+                margin-bottom: 15px;
+                text-transform: uppercase;
+                span {
+                    color: $main_color;
+                }
+            }
+            .artists-venue-wrapp {
+                width: 100%;
+                .one-block {
+                    margin-bottom: 20px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
+                    .ava-l {
+                        display: flex;
+                        align-items: center;
+                        .ava {
+                            width: 65px;
+                            height: 65px;
+                            border-radius: 50%;
+                            margin-right: 15px;
+                            flex-shrink: 0;
+                            background-position: center;
+                            background-size: cover;
+
+                        }
+                        .name {
+                            cursor: pointer;
+                            display: block;
+                            color: #000;
+
+                        }
+                        padding-right: 20px;
+                    }
+                    .price-r {
+                        display: flex;
+                        align-items: center;
+                        .price {
+                            font-family: AvenirLTStdMedium;
+                            font-size: 16px;
+                            display: block;
+                            margin-bottom: 0;
+                            margin-right: 15px;
+
+                        }
+                        .delete-block {
+                            width: 16px;
+                            height: 16px;
+                            position: relative;
+                            border-radius: 50%;
+                            background: #dbdbdb;
+                            cursor: pointer;
+                            &:before {
+                                content: "";
+                                display: block;
+                                position: absolute;
+                                top: 50%;
+                                left: 50%;
+                                transform: translate(-50%, -50%) rotate(45deg);
+                                width: 1px;
+                                height: 10px;
+                                background: #909090;
+                                -webkit-transition: 0.3s;
+                                transition: 0.3s;
+                                -webkit-transform-origin: center;
+                                transform-origin: center;
+                            }
+                            &:after {
+                                content: "";
+                                display: block;
+                                position: absolute;
+                                top: 50%;
+                                left: 50%;
+                                transform: translate(-50%, -50%) rotate(45deg);
+                                width: 10px;
+                                height: 1px;
+                                background: #909090;
+                                -webkit-transition: 0.3s;
+                                transition: 0.3s;
+                                -webkit-transform-origin: center;
+                                transform-origin: center;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .bottom-expression {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            min-height: 75px;
+            width: 100%;
+            .t {
+                color: rgba(0, 0, 0, 0.5);
+                font-size: 16px;
+                margin: 0;
+                padding-right: 20px;
+
+                &.total {
+                    font-family: AvenirLTStdMedium;
+                    font-size: 20px;
+                    text-transform: uppercase;
+                    color: #000;
+                }
+            }
+            .exp-price {
+                font-family: AvenirLTStdMedium;
+                color: $main_color;
+                font-size: 20px;
+            }
+        }
+    }
+}
+
+.tickets-flex-body {
+    display: flex;
+    .left-ticket {
+        width: 40%;
+        padding-right: 70px;
+        .tickets-left-info {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-bottom: 20px;
+            .info-text {
+                margin: 0;
+                padding-right: 20px;
+            }
+            .price {
+                display: block;
+                font-family: AvenirLTStdMedium;
+            }
+        }
+        .pick-tickets-wr {
+            padding-top: 40px;
+            .one-ticket {
+                padding: 30px 25px;
+                background-color: #ffffff;
+                box-shadow: 0px 7px 18px 0 rgba(0, 0, 0, 0.17);
+                border: 3px dotted #000;
+                text-transform: uppercase;
+                font-size: 25px;
+                font-family: AvenirLTStdBlack;
+                margin-bottom: 20px;
+                max-width: 310px;
+                cursor: pointer;
+                &.active {
+                    border: 3px dotted $main_color;
+                    cursor: auto;
+                }
+            }
+            .one-tickets-iteration {
+                margin-bottom: 30px;
+            }
+            .add-ticket {
+                cursor: pointer;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                max-width: 310px;
+                .butt-style-1 {
+                    max-width: 170px;
+                    span {
+                        text-transform: uppercase;
+                        text-align: center;
+                    }
+                }
+            }
+        }
+
+
+    }
+    .right-ticket {
+        width: 60%;
+        position: relative;
+        margin-bottom: 110px;
+        .doted {
+            position: absolute;
+            z-index: 2;
+            top: 0;
+            left: 0;
+            height: 543px;
+            width: 100%;
+            transform: translateY(-15%);
+            background-size: contain;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-image: url(../img/dots-bg.jpg);
+        }
+        .shadow-wr {
+            position: relative;
+            z-index: 5;
+            min-height: 365px;
+            box-shadow: 0 0 16px 0 rgba(0, 0, 0, 0.13);
+            background: #fff;
+            padding: 40px 25px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            .havent-tickets {
+                img {
+                    margin: 0 auto 10px auto;
+                }
+                .p-1 {
+                    text-align: center;
+                    color: rgba(35, 32, 33, 0.5);
+                    font-size: 18px;
+                }
+                .add-ticket {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    .butt-style-1 {
+                        max-width: 170px;
+                        span {
+                            text-transform: uppercase;
+                            text-align: center;
+                        }
+                    }
+                }
+            }
+            .ticket-options{
+                display: flex;
+                width: 100%;
+                height: 100%;
+                .l-s{
+                    width: 50%;
+                    padding-right: 20px;
+                    .head-ticket-settings{
+                        font-size: 25px;
+                        text-transform: uppercase;
+                        padding-bottom: 15px;
+                        font-family: AvenirLTStdBlack;
+                        border-bottom: 1px dashed #cccccc;
+                        margin-bottom: 25px;
+                    }
+                }
+                .r-s{
+                    width: 50%;
+                    padding-left: 20px;
+                    .input-groupe-1.whithout-label{
+                        padding-top: 37px;
+                        
+                    }
+                    .input-groupe-1.small-textarea textarea{
+                        padding: 7px;
+                        height: 70px;
+                    }
+                    .input-groupe-1.none-padd-my{
+                        padding-top: 0;
+                    }
+                    .desc-num{
+                        font-size: 14px;
+                        color: rgba(0, 0, 0, 0.5);
+                        display: block;
+                        font-weight: bold;
+                    }
+                    .num{
+                     
+                        border-bottom: 1px dashed rgba(0, 0, 0, 0.2);
+                        padding: 10px 0;
+                        font-size: 16px;
+                 
+                    }
+                }
+            }
+            
+            
+            
+        }
+    }
+}
+.flex-date-inputs{
+    display: flex;
+        margin-bottom: 15px;
+    .one-date-block{
+        width: 50%;
+        display: flex;
+        align-items: center;
+        .date-icon{
+            width: 45px;
+            height: 45px;
+            flex-shrink: 0;
+            margin-right: 16px;
+            border: none;
+            border-radius: 50%;
+           
+            
+            background-image: url(../img/date-img.png);
+            background-repeat: no-repeat;
+            background-position: center;
+            background-color: $main_color;
+            transition: 0.3s;
+            box-shadow: 0px 3px 10px 0 rgba(255, 41, 103, 0.61);
+        }
+        .desc-date{
+            color: #a1a1a1;
+            font-size: 14px;
+            display: block;
+            margin-bottom: 3px;
+        }
+        .input-date{
+            display: block;
+            width: 100%;
+            border: none;
+            outline: none;
+            background: transparent;
+            font-size: 16px;
+            font-family: AvenirLTStdMedium;
+        }
+    }
 }
