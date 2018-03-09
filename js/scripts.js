@@ -224,5 +224,25 @@ $(document).ready(function () {
 
 
     ///страница create-event-1
-
+    
+    
+    //страница events-page
+        
+    
+    $('.abs-analytics').click(function(){
+        $('#modal-analytics').modal('show');
+        
+        
+    })
+    
+    
+    
+    
+    
+    ///страница events-page
+    
+    
+    
+    
+    
 });
