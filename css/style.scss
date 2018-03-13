@@ -943,6 +943,7 @@ header {
     position: relative;
     z-index: 50;
     transform: translateX(-386px);
+    box-shadow: 0px -14px 80px 0 rgba(0, 0, 0, 0.23);
     .main-mw {
         margin: 0;
         background: #f3f3f3;
@@ -964,7 +965,35 @@ header {
         width: 50%;
     }
 }
-
+.new-shows-desc{
+    background: #fff;
+    padding: 12px 40px 15px 40px;
+    .name-show{
+        cursor: pointer;
+        display: block;
+        text-align: center;
+        font-size: 25px;
+        text-transform: uppercase;
+        font-family: AvenirLTStdBlack;
+        color: #000;
+    }
+    .name-artist{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 35px;
+        color: rgba(4, 4, 4, 0.5);
+        line-height: 1.13;
+        font-family: AvenirLTStdMedium;
+        margin-bottom: 14px;
+      
+    }
+    .where{
+        line-height: 1.1;
+         color: #040404;
+          text-align: center;
+    }
+}
 .shows-main-wrapp {
     &.grey-bg {
         background: #f3f3f3;
@@ -1118,10 +1147,14 @@ header {
         padding-bottom: 54px;
         .one-show-wr {
             width: 33.33%;
-            padding: 8px;
+            padding: 5px;
+            margin-bottom: 15px;
             .one-show {
                 overflow: hidden;
                 position: relative;
+                height: 445px;
+                display: flex;
+                align-items: flex-end;
                 &:hover {
                     .img-show {
                         transform: scale(1.1);
@@ -1153,13 +1186,15 @@ header {
                 .description {
                     position: relative;
                     z-index: 10;
-                    height: 285px;
+                    width: 100%;
+                    height: 240px;
                     display: flex;
                     flex-direction: column;
-                    background-color: rgba(0, 0, 0, 0.5);
+                   
+                    background: linear-gradient(to top, rgba(86, 12, 34, 0.9), transparent);
                     padding: 11px;
                     .top-info {
-                        margin-bottom: auto;
+                        margin-top: auto;
                         width: 100%;
                         display: flex;
                         align-items: flex-start;
@@ -1171,8 +1206,8 @@ header {
                             cursor: pointer;
                         }
                         .sale {
-                            width: 68px;
-                            height: 68px;
+                            width: 82px;
+                            height: 82px;
                             display: flex;
                             justify-content: center;
                             align-items: center;
@@ -1180,32 +1215,32 @@ header {
                             background-position: center;
                             background-image: url(../img/ping-sun.png);
                             p {
-                                font-size: 12px;
+                                font-size: 16.1px;
                                 text-transform: uppercase;
                                 color: #fff;
                                 text-align: center;
                                 font-weight: 100;
-                                line-height: 14px;
+                                line-height: 1.14;
                             }
                         }
                         .funded {
                             position: relative;
-                            width: 68px;
+                            width: 94px;
                             border-radius: 10px;
                             border: 1px solid #00b8f4;
                             p {
                                 color: #fff;
-                                padding: 5px;
+                                padding: 4px;
                                 font-weight: 100;
                                 text-align: center;
                                 position: relative;
                                 z-index: 10;
-                                font-size: 11px;
-                                line-height: 12px;
+                                font-size: 16px;
+                                line-height: 1.35;
                                 text-transform: uppercase;
                                 span {
-                                    font-size: 12px;
-                                    line-height: 14px;
+                                    font-size: 16px;
+                                   line-height: 1.35;
                                 }
                             }
                             .complete {
@@ -4151,5 +4186,53 @@ footer {
                 }
             }
         }
+    }
+}
+.shows-main-wrapp .width-for-map{
+    .flex-shows .one-show-wr{
+        width: 50%;
+    }
+    .flex-shows .one-show-wr .one-show{
+        height: 291px;
+    }
+    .flex-shows .one-show-wr .one-show .description{
+        height: 142px;
+    }
+    .new-shows-desc{
+        padding: 10px;
+    }
+    .new-shows-desc .name-show{
+        font-size: 16px;
+    }
+    .new-shows-desc .name-artist{
+        font-size: 14px;
+        margin-bottom: 8px;
+    }
+    .flex-shows .one-show-wr .one-show .description .top-info .sale{
+        width: 54px;
+        height: 54px;
+        background-image: url(../img/ping-sun-small.png);
+        p{
+            font-size: 10.5px;
+            line-height: 1.19;
+        }
+    }
+    .flex-shows .one-show-wr .one-show .description .top-info .funded{
+        
+        width: 58px;
+        
+        
+        p{
+            font-size: 10.5px;
+            line-height: 1.07;
+            
+            span{
+                font-size: 10.5px;
+                line-height: 1.07;
+            }
+        }
+    }
+    .new-shows-desc .where{
+        font-size: 14px;
     }
 }
