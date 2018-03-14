@@ -4218,10 +4218,7 @@ footer {
         }
     }
     .flex-shows .one-show-wr .one-show .description .top-info .funded{
-        
         width: 58px;
-        
-        
         p{
             font-size: 10.5px;
             line-height: 1.07;
@@ -4234,5 +4231,118 @@ footer {
     }
     .new-shows-desc .where{
         font-size: 14px;
+    }
+}
+
+.input-groupe-1.small-textarea.max-500 textarea{
+    height: 160px;
+}
+.input-groupe-1.max-500{
+    .max-count{
+        color: rgba(35, 32, 33, 0.35);
+        font-size: 12px;
+        display: block;
+        text-align: right;
+    }
+}
+
+.calendar-add-artist{
+    position: relative;
+    padding: 50px 0;
+    .one-calendar-block{
+        width: 560px;
+        height: 480px;
+        background-color: #ffffff;
+        box-shadow: 0px 2px 18px 0 rgba(0, 0, 0, 0.1);
+        position: relative;
+        z-index: 10;
+        margin: 0 auto;
+    }
+    .bg-doted-cal{
+        position: absolute;
+        width: 100%;
+        background-image: url(../img/dots-bg-3.png);
+        background-repeat: no-repeat;
+        background-repeat: repeat-x;
+        top: 50%;
+        transform: translateY(-50%);
+        height: 315px;
+    }
+}
+.media-flex-sides{
+    display: flex;
+    .left-side{
+        width: 370px;
+        flex-shrink: 0;
+        .head-of-left-side{
+            position: relative;
+            z-index: 10;
+            font-weight: normal;
+            text-align: center;
+            margin-bottom: -55px;
+            color: rgba(0, 0, 0, 0.05);
+            font-size: 98.1px;
+            font-family: AvenirLTStdBlack;
+            text-transform: uppercase;
+        }
+        .gradient-box{
+            position: relative;
+            z-index: 5;
+            padding: 30px;
+            .head-of-gradient-box{
+                text-align: center;
+                font-family: AvenirLTStdBlack;
+                text-transform: uppercase;
+                color: rgba(255, 255, 255, 0.2);
+                font-size: 30px;
+                margin-bottom: 35px;
+            }
+            
+            
+            .input-groupe-1 label, .input-groupe-1 .head-groupe{
+                color: rgba(255, 255, 255, 0.5);
+                font-size: 14px;
+            }
+            
+            .input-groupe-1 input, .input-groupe-1 select{
+                border-bottom: 1px solid rgba(255,255,255,0.2);
+                color: #fff;
+            }
+            .butt-wrapp-grad{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                padding: 20px 0;
+                .butt-style-1{
+                    max-width: 175px;
+                    span{
+                        text-transform: uppercase;
+                    }
+                }
+            }
+            &.gradient-1{
+                background: linear-gradient(29deg, rgba(60, 21, 94, 0.9), rgba(142, 36, 133, 0.9));
+                box-shadow: 0px 16px 32px 0 rgba(115, 31, 125, 0.8);
+            }
+        }   
+    }
+    .right-side{
+        width: 100%;
+        padding-left: 55px;
+        .head-of-right-side{
+            padding-top: 80px;
+            margin-bottom: 20px;
+            .head-text-r{
+                font-family: AvenirLTStdBlack;
+                color: rgba(0, 0, 0, 0.2);
+                font-size: 30px;
+                text-transform: uppercase;
+                margin-bottom: 3px;
+            }
+            .limit{
+                 color: rgba(0, 0, 0, 0.2);
+                font-size: 12px;
+            }
+        }
     }
 }

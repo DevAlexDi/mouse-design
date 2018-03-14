@@ -241,7 +241,27 @@ $(document).ready(function () {
     
     ///страница events-page
     
+    //страница add-artist
     
+    
+    //хреновая документация, но какая есть https://kolber.github.io/audiojs/
+    
+    
+ 
+    var as = audiojs.createAll({
+        trackEnded: function(e) {
+            console.log(e);
+        }
+        
+    });
+   
+  
+    
+    
+ 
+    
+    
+    ///страница add-artist
     
     
     
