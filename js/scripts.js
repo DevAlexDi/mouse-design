@@ -248,17 +248,35 @@ $(document).ready(function () {
     
     
  
-    var as = audiojs.createAll({
-        trackEnded: function(e) {
-            console.log(e);
-        }
-        
-    });
+    var as = audiojs.createAll();
    
-  
+    //слайдер аудио, в слайде 12 песен
+    $('.slider-audio-wrapp').slick({
+        dots: false,
+        arrows: true,
+        infinite: false,
+        slidesToShow: 1
+
+    });
     
     
- 
+    
+    $('.slider-2-init').slick({
+        dots: false,
+        arrows: true,
+        infinite: false,
+        slidesToShow: 3
+
+    });
+    
+    
+     $('.slider-3-init').slick({
+        dots: false,
+        arrows: true,
+        infinite: false,
+        slidesToShow: 3
+
+    });
     
     
     ///страница add-artist
