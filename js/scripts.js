@@ -216,10 +216,7 @@ $(document).ready(function () {
     });
 
 
-    $('#modal-send-request').modal('show');
-
-
-
+    
 
 
 
