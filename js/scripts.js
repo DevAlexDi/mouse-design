@@ -275,7 +275,6 @@ $(document).ready(function () {
 
     });
     
-    
     ///страница add-artist
     
     
