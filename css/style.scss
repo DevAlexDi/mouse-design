@@ -2961,6 +2961,12 @@ footer {
         .modal-body {
             padding: 0;
         }
+        .for-map-init-2{
+            background: #fff;
+            border: 1px solid red;
+            height: 360px;
+            margin-bottom: 30px;
+        }
         .head-m-p-a {
             border-top-right-radius: 8px;
             border-top-left-radius: 8px;
@@ -2970,6 +2976,10 @@ footer {
             text-transform: uppercase;
             font-family: AvenirLTStdBlack;
             margin-bottom: 12px;
+        }
+        .left-arrow{
+            margin-right: 22px;
+            cursor: pointer;
         }
         .content-bodal {
             padding: 0 30px;
@@ -3429,6 +3439,26 @@ footer {
 }
 
 .modal-send-request {
+    &.modal-send-request-map{
+        .flex-range-slider{
+            display: flex;
+            align-items: center;
+            margin-bottom: 20px;
+            padding: 0 30px;
+            
+        }
+        .for-map-init-2{
+            height: 250px;
+            border: 1px solid red;
+        }
+        .left-arrow{
+            margin-right: 22px;
+            cursor: pointer;
+        }
+        .location-wr{
+            margin-bottom: 0!important;
+        }
+    }
     &.map-1-modal{
         .modal-dialog {
             max-width: 1300px;
@@ -3583,6 +3613,20 @@ footer {
         .modal-body {
             padding: 0;
         }
+        .flex-input-groupes{
+            padding: 0 30px;
+        }
+        .flex-mac-checkbox{
+            padding: 0 30px;
+            
+        }
+        .location-wr{
+            padding: 0 30px;
+        }
+        .padd-left-right{
+            padding-left: 30px;
+            padding-right: 30px;
+        }
         .head-m-p-a {
             border-top-right-radius: 8px;
             border-top-left-radius: 8px;
@@ -3625,7 +3669,7 @@ footer {
             }
         }
         .content-modal {
-            padding: 15px 30px 30px 30px;
+            padding: 15px 0 30px 0;
             .e-n {
                 text-align: center;
                 font-family: AvenirLTStdBlack;

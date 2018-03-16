@@ -2358,6 +2358,11 @@ footer {
   border-radius: 8px; }
   .modal-pick-artist .modal-dialog .modal-body {
     padding: 0; }
+  .modal-pick-artist .modal-dialog .for-map-init-2 {
+    background: #fff;
+    border: 1px solid red;
+    height: 360px;
+    margin-bottom: 30px; }
   .modal-pick-artist .modal-dialog .head-m-p-a {
     border-top-right-radius: 8px;
     border-top-left-radius: 8px;
@@ -2367,6 +2372,9 @@ footer {
     text-transform: uppercase;
     font-family: AvenirLTStdBlack;
     margin-bottom: 12px; }
+  .modal-pick-artist .modal-dialog .left-arrow {
+    margin-right: 22px;
+    cursor: pointer; }
   .modal-pick-artist .modal-dialog .content-bodal {
     padding: 0 30px; }
     .modal-pick-artist .modal-dialog .content-bodal input {
@@ -2732,6 +2740,19 @@ footer {
 .input-groupe-1.small-textarea textarea {
   height: 95px; }
 
+.modal-send-request.modal-send-request-map .flex-range-slider {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  padding: 0 30px; }
+.modal-send-request.modal-send-request-map .for-map-init-2 {
+  height: 250px;
+  border: 1px solid red; }
+.modal-send-request.modal-send-request-map .left-arrow {
+  margin-right: 22px;
+  cursor: pointer; }
+.modal-send-request.modal-send-request-map .location-wr {
+  margin-bottom: 0 !important; }
 .modal-send-request.map-1-modal .modal-dialog {
   max-width: 1300px; }
   .modal-send-request.map-1-modal .modal-dialog .for-map-init-modal-1 {
@@ -2850,6 +2871,15 @@ footer {
   border-radius: 8px; }
   .modal-send-request .modal-dialog .modal-body {
     padding: 0; }
+  .modal-send-request .modal-dialog .flex-input-groupes {
+    padding: 0 30px; }
+  .modal-send-request .modal-dialog .flex-mac-checkbox {
+    padding: 0 30px; }
+  .modal-send-request .modal-dialog .location-wr {
+    padding: 0 30px; }
+  .modal-send-request .modal-dialog .padd-left-right {
+    padding-left: 30px;
+    padding-right: 30px; }
   .modal-send-request .modal-dialog .head-m-p-a {
     border-top-right-radius: 8px;
     border-top-left-radius: 8px;
@@ -2884,7 +2914,7 @@ footer {
       .modal-send-request .modal-dialog .name-and-ava .n-h .hash span {
         color: #eb2d64; }
   .modal-send-request .modal-dialog .content-modal {
-    padding: 15px 30px 30px 30px; }
+    padding: 15px 0 30px 0; }
     .modal-send-request .modal-dialog .content-modal .e-n {
       text-align: center;
       font-family: AvenirLTStdBlack;
