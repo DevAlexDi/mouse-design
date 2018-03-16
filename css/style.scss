@@ -3429,6 +3429,19 @@ footer {
 }
 
 .modal-send-request {
+    &.map-1-modal{
+        .modal-dialog {
+            max-width: 1300px;
+            .for-map-init-modal-1{
+                height: 700px;
+                background: #fff;
+                border: 1px solid red;
+            }
+            .head-m-p-a{
+                margin-bottom: 0;
+            }
+        }
+    }
     &.analytics {
         .modal-dialog {
             max-width: 365px;

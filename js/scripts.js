@@ -216,7 +216,7 @@ $(document).ready(function () {
     });
 
 
-
+    $('#modal-map-1').modal('show');
 
 
 

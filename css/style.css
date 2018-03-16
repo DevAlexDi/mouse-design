@@ -2732,6 +2732,14 @@ footer {
 .input-groupe-1.small-textarea textarea {
   height: 95px; }
 
+.modal-send-request.map-1-modal .modal-dialog {
+  max-width: 1300px; }
+  .modal-send-request.map-1-modal .modal-dialog .for-map-init-modal-1 {
+    height: 700px;
+    background: #fff;
+    border: 1px solid red; }
+  .modal-send-request.map-1-modal .modal-dialog .head-m-p-a {
+    margin-bottom: 0; }
 .modal-send-request.analytics .modal-dialog {
   max-width: 365px; }
   .modal-send-request.analytics .modal-dialog .modal-body {
