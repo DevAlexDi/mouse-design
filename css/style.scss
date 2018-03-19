@@ -661,6 +661,7 @@ $main_color: #eb2d64;
     }
 }
 
+
 .main-mw {
     max-width: 1366px;
     margin: 0 auto;
@@ -4804,5 +4805,26 @@ footer {
                 height: 528px;
             
         }
+    }
+}
+
+.flex-funding-columns .side .top-gum .artists-venue-wrapp .one-block{
+    .one-checkbox{
+        margin-bottom: 5px;
+        .check-style label{
+            border-radius: 50%;
+            border: 1px solid #9c9c9c;
+            width: 25px;
+            height: 25px;
+            &:before{
+                top: 6px;
+                background-size: 17px;
+                background-repeat: no-repeat;
+                right: -5px;
+            }
+        }
+    }
+    .one-checkbox .check-style .checkbox:checked + label{
+        border-color: $main_color;
     }
 }
