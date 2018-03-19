@@ -274,6 +274,13 @@ $(document).ready(function () {
         slidesToShow: 3
 
     });
+    $('.slider-4-init').slick({
+        dots: false,
+        arrows: true,
+        infinite: false,
+        slidesToShow: 2
+
+    });
     
     ///страница add-artist
     

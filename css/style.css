@@ -3855,4 +3855,7 @@ footer {
 .flex-funding-columns .side .top-gum .artists-venue-wrapp .one-block .one-checkbox .check-style .checkbox:checked + label {
   border-color: #eb2d64; }
 
+.slider-2-albums.slider-4-photos .one-slide .wrapp-card .descr .name {
+  white-space: normal; }
+
 /*# sourceMappingURL=style.css.map */
