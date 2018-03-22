@@ -4,6 +4,18 @@
 
   .new-padd-wrapper-m-w {
     padding: 0 80px; } }
+@media (max-width: 1500px) {
+  .flex-radio .one-radio {
+    margin-right: 14px; }
+
+  .media-flex-sides .right-side {
+    padding-left: 55px; }
+
+  .slider-2-albums .one-slide .wrapp-card .cover-image {
+    height: 185px; }
+
+  .flex-mac-checkbox.on-add-artist-page .quetion-radio-text {
+    max-width: 187px; } }
 @media (max-width: 1400px) {
   header .main-mw .left-side .logo-wr {
     width: 250px; }
@@ -19,6 +31,34 @@
 
   .all-info-profile .uniq-padd-2 .flex--info .side .blocks .one-block {
     height: 280px; } }
+@media (max-width: 1350px) {
+  .media-flex-sides .right-side .slider-audio-wrapp .one-audio {
+    width: 100%; }
+
+  .media-flex-sides .right-side .slider-audio-wrapp .one-slide {
+    padding-left: 20px; }
+
+  .media-flex-sides .left-side .head-of-left-side.albums-t-s {
+    font-size: 69px;
+    margin-bottom: -37px; }
+
+  .media-flex-sides .left-side .head-of-left-side {
+    font-size: 70.1px;
+    margin-bottom: -36px; }
+
+  .media-flex-sides .left-side .gradient-box .head-of-gradient-box {
+    font-size: 23px; }
+
+  .flex-funding-columns .side {
+    padding: 0 15px; }
+    .flex-funding-columns .side .flex-radio {
+      flex-wrap: nowrap; }
+
+  .flex-radio .one-radio {
+    margin-bottom: 10px; }
+
+  .flex-mac-checkbox.on-add-artist-page .quetion-radio-text {
+    max-width: 100%; } }
 @media (max-width: 1199px) {
   .choose-to-follow .follow-m-w {
     padding: 65px 40px 125px 40px; }

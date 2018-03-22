@@ -245,7 +245,7 @@ $(document).ready(function () {
     
     
  
-    //var as = audiojs.createAll();
+    var as = audiojs.createAll();
    
     //слайдер аудио, в слайде 12 песен
     $('.slider-audio-wrapp').slick({
@@ -262,7 +262,17 @@ $(document).ready(function () {
         dots: false,
         arrows: true,
         infinite: false,
-        slidesToShow: 3
+        slidesToShow: 3,
+         responsive: [
+            {
+              breakpoint: 1301,
+              settings: {
+                slidesToShow: 2,
+                slidesToScroll: 2
+               
+              }
+            }
+         ]
 
     });
     
@@ -271,14 +281,35 @@ $(document).ready(function () {
         dots: false,
         arrows: true,
         infinite: false,
-        slidesToShow: 3
+        slidesToShow: 3,
+         responsive: [
+            {
+              breakpoint: 1301,
+              settings: {
+                slidesToShow: 2,
+                slidesToScroll: 2
+               
+              }
+            }
+         ]
+         
 
     });
     $('.slider-4-init').slick({
         dots: false,
         arrows: true,
         infinite: false,
-        slidesToShow: 2
+        slidesToShow: 2,
+         responsive: [
+            {
+              breakpoint: 1301,
+              settings: {
+                slidesToShow: 2,
+                slidesToScroll: 2
+               
+              }
+            }
+         ]
 
     });
     
