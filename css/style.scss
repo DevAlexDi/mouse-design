@@ -5185,3 +5185,108 @@ footer {
         padding-right: 10px;
 }
     }
+
+.main-feed-wrapp{
+    .left-white{
+        position: fixed;
+        right: calc(50% + 360px);
+       box-shadow: 0px 4px 8px 0 rgba(0, 0, 0, 0.05);
+        background: #fff;
+        width: 5000px;
+        height: 100%;
+        
+    }
+    .right-white{
+        position: fixed;
+        left: calc(50% + 360px);
+      box-shadow: 0px 4px 8px 0 rgba(0, 0, 0, 0.05);
+        background: #fff;
+        width: 5000px;
+        height: 100%;
+        top: 0;
+    }
+    .middle-feed{
+        position: relative;
+        z-index: 2;
+        max-width: 715px;
+        margin: 0 auto;
+       
+        padding: 20px 40px;
+        .feed-text{
+            font-size: 80px;
+            font-family: AvenirLTStdBlack;
+            position: absolute;
+            right: calc(100% + 45px);
+            top: 0;
+            
+        }
+        .feed-item{
+            background: #fff;
+             box-shadow: 0px 4px 8px 0 rgba(0, 0, 0, 0.05);
+            .head-feed-item{
+                padding: 20px 30px;
+                position: relative;
+                padding-right: 130px;
+                .when{
+                    font-size: 18px;
+                    color: #ababab;
+                    position: absolute;
+                    top: 30px;
+                    right: 30px;
+                }
+                .flex-ava-n{
+                    display: flex;
+                    align-items: flex-start;
+                    
+                    .ava{
+                        width: 80px;
+                        height: 80px;
+                        flex-shrink: 0;
+                        border-radius: 50%;
+                        background-size: cover;
+                        background-position: center;
+                        margin-right: 20px;
+                    }
+                    .name-desc{
+                        padding-top: 10px;
+                        .name{
+                            display: flex;
+                            margin-bottom: 8px;
+                            p{
+                                margin-bottom: 0;
+                                margin-right: 30px;
+                                font-size: 20px;
+                                font-family: AvenirLTStdMedium;
+                            }
+                            .hash{
+                                color: #7c86a2;
+                                font-size: 18px;
+                                span{
+                                    color: $main_color;
+                                }
+                            }
+                        }
+                        .desc{
+                            p{
+                                color: #8e99b1;
+                                font-size: 18px;
+                                a,span{
+                                    color: $main_color;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+            .footer-item{
+                display: flex;
+                justify-content: space-between;
+                padding: 20px 30px;
+                border-top: 1px solid #eae3ff;
+                
+                
+                
+            } 
+        }
+    }
+}
