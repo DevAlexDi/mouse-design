@@ -5810,4 +5810,41 @@ footer {
     }
 }
 
-
+.head-col-add-venue{
+    font-size: 18px;
+    font-family: AvenirLTStdMedium;
+    font-weight: normal;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+    span{
+        color: $main_color;
+    }
+}
+.status-information{
+    .status-t{
+        font-family: AvenirLTStdBlack;
+        text-transform: uppercase;
+        font-size: 18px;
+        span{
+            color: $main_color;
+            padding-left: 10px;
+        }
+    }
+}
+.padd-emeils-generate{
+    .one-email{
+        position: relative;
+        padding-left: 30px;
+        .count{
+            display: block;
+            position: absolute;
+            top: 0;
+            left: 0;
+            color: $main_color;
+            font-family: AvenirLTStdBlack;
+        }
+        .input-groupe-1{
+            margin-bottom: 16px;
+        }
+    }
+}

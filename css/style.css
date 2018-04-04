@@ -4623,4 +4623,34 @@ footer {
       padding-right: 0;
       width: 30%; }
 
+.head-col-add-venue {
+  font-size: 18px;
+  font-family: AvenirLTStdMedium;
+  font-weight: normal;
+  text-transform: uppercase;
+  margin-bottom: 15px; }
+  .head-col-add-venue span {
+    color: #eb2d64; }
+
+.status-information .status-t {
+  font-family: AvenirLTStdBlack;
+  text-transform: uppercase;
+  font-size: 18px; }
+  .status-information .status-t span {
+    color: #eb2d64;
+    padding-left: 10px; }
+
+.padd-emeils-generate .one-email {
+  position: relative;
+  padding-left: 30px; }
+  .padd-emeils-generate .one-email .count {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: #eb2d64;
+    font-family: AvenirLTStdBlack; }
+  .padd-emeils-generate .one-email .input-groupe-1 {
+    margin-bottom: 16px; }
+
 /*# sourceMappingURL=style.css.map */
