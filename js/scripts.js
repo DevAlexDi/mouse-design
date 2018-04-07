@@ -245,7 +245,7 @@ $(document).ready(function () {
     
     
  
-    var as = audiojs.createAll();
+    //var as = audiojs.createAll();
    
     //слайдер аудио, в слайде 12 песен
     $('.slider-audio-wrapp').slick({

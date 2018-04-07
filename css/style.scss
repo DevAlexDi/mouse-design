@@ -1,21 +1,33 @@
 @font-face {
     font-family: AvenirLTStdBook;
-    src: url(../fonts/AvenirLTStdBook.otf);
+    src: url(../fonts/AvenirNextCyr-Regular.eot);
+    src: local('☺'), url('../fonts/AvenirNextCyr-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
 }
 
 @font-face {
     font-family: AvenirLTStdBlack;
-    src: url(../fonts/AvenirLTStd-Black.otf);
+    src: url(../fonts/AvenirNextCyr-Bold.eot);
+    src: local('☺'), url('../fonts/AvenirNextCyr-Bold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
 }
 
 @font-face {
     font-family: AvenirLTStdMedium;
-    src: url(../fonts/AvenirLTStd-Medium.otf);
+    src: url(../fonts/AvenirNextCyr-Medium.eot);
+    src: local('☺'), url('../fonts/AvenirNextCyr-Medium.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
 }
 
 @font-face {
     font-family: AvenirLTStdLight;
-    src: url(../fonts/AvenirLTStd-Light.otf);
+    src: url(../fonts/AvenirNextCyr-Light.eot);
+    src: local('☺'), url('../fonts/AvenirNextCyr-Light.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
 }
 
 html,
@@ -2644,6 +2656,9 @@ footer {
             z-index: 3;
             color: #ff3366;
             font-size: 16px;
+            &.black{
+                color: #000;
+            }
         }
     }
     .dollar {
@@ -3365,6 +3380,10 @@ footer {
                         margin-bottom: 20px;
                         font-weight: bold;
                         display: block;
+                        &.grey{
+                            color: rgba(0,0,0,0.5);
+                            margin-bottom: 0;
+                        }
                     }
                     .flex-genres {
                         display: flex;
@@ -4504,6 +4523,7 @@ footer {
                 background-image: linear-gradient(166deg, rgba(102, 110, 219, 0.9), rgba(41, 26, 109, 0.9));
                 box-shadow: 0px 16px 32px 0 rgba(76, 41, 167, 0.8);
             }
+            
         }
     }
     .right-side {
@@ -5992,5 +6012,88 @@ footer {
 .flex-body-1{
     &.more-padding{
         padding-top: 20px;
+    }
+}
+.photos-wr-flex-venue{
+    display: flex;
+    .photo-wr-1{
+        flex-shrink: 0;
+        padding-right: 25px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .photo-wr-1 .bg-image{
+        width: 65px;
+        height: 65px;
+    }
+    .input-groupe-1{
+        width: 100%;
+    }
+}
+.media-flex-sides.add-venue-some-style{
+    .left-side .gradient-box{
+        padding: 25px 20px;
+    }
+    .one-checkbox .check-style label{
+        background: transparent;
+    }
+    .style-on-add-artist-g .one-checkbox .check-style label{
+        border: 1px solid #fff;
+    }
+    .style-on-add-artist-g .one-checkbox p{
+        color: #fff;
+    }
+    .style-on-add-artist-g .one-checkbox .check-style label:before{
+        background-image: url(../img/checked.svg);
+    }
+    
+    .right-side{
+        padding-top: 150px;
+        h6{
+            font-size: 14px;
+            margin-bottom: 5px;
+            text-transform: uppercase;
+            font-family: AvenirLTStdBlack;
+            color: $main_color;
+        }
+        .slider-2-albums .one-slide .wrapp-card .descr .name{
+            font-size: 14px;
+        }
+    }
+}
+.venue-week-cal-style{
+    .week-day-time-wr{
+        padding-top: 10px;
+        display: flex;
+        margin-bottom: 30px;
+        align-items: center;
+        .from-to{
+            width: 50%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            &:first-child{
+
+            }
+            &:last-child{
+                padding-left: 25px;
+            }
+            span{
+                display: block;
+           
+                color: rgba(0,0,0,0.5);
+            }
+            select{
+                display: block;
+                font-size: 16px;
+                border: none;
+                border-bottom: 1px dashed #cecece;
+                padding: 5px 0;
+                outline: none;
+                font-weight: bold;
+                margin-left: 10px;
+            }
+        }
     }
 }
