@@ -22,6 +22,9 @@
     .venue-week-cal-style .week-day-time-wr .from-to span{
         margin-right: auto;
     }
+    .flex-ticket-wrapp .sides .scrolled-wrapp .one-wr-tick .one-tick p.c{
+        line-height: 41px;
+    }
     
 }
 @media (max-width: 1500px) {
@@ -40,7 +43,9 @@
     .flex-mac-checkbox.on-add-artist-page .quetion-radio-text.none-max-width{
         max-width: 100%;
     }
-    
+    .flex-ticket-wrapp .sides .scrolled-wrapp .one-wr-tick .one-tick p.t{
+        font-size: 12px;
+    }
     
     
 }
@@ -110,7 +115,13 @@
         width: 105px;
         padding-right: 13px;
     }
-    
+    .flex-ticket-wrapp .sides .scrolled-wrapp .one-wr-tick .one-tick p.c{
+        font-size: 25px;
+        line-height: 29px;
+    }
+    .flex-ticket-wrapp .sides .scrolled-wrapp .one-wr-tick .one-tick p.t{
+        margin-bottom: 17px;
+    }
     
 }
 
