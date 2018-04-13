@@ -5129,4 +5129,10 @@ footer {
     color: #eb2d64;
     border-color: #eb2d64; }
 
+.show-datails-wr {
+  background-image: url(../img/bg-datails-head.jpg);
+  background-size: cover;
+  background-position: center;
+  padding: 0 80px; }
+
 /*# sourceMappingURL=style.css.map */
