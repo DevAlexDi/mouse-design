@@ -120,7 +120,10 @@
     padding: 51px 25px 35px 25px; }
 
   .show-datails-wr .flex-artist-main-info .left-side {
-    width: 315px; } }
+    width: 315px; }
+
+  .content-and-tabs-datails .payment-body .one-collapsed-block .flex-top-cart img {
+    margin-right: 5px; } }
 @media (max-width: 1300px) {
   .create-event-body-1 .create-event-body .flex-body-1 .side.two-sides-w:first-child {
     padding-left: 0; }
