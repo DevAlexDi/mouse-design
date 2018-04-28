@@ -7283,3 +7283,25 @@ footer {
         box-shadow: none;
     }
 }
+.dropdown-hover-profiles .dropdown-settings-ava .account-link.Fan{
+    background-image: url(../img/fan-pink.svg);
+    &.active{
+        background-image: url(../img/fan-active.svg);
+    }
+
+}
+.dropdown-hover-profiles .dropdown-settings-ava .account-link.Artist{
+    background-image: url(../img/artist-pink.svg);
+    &.active{
+        background-image: url(../img/artist-active.svg);
+    }
+
+
+}
+.dropdown-hover-profiles .dropdown-settings-ava .account-link.Venue{
+    background-image: url(../img/venue-pink.svg);
+    &.active{
+        background-image: url(../img/venue-active.svg);
+    }
+
+}
