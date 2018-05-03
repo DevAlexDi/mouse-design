@@ -34,6 +34,7 @@ html,
 body {
     font-family: AvenirLTStdBook;
     height: 100%;
+    min-width: 1199px;
 }
 
 $main_color: #eb2d64;
@@ -7777,4 +7778,8 @@ footer {
         }
     }
 
+}
+
+.create-event-nav-tabs .create-event-header ul li {
+    padding: 0 24px;
 }
