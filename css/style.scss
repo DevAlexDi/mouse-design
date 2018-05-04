@@ -34,7 +34,6 @@ html,
 body {
     font-family: AvenirLTStdBook;
     height: 100%;
-    min-width: 1199px;
 }
 
 $main_color: #eb2d64;
@@ -2342,6 +2341,9 @@ footer {
 }
 
 .all-info-profile {
+    &.all-info-profile-preview{
+        background: #fff;
+    }
     .uniq-padd {
         padding: 0 80px;
         .genres-info {
@@ -2381,6 +2383,42 @@ footer {
         .flex--info {
             display: flex;
             justify-content: center;
+            &.none-padd-sides-b{
+                .side{
+                    &.side-info{
+                        padding-bottom: 0;
+                        h6{
+                            margin-bottom: 16px;
+                        }
+                        .vr-availeble{
+                            font-family: AvenirLTStdBlack;
+                            font-size: 18px;
+                            text-transform: uppercase;
+                            span{
+                                color: $main_color;
+                            }
+                        }
+                    }
+                }
+            }
+            &.none-padd-sides-t{
+                &.w-100{
+                    .side{
+                        width: 100%;
+                    }
+                }
+                .side{
+                    &.side-info{
+                        padding-top: 19px;
+                        h6{
+                             font-family: AvenirLTStdMedium;
+                            font-size: 18px;
+                            font-weight: normal;
+                        }
+                    }
+                   
+                }
+            }
             .side {
                 width: 33.33%;
                 padding: 0 47.5px;
@@ -2395,7 +2433,55 @@ footer {
                     padding-bottom: 50px;
                     .about-text {
                         font-size: 14px;
+                        &.line-height-hig{
+                            line-height: 28px;
+                            font-size: 16px;
+                            span{
+                                color: $main_color;
+                            }
+                        }
                     }
+                }
+                &.side-info-new-venue-prev{
+                    width: 50%;
+                    h1{
+                        text-transform: uppercase;
+                        font-family: AvenirLTStdBlack;
+                        font-size: 50px;
+                        margin-bottom: 10px;
+                    }
+                    h6{
+                        margin-bottom: 5px;
+                    }
+                    .hash{
+                        font-size: 30px;
+                        span{
+                            color: $main_color;
+                            font-family: AvenirLTStdBlack;
+                        }
+                    }
+                    .one-cover{
+                        height: 350px;
+                        background-position: center;
+                        background-size: cover;
+                    }
+                }
+                &.side-calendars-l{
+                    width: 290px;
+                    flex-shrink: 0;
+                    line-height: 39px;
+                    .head-cont{
+                        font-size: 35px;
+                        font-family: AvenirLTStdBlack;
+                        margin-bottom: 10px;
+                        text-transform: uppercase;
+                        text-align: right;
+                    }
+                }
+                &.side-calendars-m{
+                    width: 100%;
+                    padding-left: 0;
+                    padding-right: 0;
                 }
                 &.side-contact {
                     .flex-contact-venue {
@@ -2403,6 +2489,8 @@ footer {
                         flex-wrap: wrap;
                         .column-cont {
                             width: 50%;
+                            display: flex;
+                            flex-direction: column;
                             &:first-child {
                                 padding-right: 7.5px;
                             }
@@ -2655,6 +2743,32 @@ footer {
             font-family: AvenirLTStdBlack;
             text-transform: uppercase;
             margin-bottom: 40px;
+            &.arrow-class{
+                position: relative;
+                padding-left: 80px;
+                .arr{
+                    cursor: pointer;
+                    width: 57px;
+                    height: 57px;
+                    position: absolute;
+                    top: 18px;
+                    left: 0;
+                    &:hover{
+                        path{
+                            fill:$main_color;
+                        }
+                    }
+                    svg{
+                        width: 100%;
+                        display: block;
+                        height: 100%;
+                        path{
+                            transition: 0.3s;
+                        }
+                    }
+                }
+                
+            }
         }
         ul {
             list-style: none;
@@ -7777,9 +7891,178 @@ footer {
             }
         }
     }
-
 }
-
 .create-event-nav-tabs .create-event-header ul li {
     padding: 0 24px;
+}
+.dropdown-hover-profiles .dropdown-settings-ava .account-link.Fan{
+    background-image: url(../img/fan-pink.svg);
+}
+.dropdown-hover-profiles .dropdown-settings-ava .account-link.Fan.active{
+    background-image: url(../img/fan-active.svg);
+}
+.dropdown-hover-profiles .dropdown-settings-ava .account-link.Artist{
+    background-image: url(../img/artist-pink.svg);
+}
+.dropdown-hover-profiles .dropdown-settings-ava .account-link.Artist.active{
+    background-image: url(../img/artist-active.svg);
+}
+.dropdown-hover-profiles .dropdown-settings-ava .account-link.Venue{
+    background-image: url(../img/venue-pink.svg);
+}
+.dropdown-hover-profiles .dropdown-settings-ava .account-link.Venue.active{
+    background-image: url(../img/venue-active.svg);
+}
+.create-event-nav-tabs .create-event-header ul{
+    align-items: center;
+}
+
+.transformedDatapicker{
+    transform: translateX(100px);
+}
+.slider-2-albums .one-slide .wrapp-card .descr{
+   min-height: 92px;
+}
+.hours-time-wr{
+    display: flex;
+    align-items: center;
+    padding-top: 30px;
+    margin-top: auto;
+    .hours-hover{
+        position: relative;
+        padding-right: 14px;
+        &:hover{
+            .hours-drop-show{
+                display: block;
+            }
+        }
+        .o-f-h{
+            font-family: AvenirLTStdBlack;
+            color: $main_color;
+            font-size: 16px;
+            border-bottom: 2px solid $main_color;
+            text-transform: uppercase;
+            cursor: pointer;
+        }
+        .hours-drop-show{
+            display: none;
+            position: absolute;
+            left: 100%;
+            background: #fff;
+            top: 50%;
+            transform: translateY(-50%);
+            box-shadow: 0 0 18px 2px rgba(0, 0, 0, 0.18);
+            width: 200px;
+            z-index: 600;
+            padding: 13px 23px;
+            margin: 0;
+             border-radius: 10px;
+            list-style: none;
+            &:before{
+                content: "";
+                display: block;
+                position: absolute;
+                top: 50%;
+                right: 100%;
+                width: 0;
+                transform: translateY(-50%);
+                height: 0;
+                border-style: solid;
+                border-width: 7px 7px 7px 0;
+                border-color: transparent #fff transparent  transparent;
+            }
+            li{
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                margin-bottom: 20px;
+                .left{
+                    font-size: 16px;
+                    font-family: AvenirLTStdBlack;
+                    text-transform: uppercase;
+                }
+                .right{
+                    font-size: 14px;
+                }
+                &:last-child{
+                    margin-bottom: 0;
+                }
+            }
+            
+        }
+    }
+}
+.new-photos-wr-scroll-preview{
+    position: relative;
+    padding-left: 10%;
+    overflow: hidden;
+    .rel-wr-photoos{
+        position: relative;
+      
+        width: calc(100%);
+        margin-left: auto;
+        min-height: 410px;
+        .photos-abs-wrapp{
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 400px;
+             height: 1638px;
+            max-height: 1700px;
+               
+            overflow-y: auto;
+            overflow-x: hidden;
+            transform: rotate(-90deg) translateY(-410px);
+            transform-origin: right top;
+            &::-webkit-scrollbar {
+                width: 2px;
+                height: 2px;
+            }
+            &::-webkit-scrollbar-button {
+                width: 2px;
+                height: 2px;
+            }
+            .one-slide {
+                outline: none;
+                width: 410px;
+                height: 410px;
+                transform: rotate(90deg);
+                transform-origin: center;
+                padding: 10px 10px;
+                cursor: pointer;
+                .wrapp-card {
+                    box-shadow: 0px 4px 13px 0 rgba(0, 0, 0, 0.04);
+                    background: #fff;
+                    position: relative;
+                   
+                    .cover-image {
+                        height: 255px;
+                        background-position: center;
+                        background-size: cover;
+                        display: flex;
+                        
+                    }
+                    .descr {
+                        min-height: 114px;
+                        padding: 7px 15px 10px 15px;
+                        h6{
+                            font-size: 14px;
+                            margin-bottom: 5px;
+                            text-transform: uppercase;
+                            font-family: AvenirLTStdBlack;
+                            color: #eb2d64;
+                        }
+                        .name {
+                            font-size: 14px;
+                            margin-bottom: 10px;
+                            
+                            font-family: AvenirLTStdMedium;
+                        }
+                        
+                        
+                    }
+                }
+            }
+        }
+    }
 }
