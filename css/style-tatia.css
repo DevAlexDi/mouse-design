@@ -109,5 +109,40 @@
           text-align: right;
           line-height: 1.0;
           margin-bottom: 0; }
+        .messages-main-wrapp .main-mw.main_for_setts .settings_wrap .settings_right .settings_right_wrap .user_info_form {
+          padding-bottom: 21px; }
+          .messages-main-wrapp .main-mw.main_for_setts .settings_wrap .settings_right .settings_right_wrap .user_info_form .user_photo {
+            margin: 15px auto 0;
+            width: 88px;
+            height: 88px;
+            border-radius: 88px;
+            background-size: cover;
+            background-position: center; }
+          .messages-main-wrapp .main-mw.main_for_setts .settings_wrap .settings_right .settings_right_wrap .user_info_form .user_photo_change {
+            font-size: 16px;
+            display: inline-block;
+            margin-top: 17px;
+            cursor: pointer;
+            transition: 0.3s; }
+            .messages-main-wrapp .main-mw.main_for_setts .settings_wrap .settings_right .settings_right_wrap .user_info_form .user_photo_change:hover {
+              color: #eb2d64; }
+          .messages-main-wrapp .main-mw.main_for_setts .settings_wrap .settings_right .settings_right_wrap .user_info_form .input-groupe-1 label {
+            font-weight: normal; }
+          .messages-main-wrapp .main-mw.main_for_setts .settings_wrap .settings_right .settings_right_wrap .user_info_form input {
+            font-size: 16px;
+            color: black;
+            padding-left: 0;
+            padding-right: 0; }
+          .messages-main-wrapp .main-mw.main_for_setts .settings_wrap .settings_right .settings_right_wrap .user_info_form .username_input:before {
+            content: '@';
+            color: #ff0062;
+            font-family: AvenirLTStdMedium;
+            position: absolute;
+            left: 0;
+            bottom: 7px; }
+          .messages-main-wrapp .main-mw.main_for_setts .settings_wrap .settings_right .settings_right_wrap .user_info_form .username_input input {
+            padding-left: 15px; }
+          .messages-main-wrapp .main-mw.main_for_setts .settings_wrap .settings_right .settings_right_wrap .user_info_form button[type=submit] {
+            margin-top: 23px; }
 
 /*# sourceMappingURL=style-tatia.css.map */

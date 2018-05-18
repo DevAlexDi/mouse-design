@@ -2,14 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d5e6b8da-689e-42ae-a4ba-781ced24b46c" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/media-tatia.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/style-tatia.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/customer-support.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/media.css" afterPath="$PROJECT_DIR$/css/media.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/media.css.map" afterPath="$PROJECT_DIR$/css/media.css.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.css" afterPath="$PROJECT_DIR$/css/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.css.map" afterPath="$PROJECT_DIR$/css/style.css.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/scripts.js" afterPath="$PROJECT_DIR$/js/scripts.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/personal-info.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style-tatia.css" afterPath="$PROJECT_DIR$/css/style-tatia.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style-tatia.css.map" afterPath="$PROJECT_DIR$/css/style-tatia.css.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style-tatia.scss" afterPath="$PROJECT_DIR$/css/style-tatia.scss" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -22,26 +19,14 @@
     <splitter split-orientation="horizontal" split-proportion="0.5">
       <split-first>
         <leaf>
-          <file leaf-file-name="customer-support.html" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/customer-support.html">
+          <file leaf-file-name="personal-info.html" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/personal-info.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="295">
-                  <caret line="144" column="86" lean-forward="false" selection-start-line="144" selection-start-column="86" selection-end-line="144" selection-end-column="86" />
+                <state relative-caret-position="647">
+                  <caret line="193" column="97" lean-forward="false" selection-start-line="193" selection-start-column="97" selection-end-line="193" selection-end-column="97" />
                   <folding>
-                    <element signature="n#header#0;n#div#0;n#section#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                    <element signature="n#style#0;n#ul#0;n#li#4;n#ul#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#0;n#div#0;n#section#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                    <element signature="n#footer#0;n#section#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                    <element signature="n#style#0;n#div#0;n#form#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#section#0;n#div#0;n#section#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                   </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="scripts.js" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/js/scripts.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="565">
-                  <caret line="348" column="61" lean-forward="false" selection-start-line="348" selection-start-column="61" selection-end-line="348" selection-end-column="61" />
-                  <folding />
                 </state>
               </provider>
             </entry>
@@ -53,8 +38,8 @@
           <file leaf-file-name="style-tatia.scss" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/css/style-tatia.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="289">
-                  <caret line="101" column="25" lean-forward="false" selection-start-line="101" selection-start-column="25" selection-end-line="101" selection-end-column="25" />
+                <state relative-caret-position="331">
+                  <caret line="170" column="33" lean-forward="false" selection-start-line="170" selection-start-column="33" selection-end-line="170" selection-end-column="33" />
                   <folding>
                     <element signature="e#195#2190#0" expanded="false" />
                   </folding>
@@ -84,8 +69,9 @@
       <list>
         <option value="$PROJECT_DIR$/js/scripts.js" />
         <option value="$PROJECT_DIR$/css/media-tatia.scss" />
-        <option value="$PROJECT_DIR$/css/style-tatia.scss" />
         <option value="$PROJECT_DIR$/customer-support.html" />
+        <option value="$PROJECT_DIR$/personal-info.html" />
+        <option value="$PROJECT_DIR$/css/style-tatia.scss" />
       </list>
     </option>
   </component>
@@ -173,12 +159,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1526637397295</updated>
-      <workItem from="1526637404878" duration="9325000" />
+      <workItem from="1526637404878" duration="11484000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9325000" />
+    <option name="totallyTimeSpent" value="11484000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="0" />
@@ -230,14 +216,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/style.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="32" lean-forward="false" selection-start-line="1" selection-start-column="17" selection-end-line="1" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/media-tatia.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
@@ -246,24 +224,42 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/style-tatia.scss">
+    <entry file="file://$PROJECT_DIR$/customer-support.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="101" column="25" lean-forward="false" selection-start-line="101" selection-start-column="25" selection-end-line="101" selection-end-column="25" />
+        <state relative-caret-position="57">
+          <caret line="130" column="17" lean-forward="true" selection-start-line="130" selection-start-column="17" selection-end-line="130" selection-end-column="17" />
           <folding>
-            <element signature="e#195#2190#0" expanded="false" />
+            <element signature="n#header#0;n#div#0;n#section#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#ul#0;n#li#4;n#ul#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#0;n#div#0;n#section#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#footer#0;n#section#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/customer-support.html">
+    <entry file="file://$PROJECT_DIR$/css/style.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="295">
-          <caret line="144" column="86" lean-forward="false" selection-start-line="144" selection-start-column="86" selection-end-line="144" selection-end-column="86" />
+        <state relative-caret-position="289">
+          <caret line="17" column="34" lean-forward="true" selection-start-line="17" selection-start-column="17" selection-end-line="17" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/personal-info.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="647">
+          <caret line="193" column="97" lean-forward="false" selection-start-line="193" selection-start-column="97" selection-end-line="193" selection-end-column="97" />
           <folding>
-            <element signature="n#header#0;n#div#0;n#section#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#ul#0;n#li#4;n#ul#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#0;n#div#0;n#section#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#footer#0;n#section#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#0;n#form#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#section#0;n#div#0;n#section#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/style-tatia.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="331">
+          <caret line="170" column="33" lean-forward="false" selection-start-line="170" selection-start-column="33" selection-end-line="170" selection-end-column="33" />
+          <folding>
+            <element signature="e#195#2190#0" expanded="false" />
           </folding>
         </state>
       </provider>

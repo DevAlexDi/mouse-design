@@ -166,6 +166,61 @@
             line-height: 1.0;
             margin-bottom: 0;
           }
+
+          .user_info_form {
+            padding-bottom: 21px;
+
+            .user_photo {
+              margin: 15px auto 0;
+              width: 88px;
+              height: 88px;
+              border-radius: 88px;
+              background-size: cover;
+              background-position: center;
+            }
+
+            .user_photo_change {
+              font-size: 16px;
+              display: inline-block;
+              margin-top: 17px;
+              cursor: pointer;
+              transition: 0.3s;
+
+              &:hover {
+                color: #eb2d64;
+              }
+            }
+
+            .input-groupe-1 label {
+              font-weight: normal;
+            }
+
+            input {
+              font-size: 16px;
+              color: black;
+              padding-left: 0;
+              padding-right: 0;
+            }
+
+            .username_input {
+              &:before {
+                content: '@';
+                color: #ff0062;
+                font-family: AvenirLTStdMedium;
+                position: absolute;
+                left: 0;
+                bottom: 7px;
+              }
+
+              input {
+                padding-left: 15px;
+              }
+            }
+
+            button[type=submit] {
+              margin-top: 23px;
+            }
+          }
         }
       }
     }
