@@ -1,0 +1,173 @@
+.messages-main-wrapp .main-mw {
+  &.main_for_setts {
+    background: #fff;
+    padding: 0;
+    box-shadow: none;
+
+    .settings_wrap {
+      justify-content: space-between;
+
+      .settings_left {
+        width: 30%;
+        box-shadow: 0 0 16px 0 rgba(0, 0, 0, 0.13);
+        padding: 40px 49px 0;
+        height: auto;
+
+        .zag {
+          font: 60px AvenirLTStdBlack;
+          text-transform: uppercase;
+          margin-bottom: 49px;
+          line-height: 1.0;
+        }
+
+        .settings_menu {
+          list-style: none;
+          margin: 0;
+          padding: 0;
+
+          li {
+            margin-bottom: 36px;
+
+            a, span {
+              color: #000;
+              font: 20px AvenirLTStdBlack;
+              text-transform: uppercase;
+              cursor: pointer;
+              line-height: 1.0;
+
+              &:hover {
+                color: #eb2d64;
+              }
+            }
+
+            &.active {
+              a, span {
+                color: #eb2d64;
+              }
+            }
+
+            .opening {
+              position: relative;
+
+              &:after {
+                border-style: solid;
+                border-width: 5px 5.5px 0 5.5px;
+                border-color: #000000 transparent transparent transparent;
+                content: '';
+                display: block;
+                width: 0;
+                height: 0;
+                top: 9px;
+                right: -25px;
+                position: absolute;
+              }
+            }
+
+            &.opened {
+              .opening {
+                color: #eb2d64;
+
+                &:after {
+                  border-width: 0 5.5px 5px 5.5px;
+                  border-color: transparent transparent #000000 transparent;
+                }
+              }
+            }
+
+            .submenu {
+              margin: 16px 0 0 9px;
+              list-style: none;
+              display: none;
+
+              li {
+                margin-bottom: 10px;
+
+                a, span {
+                  font: 16px AvenirLTStdBook;
+                  text-transform: none;
+                  line-height: 1.0;
+                }
+              }
+            }
+          }
+        }
+      }
+
+      .settings_right {
+        width: 42%;
+        background: #ebebeb;
+        padding: 0 40px;
+        margin-right: 15%;
+        height: auto;
+        min-height: 730px;
+
+
+        .settings_right_wrap {
+          box-shadow: 0 0 16px 0 rgba(0, 0, 0, 0.13);
+          background: #fff;
+          height: 100%;
+          padding-top: 40px;
+
+          .zag {
+            text-transform: uppercase;
+            font: 20px AvenirLTStdBlack;
+            margin: 0 40px 10px;
+          }
+
+          .setts_padding {
+            padding: 0 60px 0 62px;
+          }
+
+          .settings_dots {
+            outline: none;
+            border: 1px dashed #adadad;
+          }
+
+          .grey_label {
+            color: rgba(0,0,0,0.5);
+            font: 14px AvenirLTStdBook;
+            display: block;
+            margin-bottom: 15px;
+            margin-top: 30px;
+          }
+
+          .send_quest_form {
+            input, textarea {
+              padding: 10px 19px;
+              width: 100%;
+              resize: none;
+              color: rgba(0,0,0,0.5);
+              font: 14px AvenirLTStdBook;
+            }
+
+            textarea {
+              height: 182px;
+            }
+
+            button {
+              margin: auto;
+              font-size: 16px;
+              border-radius: 22.5px;
+              border-width: 6px;
+              width: 107px;
+              margin-top: 45px;
+
+              span {
+                border-radius: 16.5px;
+                padding: 5px 0;
+              }
+            }
+          }
+
+          .settings_ta_max {
+            color: rgba(0,0,0,0.5);
+            font: 12px AvenirLTStdBook;
+            text-align: right;
+            line-height: 1.0;
+            margin-bottom: 0;
+          }
+        }
+      }
+    }
+  }
+}

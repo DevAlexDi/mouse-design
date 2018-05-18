@@ -334,7 +334,22 @@ $(document).ready(function () {
        
     });
     
-    
+
+
+
+    /* settings */
+
+    $('.opening').click(function(e) {
+        e.preventDefault();
+        if (!$(this).parents('li').hasClass('opened')) {
+            $(this).parents('li').addClass('opened');
+            $(this).parents('li').find('.submenu').slideDown();
+        }
+        else {
+            $(this).parents('li').find('.submenu').slideUp();
+            $(this).parents('li').removeClass('opened');
+        }
+    });
     
 });
 
