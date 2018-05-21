@@ -144,5 +144,17 @@
             padding-left: 15px; }
           .messages-main-wrapp .main-mw.main_for_setts .settings_wrap .settings_right .settings_right_wrap .user_info_form button[type=submit] {
             margin-top: 23px; }
+        .messages-main-wrapp .main-mw.main_for_setts .settings_wrap .settings_right .settings_right_wrap .preferences_form_group select {
+          display: block;
+          width: 100%;
+          font-size: 16px;
+          border: none;
+          border-bottom: 1px dashed #cecece;
+          padding: 10px 0;
+          outline: none;
+          font-weight: bold; }
+        .messages-main-wrapp .main-mw.main_for_setts .settings_wrap .settings_right .settings_right_wrap .preferences_form_group label {
+          margin-top: 25px;
+          margin-bottom: 0; }
 
 /*# sourceMappingURL=style-tatia.css.map */

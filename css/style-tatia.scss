@@ -221,6 +221,24 @@
               margin-top: 23px;
             }
           }
+
+          .preferences_form_group {
+            select {
+              display: block;
+              width: 100%;
+              font-size: 16px;
+              border: none;
+              border-bottom: 1px dashed #cecece;
+              padding: 10px 0;
+              outline: none;
+              font-weight: bold;
+            }
+
+            label {
+              margin-top: 25px;
+              margin-bottom: 0;
+            }
+          }
         }
       }
     }
