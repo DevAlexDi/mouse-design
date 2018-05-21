@@ -73,7 +73,21 @@
         .messages-main-wrapp .main-mw.main_for_setts .settings_wrap .settings_right .settings_right_wrap .zag {
           text-transform: uppercase;
           font: 20px AvenirLTStdBlack;
-          margin: 0 40px 10px; }
+          margin: 0 40px 10px;
+          color: black;
+          position: relative; }
+          .messages-main-wrapp .main-mw.main_for_setts .settings_wrap .settings_right .settings_right_wrap .zag.settings_back {
+            padding-left: 40px; }
+            .messages-main-wrapp .main-mw.main_for_setts .settings_wrap .settings_right .settings_right_wrap .zag.settings_back:before {
+              content: '';
+              width: 20px;
+              height: 20px;
+              display: block;
+              position: absolute;
+              top: 0;
+              left: 0;
+              background: url(../img/arr-preview-back.svg) no-repeat;
+              background-size: cover; }
         .messages-main-wrapp .main-mw.main_for_setts .settings_wrap .settings_right .settings_right_wrap .setts_padding {
           padding: 0 60px 0 62px; }
         .messages-main-wrapp .main-mw.main_for_setts .settings_wrap .settings_right .settings_right_wrap .settings_dots {
@@ -156,5 +170,17 @@
         .messages-main-wrapp .main-mw.main_for_setts .settings_wrap .settings_right .settings_right_wrap .preferences_form_group label {
           margin-top: 25px;
           margin-bottom: 0; }
+        .messages-main-wrapp .main-mw.main_for_setts .settings_wrap .settings_right .settings_right_wrap .fin_info2 {
+          margin-top: 50px;
+          font: 16px AvenirLTStdBlack;
+          text-align: center; }
+          .messages-main-wrapp .main-mw.main_for_setts .settings_wrap .settings_right .settings_right_wrap .fin_info2 strong {
+            display: block;
+            color: #eb2d64;
+            font-size: 20px;
+            margin-top: 15px; }
+        .messages-main-wrapp .main-mw.main_for_setts .settings_wrap .settings_right .settings_right_wrap .fin_grey {
+          font: 16px AvenirLTStdBook;
+          color: rgba(0, 0, 0, 0.5); }
 
 /*# sourceMappingURL=style-tatia.css.map */

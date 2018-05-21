@@ -112,6 +112,24 @@
             text-transform: uppercase;
             font: 20px AvenirLTStdBlack;
             margin: 0 40px 10px;
+            color: black;
+            position: relative;
+
+            &.settings_back {
+              padding-left: 40px;
+
+              &:before {
+                content: '';
+                width: 20px;
+                height: 20px;
+                display: block;
+                position: absolute;
+                top: 0;
+                left: 0;
+                background: url(../img/arr-preview-back.svg) no-repeat;
+                background-size: cover;
+              }
+            }
           }
 
           .setts_padding {
@@ -238,6 +256,24 @@
               margin-top: 25px;
               margin-bottom: 0;
             }
+          }
+
+          .fin_info2 {
+            margin-top: 50px;
+            font: 16px AvenirLTStdBlack;
+            text-align: center;
+
+            strong {
+              display: block;
+              color: #eb2d64;
+              font-size: 20px;
+              margin-top: 15px;
+            }
+          }
+
+          .fin_grey {
+            font: 16px AvenirLTStdBook;
+            color: rgba(0, 0, 0, 0.5);
           }
         }
       }
