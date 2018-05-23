@@ -275,6 +275,166 @@
             font: 16px AvenirLTStdBook;
             color: rgba(0, 0, 0, 0.5);
           }
+
+          .card_number {
+            border-bottom: 1px dashed rgba(0, 0, 0, 0.2);
+            display: flex;
+            position: relative;
+
+            &:before {
+              content: '';
+              position: absolute;
+              width: 37px;
+              height: 22px;
+              display: block;
+              right: 0;
+              top: 50%;
+              margin-top: -11px;
+              background-size: cover;
+            }
+
+            &.visa {
+              &:before {
+                background-image: url(../img/visa.png);
+              }
+            }
+
+            input {
+              border: none;
+              width: 36px;
+              margin-right: 5px;
+            }
+          }
+
+          .two_inputs {
+            display: flex;
+            justify-content: space-between;
+
+            .input-groupe-1 {
+              &:first-child {
+                margin-right: 7px;
+              }
+              &:last-child {
+                margin-left: 7px;
+              }
+            }
+          }
+
+          .help {
+            display: inline-block;
+            width: 11px;
+            height: 11px;
+            background: #cbcbcb;
+            border-radius: 11px;
+            position: absolute;
+            right: -19px;
+            top: 50%;
+            margin-top: -5px;
+            cursor: pointer;
+
+            &:before {
+              content: '?';
+              position: absolute;
+              color: #fff;
+              font-size: 10px;
+              top: -2px;
+              left: 3px;
+            }
+          }
+
+          .feedback_form {
+            .grey {
+              margin-top: 30px;
+              margin-bottom: 4px;
+              color: rgba(0, 0, 0, 0.5);
+            }
+
+            .radio_wrap {
+              .feedback_radio {
+                position: absolute;
+                z-index: -1;
+                opacity: 0;
+                margin: 10px 0 0 7px;
+              }
+              .feedback_radio + label {
+                position: relative;
+                padding: 0 0 0 45px;
+                cursor: pointer;
+                font: 16px AvenirLTStdBook;
+                margin-top: 25px;
+              }
+              .feedback_radio + label:before {
+                content: '';
+                position: absolute;
+                top: -3px;
+                left: 0;
+                width: 25px;
+                height: 25px;
+                border: 1px solid #aeaeae;
+                border-radius: 50%;
+                background: #FFF;
+              }
+              .feedback_radio + label:after {
+                content: '';
+                position: absolute;
+                top: 3px;
+                left: 4px;
+                width: 16px;
+                height: 13px;
+                opacity: 0;
+                transition: .2s;
+                background: url(../img/radio_checked.svg) no-repeat center;
+                background-size: cover;
+              }
+              .feedback_radio:checked + label:after {
+                opacity: 1;
+              }
+              .feedback_radio:checked + label:before {
+                border-color: #ee2862;
+                background: #ee2862;
+              }
+            }
+
+            .settings_ta_max {
+              padding-bottom: 10px;
+            }
+
+            .stars {
+              display: flex;
+              justify-content: center;
+              margin-top: 30px;
+
+              span {
+                display: block;
+                width: 36px;
+                height: 34px;
+                background: url(../img/feedback_stars.png) no-repeat top left;
+                margin: 0 11.5px;
+                cursor: pointer;
+
+                &.active {
+                  background-position: 0 -34px;
+                }
+              }
+            }
+
+            .grey_center {
+              text-align: center;
+              color: rgba(0,0,0,0.5);
+              font: 14px AvenirLTStdBook;
+              margin: 20px 0 0;
+            }
+          }
+
+          .text_block {
+            font: 14px AvenirLTStdBook;
+            color: #000;
+            padding-bottom: 30px;
+
+            p {
+              line-height: 24px;
+            }
+          }
         }
       }
     }
