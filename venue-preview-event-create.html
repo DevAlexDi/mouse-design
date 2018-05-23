@@ -128,243 +128,370 @@
                 </header>
                  
                 <section class="second-router-outlet">
-                    <div class="head-info-profile-wr head-info-artist">
-                        <div class="main-mw">
-                            <div class="flex-artist-main-info">
-                                <div class="side left-side">
-                                    <h6 class="name">Nnenna Freelon</h6>
-                                    <div class="oficial-page">
-                                        <span class="page">@nnenna</span>
-                                        <div class="edit-and-settings">
-                                            <a href="#" class="edit-profile">Edit profile</a>
+                    <div class="create-event-nav-tabs">
+                        <div class="for-header-shadow">
+                            <div class="main-mw">
+                                <div class="create-event-header">
+                                    <!--добавляем класс для отображения стрелки-->
+                                    <h1 class="arrow-class">
+                                        <!--для клика на возврат к addevent-->
+                                        <div class="arr">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="34" height="29" viewBox="0 0 34 29">
+                                              <path fill="#000000" id="Forma_1_copy_3" data-name="Forma 1 copy 3" class="cls-1" d="M857,946.183H828.082L839.5,934.862,837.62,933,823,947.5,837.62,962l1.877-1.862-11.415-11.322H857v-2.633Z" transform="translate(-823 -933)"/>
+                                            </svg>
                                         </div>
-                                    </div>
-                                    <p class="desc">
-                                        Six-time GRAMMY® Award nominee Nnenna Freelon has earned a well-deserved reputation as a compelling and captivating live performer. In 2014, Nnenna starred in the critically acclaimed show “Georgia on My Mind: Celebrating the Music of Ray Charles”.
-                                    </p>
-                                    <form class="follow-wr">
-                                        <button class="butt-style-1" type="submit">
-                                            <span>Follow</span>
-                                        </button>
-                                    </form>
-                                </div>
-                                <div class="side right-side">
-                                    <div class="bg-slider">
-                                        <div class="iframe-slider-wrapp">
-                                            <!-- надо подключить youtube api и тем самым вставлять видео вместо iframe ибо у iframe нет норм функций для остановки видео, либо я хреново покопался.-->
-                                            <div class="slide">
-                                                <div class="iframe-wr">
-                                                    <iframe class="youtube-video" src="https://www.youtube.com/embed/tndftV42k7w" allowfullscreen></iframe>
-                                                </div>
-                                            </div>
-                                            <div class="slide">
-                                                <div class="iframe-wr">
-                                                    <iframe class="youtube-video" src="https://www.youtube.com/embed/tndftV42k7w" allowfullscreen></iframe>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
+                                        Add Venue
+                                    </h1>
+                                    <ul>
+                                        <!--нужным li даем классы active и started."хз нахрена это надо. узнавайте у писателя"-->
+                                        <li class="active">
+                                            <a href="#" class="nav-second-outlet">about</a>
+                                        </li>
+                                        <li class="started">
+                                            <a href="#" class="nav-second-outlet">Hours</a>
+                                        </li>
+                                        <li>
+                                            <a href="#" class="nav-second-outlet">Listing</a>
+                                        </li>
+                                        <li>
+                                            <a href="#" class="nav-second-outlet">Media</a>
+                                        </li>
+                                        <li>
+                                            <a href="#" class="nav-second-outlet">DAtes</a>
+                                        </li>
+                                        <li>
+                                            <a href="#" class="nav-second-outlet">Preview</a>
+                                        </li>
+                                    </ul>
                                 </div>
                             </div>
-                        
-                        
                         </div>
-                        
-                        
-                        
-                        
-                        
-                    </div>
-                    <div class="for-white-bg">
-                        
-                        
-                        
-                        <div class="all-info-profile">
-                            <div class="uniq-padd">
+                        <div class="for-white-bg">
+                         <div class="all-info-profile all-info-profile-preview">
+                             <div class="uniq-padd-2">
                                 <div class="main-mw">
-                                    <div class="genres-info genres-info-artist">
-                                        <h3>Genres</h3>
-                                        <div class="flex-genres">
-                                            <span class="one-genre">HIP HOP</span>
-                                            <span class="one-genre">HIP HOP</span>
-                                            <span class="one-genre">HIP HOP</span>
-                                            <span class="one-genre">HIP HOP</span>
-                                            <span class="one-genre">HIP HOP</span>
-                                            <span class="one-genre">HIP HOP</span>
-                                            <span class="one-genre">HIP HOP</span>
+                                    <div class="flex--info">
+                                        <div class="side side-info-new-venue-prev side-info side-about">
+                                            <h1>The Gold Circle Club</h1>
+                                            <p class="hash"><span>@</span>goldcircleclub</p>
+                                            <h6>About</h6>
+                                            <p class="about-text line-height-hig">
+                                                Since its stellar opening in 2003, The Gold Circle Club is a high-profile Euro-style night club that hosted many notables and celebrities over the years. It's a colorful, multi-tiered dance club featuring 30-foot ceilings, LED screens & plenty of night owls. Big-name DJs and a dynamic sound system keep the dance floor pumping at this establishment.
+                                            </p>
+                                        </div>
+                                        <div class="side side-info-new-venue-prev side-info side-about">
+                                            <div class="one-cover" style="background-image: url(img/drake.jpg)"></div>
                                         </div>
                                     </div>
-                                </div>
-                            </div>
-                            <div class="uniq-padd-2">
-                                <div class="main-mw">
-                                    <div class="flex--info none-padd-sides-b none-padd-sides-t-without-h">
-                                        <div class="side side-info side-about ">
-                                            <h6>SONGS</h6>
-                                        </div>
-                                        <div class="side side-info side-contact un-padd-on-1560"></div>
-                                        <div class="side side-info side-map"></div>
-                                    </div>
-                                </div>
-                                <div class="main-mw">
-                                    <div class="styles-audio-list">
-                                        <div class="audio-wrapper">
-                                            <div class="one-audio">
-                                                <span class="name-track">Soulcall</span>
-                                                <audio src="mp3/lalala.mp3" preload="auto" />
-                                            </div>
-                                        </div>
-                                        <div class="audio-wrapper">
-                                            <div class="one-audio">
-                                                <span class="name-track">Soulcallqweqwe qwe qwe qwe qwe qwe qwe qwe qwe qwe qwe qwe </span>
-                                                <audio src="mp3/lala2.mp3" preload="auto" />
-                                            </div>
-                                        </div>
-                                        <div class="audio-wrapper">
-                                            <div class="one-audio">
-                                                <span class="name-track">Soulcall</span>
-                                                <audio src="mp3/lalala.mp3" preload="auto" />
-                                            </div>
-                                        </div>
-                                        <div class="audio-wrapper">
-                                            <div class="one-audio">
-                                                <span class="name-track">Soulcall</span>
-                                                <audio src="mp3/lalala.mp3" preload="auto" />
-                                            </div>
-                                        </div>
-                                        <div class="audio-wrapper">
-                                            <div class="one-audio">
-                                                <span class="name-track">Soulcallqweqwe qwe qwe qwe qwe qwe qwe qwe qwe qwe qwe qwe </span>
-                                                <audio src="mp3/lala2.mp3" preload="auto" />
-                                            </div>
-                                        </div>
-                                        <div class="audio-wrapper">
-                                            <div class="one-audio">
-                                                <span class="name-track">Soulcall</span>
-                                                <audio src="mp3/lalala.mp3" preload="auto" />
-                                            </div>
-                                        </div>
-                                        
-                                        <button class="see-all">SEE ALL</button>
-                                    </div>
-                                   
-                                </div>
-                            </div>
+                                 </div>
+                             </div>
                             <div class="uniq-padd-2">
                                 <div class="main-mw">
                                     <div class="flex--info">
-                                        <div class="side flex-header scroller">
-                                            <div class="for-scroll-padd">
-                                                <h6>Albums (5)</h6>
-                                                <input type="text" class="search-profile-inp-style"  placeholder="Search">
-                                            </div>
-                                            <div class="new-scroll-wr">
-                                                <div class="blocks">
-                                                    <div class="one-block" style="background-image: url(img/layer-7.jpg)">
-                                                        <div class="desc">
-                                                            <p class="name">Tracey Ross</p>
-                                                            <p class="when">(1998)</p>
-                                                        </div>
-                                                    </div>
-                                                     <div class="one-block" style="background-image: url(img/layer-7.jpg)">
-                                                        <div class="desc">
-                                                            <p class="name">Tracey Ross</p>
-                                                            <p class="when">(1998)</p>
-                                                        </div>
-                                                    </div>
-                                                     <div class="one-block" style="background-image: url(img/layer-7.jpg)">
-                                                        <div class="desc">
-                                                            <p class="name">Tracey Ross</p>
-                                                            <p class="when">(1998)</p>
-                                                        </div>
-                                                    </div>
-                                                     <div class="one-block" style="background-image: url(img/layer-7.jpg)">
-                                                        <div class="desc">
-                                                            <p class="name">Tracey Ross</p>
-                                                            <p class="when">(1998)</p>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
+                                        <div class="side side-info side-about">
+                                            <h6>Listing Details</h6>
+                                            <p class="about-text line-height-hig">
+                                                Nightclub<br>
+                                                <span>300</span> Person Capacity<br>
+                                                <span>1</span> Bathroom(s)<br>
+                                                Bar Available<br>
+                                                Located: <span>Indoors</span><br>
+                                                Age Policy: <span>18 and Over</span><br>
+                                                Dress Code: <span>Shirts and Shoes Required</span>
+                                            </p>
                                         </div>
-                                        <div class="side flex-header scroller">
-                                            <div class="for-scroll-padd">
-                                                <h6>UPCOMING<br>SHOWS (21)</h6>
-                                                <input type="text" class="search-profile-inp-style" placeholder="Search">
-                                            </div>
-                                            <div class="new-scroll-wr">
-                                                <div class="blocks">
-                                                    <!--календарь вегда есть(не итерируем)-->
-                                                    <div class="calendar-wr">
-                                                        <div class="rel-hidd">
-                                                            <div class="one-block" style="background-image: url(img/layer-7.jpg)"></div>
-                                                            <a href="#" class="calendar">Calendar</a>
-                                                        </div>
+                                        <div class="side side-info side-contact un-padd-on-1560">
+                                            <h6>Contact info</h6>
+                                            <div class="flex-contact-venue">
+                                                <div class="column-cont">
+                                                    <div class="one-cont">
+                                                        <p class="head-cont">PHONE:</p>
+                                                        <span>310-358-1881</span>
                                                     </div>
-                                                    <!--/календарь вегда есть(не итерируем)-->
-                                                    <div class="one-block" style="background-image: url(img/layer-7.jpg)">
-                                                        <div class="desc">
-                                                            <p class="name">Tracey Ross</p>
-                                                            <p class="when">7/17/17</p>
-                                                        </div>
+                                                     <div class="one-cont">
+                                                        <p class="head-cont">FAX:</p>
+                                                        <span>310-358-1881</span>
                                                     </div>
-                                                    <div class="one-block" style="background-image: url(img/layer-7.jpg)">
-                                                        <div class="desc">
-                                                            <p class="name">Tracey Ross</p>
-                                                            <p class="when">7/17/17</p>
-                                                        </div>
-                                                    </div>
-                                                     <div class="one-block" style="background-image: url(img/layer-7.jpg)">
-                                                        <div class="desc">
-                                                            <p class="name">Tracey Ross</p>
-                                                            <p class="when">7/17/17</p>
-                                                        </div>
-                                                    </div>
-                                                     <div class="one-block" style="background-image: url(img/layer-7.jpg)">
-                                                        <div class="desc">
-                                                            <p class="name">Tracey Ross</p>
-                                                            <p class="when">7/17/17</p>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="side flex-header scroller uniq-padd-style-funs">
-                                            <div class="uniq-padd-3">
-                                                <h6>Fans (250)</h6>
-                                                <input type="text" class="search-profile-inp-style" placeholder="Search">
-                                            </div>
-                                            <div class="new-scroll-wr">
-                                                <div class="blocks-funs">
-                                                    <div class="one-block">
-                                                        <div class="photo" style="background-image: url(img/drake.jpg)"></div>
-                                                        <a href="#" class="name">
-                                                            <span>Name</span>
-                                                            <span>Surname</span>
-                                                        </a>
-                                                    </div>
-                                                    <div class="one-block">
-                                                        <div class="photo" style="background-image: url(img/drake.jpg)"></div>
-                                                        <a href="#" class="name">
-                                                            <span>Name NameNameNameNameNameName</span>
-                                                            <span>Surname</span>
-                                                        </a>
-                                                    </div>
-                                                    <div class="one-block">
-                                                        <div class="photo" style="background-image: url(img/drake.jpg)"></div>
-                                                        <a href="#" class="name">
-                                                            <span>Name NameNameNameNameNameName</span>
-                                                            <span>Surname</span>
-                                                        </a>
+                                                     <div class="one-cont">
+                                                        <p class="head-cont">LOCAL/REGIONAL ACTS: </p>
+                                                        <span>leah@laroom.com</span>
                                                     </div>
                                                     
+                                                    <!--ну и другая контактная инфа-->
+                                                    
+                                                    <div class="hours-time-wr">
+                                                        <div class="hours-hover">
+                                                            <span class="o-f-h">Office Hours</span>
+                                                            <ul class="hours-drop-show">
+                                                                <li>
+                                                                    <span class="left">Mon</span>
+                                                                    <span class="right">
+                                                                        10pm - 10am
+                                                                    </span>
+                                                                </li>
+                                                                <li>
+                                                                    <span class="left">Mon</span>
+                                                                    <span class="right">
+                                                                        10pm - 10am
+                                                                    </span>
+                                                                </li>
+                                                                <li>
+                                                                    <span class="left">Mon</span>
+                                                                    <span class="right">
+                                                                        10pm - 10am
+                                                                    </span>
+                                                                </li>
+                                                                <li>
+                                                                    <span class="left">Mon</span>
+                                                                    <span class="right">
+                                                                        10pm - 10am
+                                                                    </span>
+                                                                </li>
+                                                                <li>
+                                                                    <span class="left">Mon</span>
+                                                                    <span class="right">
+                                                                        10pm - 10am
+                                                                    </span>
+                                                                </li>
+                                                                <li>
+                                                                    <span class="left">Mon</span>
+                                                                    <span class="right">
+                                                                        10pm - 10am
+                                                                    </span>
+                                                                </li>
+                                                            </ul>
+                                                        </div>
+                                                    </div>
                                                 </div>
+                                                <div class="column-cont">
+                                                    <div class="one-cont">
+                                                        <p class="head-cont">GENERAL INQUIRIES:</p>
+                                                        <span>info@goldcircle.com</span>
+                                                    </div>
+                                                    <div class="one-cont">
+                                                        <p class="head-cont">BAND BOOKING:</p>
+                                                        <span>bookings@laroom.com</span>
+                                                    </div>
+                                                    <div class="one-cont">
+                                                        <p class="head-cont">NATIONAL ACTS:</p>
+                                                        <span>pulsar@laroom.com</span>
+                                                    </div>
+                                                    <!--ну и другая контактная инфа-->
+                                                    
+                                                    
+                                                    <div class="hours-time-wr">
+                                                        <div class="hours-hover">
+                                                            <span class="o-f-h">Operating Hours</span>
+                                                            <ul class="hours-drop-show">
+                                                                <li>
+                                                                    <span class="left">Mon</span>
+                                                                    <span class="right">
+                                                                        10pm - 10am
+                                                                    </span>
+                                                                </li>
+                                                                <li>
+                                                                    <span class="left">Mon</span>
+                                                                    <span class="right">
+                                                                        10pm - 10am
+                                                                    </span>
+                                                                </li>
+                                                                <li>
+                                                                    <span class="left">Mon</span>
+                                                                    <span class="right">
+                                                                        10pm - 10am
+                                                                    </span>
+                                                                </li>
+                                                                <li>
+                                                                    <span class="left">Mon</span>
+                                                                    <span class="right">
+                                                                        10pm - 10am
+                                                                    </span>
+                                                                </li>
+                                                                <li>
+                                                                    <span class="left">Mon</span>
+                                                                    <span class="right">
+                                                                        10pm - 10am
+                                                                    </span>
+                                                                </li>
+                                                                <li>
+                                                                    <span class="left">Mon</span>
+                                                                    <span class="right">
+                                                                        10pm - 10am
+                                                                    </span>
+                                                                </li>
+                                                            </ul>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="side side-info side-map">
+                                            <h6>Location</h6>
+                                            <p class="about-text">8888 Sunset Blvd, West Hollywood, CA 90069</p>
+                                            <div class="map" id="map">
+                                                карта тут
                                             </div>
                                         </div>
                                     </div>
                                 </div>
+                                <div class="main-mw">
+                                    <div class="flex--info disable-flex-wrapp-on-md">
+                                        <div class="side side-calendars-l side-info side-about">
+                                            <p class="head-cont">Available Dates</p>
+                                        </div>
+                                        <div class="side side-calendars-m side-info side-about">
+                                            календарь тут
+                                        </div>
+                                        <div class="side side-calendars-l side-info side-about"></div>
+                                    </div>
+                                </div>
+                                <div class="main-mw">
+                                    <div class="flex--info none-padd-sides-b">
+                                        <div class="side side-info-new-venue-prev side-info side-about">
+                                            <h6>Media</h6>
+                                            <p class="vr-availeble">
+                                                VR Video Equipment
+                                                 <span>available</span>
+                                            </p>
+                                        </div>
+                                        <div class="side side-info-new-venue-prev side-info side-about"></div>
+                                    </div>
+                                </div>
+                                <div class="main-mw">
+                                    <div class="flex--info none-padd-sides-t">
+                                        <div class="side side-info side-about">
+                                            <h6>Audio Description</h6>
+                                            <p class="about-text">
+                                               Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore
+                                            </p>
+                                        </div>
+                                        <div class="side side-info side-contact">
+                                           <h6>Lightning Description</h6>
+                                            <p class="about-text">
+                                               Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore
+                                            </p>
+                                            
+                                        </div>
+                                        <div class="side side-info side-map">
+                                            <h6>Stage Description</h6>
+                                            <p class="about-text">
+                                               Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat 
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="main-mw">
+                                    <div class="flex--info none-padd-sides-t none-padd-sides-b w-100">
+                                        <div class="side side-info side-about">
+                                            <h6 class="for-position-left-js">Recommended Photos</h6>
+                                        </div>
+                                    </div>
+                                </div>    
                             </div>
+                            <!--
+                            в onInit надо будет вставить вот эту ебалистику
+
+                             $('.photos-abs-wrapp').css({
+                                'max-height': $('.rel-wr-photoos').width()+'px'
+                            });
+                            $('.new-photos-wr-scroll-preview').css({
+                                'padding-left':$('.for-position-left-js').offset().left
+                            });
+
+                            $(window).resize(function(){
+                                $('.photos-abs-wrapp').css({
+                                    'max-height': $('.rel-wr-photoos').width()+'px'
+                                });
+                                $('.new-photos-wr-scroll-preview').css({
+                                    'padding-left':$('.for-position-left-js').offset().left
+                                });
+                            });
+                            -->
+                            <div class="new-photos-wr-scroll-preview">
+                                <div class="rel-wr-photoos">
+                                    <div class="photos-abs-wrapp">
+                                        <div class="one-slide">
+                                            <div class="wrapp-card">
+                                                <div class="cover-image" style="background-image: url(img/drake.jpg)"></div>
+                                                <div class="descr">
+                                                    <h6>Night club</h6>
+                                                    <p class="name">Lorem ipsum dolor sit amet, consectetur adipisicing </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                         <div class="one-slide">
+                                            <div class="wrapp-card">
+                                         
+                                                <div class="cover-image" style="background-image: url(img/drake.jpg)"></div>
+                                                <div class="descr">
+                                                    <h6>Night club</h6>
+                                                    <p class="name">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididuminim veniam, quis nostrud</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                         <div class="one-slide">
+                                            <div class="wrapp-card">
+                                               
+                                                <div class="cover-image" style="background-image: url(img/drake.jpg)"></div>
+                                                <div class="descr">
+                                                    <h6>Night club</h6>
+                                                    <p class="name">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididuminim veniam, quis nostrud</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="one-slide">
+                                            <div class="wrapp-card">
+                                               
+                                                <div class="cover-image" style="background-image: url(img/drake.jpg)"></div>
+                                                <div class="descr">
+                                                    <h6>Night club</h6>
+                                                    <p class="name">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididuminim veniam, quis nostrud</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="one-slide">
+                                            <div class="wrapp-card">
+                                               
+                                                <div class="cover-image" style="background-image: url(img/drake.jpg)"></div>
+                                                <div class="descr">
+                                                    <h6>Night club</h6>
+                                                    <p class="name">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididuminim veniam, quis nostrud</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="one-slide">
+                                            <div class="wrapp-card">
+                                               
+                                                <div class="cover-image" style="background-image: url(img/drake.jpg)"></div>
+                                                <div class="descr">
+                                                    <h6>Night club</h6>
+                                                    <p class="name">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididuminim veniam, quis nostrud</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="one-slide">
+                                            <div class="wrapp-card">
+                                               
+                                                <div class="cover-image" style="background-image: url(img/drake.jpg)"></div>
+                                                <div class="descr">
+                                                    <h6>llll Night club</h6>
+                                                    <p class="name">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididuminim veniam, quis nostrud</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                       
+                                    
+                                    
+                                    
+                                    
+                                    </div>
+                                </div>
+
+                            </div>
+                                    
+                            
                         </div>
+                            </div>
                     </div>
                 </section>
             </div>
@@ -545,11 +672,30 @@
         </div>
     </div>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.3/jquery.min.js"></script>
-    <script src="js/audiojs/audio.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/slick.min.js"></script>
     <script src="js/ion.rangeSlider.min.js"></script>
     <script src="js/scripts.js"></script>
+    
+    <script>
+        $('.photos-abs-wrapp').css({
+            'max-height': $('.rel-wr-photoos').width()+'px'
+        });
+        $('.new-photos-wr-scroll-preview').css({
+            'padding-left':$('.for-position-left-js').offset().left
+        });
+   
+        $(window).resize(function(){
+            $('.photos-abs-wrapp').css({
+                'max-height': $('.rel-wr-photoos').width()+'px'
+            });
+            $('.new-photos-wr-scroll-preview').css({
+                'padding-left':$('.for-position-left-js').offset().left
+            });
+        });
+        
+    
+    </script>
 </body>
 
 </html>

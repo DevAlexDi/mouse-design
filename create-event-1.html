@@ -13,6 +13,51 @@
     <link href="css/slick.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
     <link href="css/media.css" rel="stylesheet">  
+    <style>
+        .photo-wr-1{
+            justify-content: flex-start;
+        }
+        .photo-wr-1 .new-style-img-up{
+            position: relative;
+            margin: 0;
+            
+        }
+        .photo-wr-1 .new-style-img-up .bg-image{
+            border-color: #adadad;
+            border-radius: 0;
+            width: 200px;
+            height: 150px;
+        }
+        .photo-wr-1 .new-style-img-up .bg-image:before{
+            background-color: #adadad;
+            width: 70px;
+        }
+        .photo-wr-1 .new-style-img-up .bg-image:after{
+            background-color: #adadad;
+            height: 70px;
+        }
+    
+        .photo-wr-1.n-i-s .bg-image{
+            width: 200px;
+            height: 150px;
+            border-color: #adadad;
+            border-color: #adadad;
+            border-radius: 0;
+            
+        }
+        .photo-wr-1.n-i-s .bg-image:before{
+            background-color: #adadad;
+            width: 70px;
+        }
+        .photo-wr-1.n-i-s .bg-image:after{
+            background-color: #adadad;
+            height: 70px;
+        }
+        
+        
+        
+        
+    </style>
 </head>
 
 
@@ -220,6 +265,7 @@
                                             </div>
                                         </div>
                                         <div class="side">
+                                            
                                             <div class="input-groupe-1 whithout-label">
                                                 <span class="head-groupe">Genre</span>
                                                 <div class="flex-genres">
@@ -309,6 +355,22 @@
                                             </div>
                                         </div>
                                         <div class="side">
+                                            <div class="input-groupe-1 whithout-label">
+                                       
+                                                <div class="photo-wr-1 n-i-s">
+                                                   
+                                                    <label class="file_upload new-style-img-up">
+                                                        <div class="bg-image"></div>
+
+                                                        <input accept=".jpg, .jpeg, .png" type="file">
+                                                    </label>
+
+                                                    <!--появляется этот блок если загружена фотка и в стайл бекграунд имейдж ебануть-->
+                                                    <div class="bg-image uploaded"></div>
+                                                    <!---->
+                                                </div>
+                                                <label  class="head-groupe">Short Description<span>*</span></label>
+                                            </div>
                                             <div class="input-groupe-1 whithout-label">
                                                 
                                                 <textarea id="inp-create-9"></textarea>
