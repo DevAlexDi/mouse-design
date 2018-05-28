@@ -138,8 +138,8 @@
                                     <ul class="settings_menu">
                                         <li><a href="#">Personal info</a></li>
                                         <li><a href="#">Preferences</a></li>
-                                        <li class="active"><a href="#">Financial info</a></li>
-                                        <li><a href="#">Feedback</a></li>
+                                        <li><a href="#">Financial info</a></li>
+                                        <li class="active"><a href="#">Feedback</a></li>
                                         <li>
                                             <span class="opening">Customer support</span>
                                             <ul class="submenu">
@@ -159,45 +159,35 @@
                                 <!--вместо дива может быть форма-->
                                 <div class="right-s settings_right">
                                     <div class="settings_right_wrap">
-                                        <h2 class="zag">Financial info</h2>
-                                        <form class="setts_padding send_quest_form user_info_form">
-                                            <p class="fin_info2">
-                                                Amount to Transfer to Bank
-                                                <strong>$35,500</strong>
-                                            </p>
-                                            <p class="fin_grey">
-                                                Credit Card on File
-                                            </p>
-                                            <div class="input-groupe-1">
-                                                <input id="inp-info-1" name="" value="JARDSON ALMEIDA" type="text">
-                                                <label for="inp-info-1">Name on Card</label>
+                                        <h2 class="zag">Feedback</h2>
+                                        <form class="setts_padding send_quest_form feedback_form">
+                                            <p class="grey">I'm telling you about...</p>
+                                            <div class="radio_wrap">
+                                                <input type="radio" name="feedback_topic" class="feedback_radio" id="feedback-radio1" />
+                                                <label for="feedback-radio1">A Bug</label>
                                             </div>
-                                            <div class="input-groupe-1">
-                                                <!-- следующий блок может иметь класс mastercard вместо visa -->
-                                                <div class="card_number visa">
-                                                    <input id="card_number_part1" maxlength="4" type="password">
-                                                    <input id="card_number_part2" maxlength="4" type="password">
-                                                    <input id="card_number_part3" maxlength="4" type="password">
-                                                    <input id="card_number_part4" maxlength="4" type="text">
-                                                </div>
-                                                <input id="inp-info-2" class="hidden" name="" type="text">
-                                                <label for="inp-info-2">Card Number</label>
+                                            <div class="radio_wrap">
+                                                <input type="radio" name="feedback_topic" class="feedback_radio" id="feedback-radio2" />
+                                                <label for="feedback-radio2">An Enhancement</label>
                                             </div>
-                                            <div class="two_inputs">
-                                                <div class="input-groupe-1">
-                                                    <input id="inp-info-3" name="" value="06/19" type="text">
-                                                    <label for="inp-info-3">Expiration Date</label>
-                                                </div>
-                                                <div class="input-groupe-1">
-                                                    <input id="inp-info-4" name="" maxlength="3" value="123" type="text">
-                                                    <label for="inp-info-4">Security Code<span class="help"></span></label>
-                                                </div>
+                                            <div class="radio_wrap">
+                                                <input type="radio" name="feedback_topic" class="feedback_radio" id="feedback-radio3" />
+                                                <label for="feedback-radio3">Compliment</label>
                                             </div>
-                                            <div class="input-groupe-1">
-                                                <input id="inp-info-5" name="" value="456625" type="text">
-                                                <label for="inp-info-5">Zip / Postal Code <span class="help"></span></label>
+                                            <label class="grey_label">Details</label>
+                                            <textarea class="settings_dots"></textarea>
+                                            <p class="settings_ta_max">1000 max</p>
+                                            <p class="grey">How are we doing?</p>
+                                            <div class="stars">
+                                                <span></span>
+                                                <span></span>
+                                                <span></span>
+                                                <span></span>
+                                                <span></span>
                                             </div>
-                                            <button type="submit" class="butt-style-1"><span>Save</span></button>
+                                            <input type="text" class="hidden" name="" id="rate_star">
+                                            <p class="grey_center">Please rate how we're doing</p>
+                                            <button type="submit" class="butt-style-1"><span>Send</span></button>
                                         </form>
                                     </div>
                                 </div>
