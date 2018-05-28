@@ -8435,7 +8435,7 @@ footer {
                     }
                 }
                 &.un-active{
-                    &:nth-child(8n){
+                    &:nth-child(7n + 1){
                         .one-day{
                             &:before{
                                 display: none!important;
@@ -8470,6 +8470,13 @@ footer {
                             position: absolute;
                             right: 22px;
                             background-color: #e8e8e8;
+                        }
+                    }
+                }
+                &.today + .un-active{
+                    .one-day{
+                        &:before{
+                            display: none!important;
                         }
                     }
                 }
@@ -8561,8 +8568,6 @@ footer {
                             }
                         }
                     }
-                     
-                    
                 }
             }
         }
