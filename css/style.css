@@ -6528,6 +6528,99 @@ footer {
 .new-photos-wr-scroll-preview .rel-wr-photoos .photos-abs-wrapp .one-slide .wrapp-card .descr.m-h-artist-prev {
   min-height: 95px; }
 
+.tiny-calendar-wrapper .days .black-bg-dates {
+  display: none; }
+.tiny-calendar-wrapper .days .popup-set-price-wr {
+  display: none; }
+.tiny-calendar-wrapper .days.set-date-popup .one-day-wr.pickedday {
+  position: relative;
+  z-index: 4000;
+  background: #fff; }
+.tiny-calendar-wrapper .days.set-date-popup .black-bg-dates {
+  position: fixed;
+  left: 0;
+  display: block;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 2000;
+  background: rgba(0, 0, 0, 0.5); }
+.tiny-calendar-wrapper .days.set-date-popup .popup-set-price-wr {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 263px;
+  background: #fff;
+  z-index: 3000;
+  border-radius: 6px;
+  padding: 14px; }
+  .tiny-calendar-wrapper .days.set-date-popup .popup-set-price-wr .flex-price-inp {
+    display: flex;
+    align-items: center;
+    position: relative;
+    margin-bottom: 10px; }
+    .tiny-calendar-wrapper .days.set-date-popup .popup-set-price-wr .flex-price-inp .inp-desc {
+      width: 70px;
+      flex-shrink: 0;
+      font-size: 16px;
+      opacity: 0.5;
+      background-repeat: no-repeat;
+      background-position: center left;
+      padding-left: 24px;
+      margin-bottom: 0; }
+      .tiny-calendar-wrapper .days.set-date-popup .popup-set-price-wr .flex-price-inp .inp-desc.d-inp {
+        background-image: url(../img/sun.png); }
+      .tiny-calendar-wrapper .days.set-date-popup .popup-set-price-wr .flex-price-inp .inp-desc.n-inp {
+        background-image: url(../img/night.png); }
+    .tiny-calendar-wrapper .days.set-date-popup .popup-set-price-wr .flex-price-inp input {
+      font-size: 16px;
+      outline: none;
+      border: none;
+      background: transparent;
+      border-bottom: 1px dashed rgba(0, 0, 0, 0.2);
+      display: block;
+      width: 100%;
+      text-align: right;
+      padding: 8px 25px 8px 0; }
+    .tiny-calendar-wrapper .days.set-date-popup .popup-set-price-wr .flex-price-inp span {
+      display: block;
+      position: absolute;
+      top: 8px;
+      right: 0;
+      color: #918f90; }
+  .tiny-calendar-wrapper .days.set-date-popup .popup-set-price-wr .flex-select-range {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px; }
+    .tiny-calendar-wrapper .days.set-date-popup .popup-set-price-wr .flex-select-range p {
+      margin-bottom: 0;
+      width: 30px;
+      flex-shrink: 0;
+      font-size: 16px;
+      opacity: 0.5; }
+    .tiny-calendar-wrapper .days.set-date-popup .popup-set-price-wr .flex-select-range .input-groupe-1 {
+      padding-top: 0;
+      margin-bottom: 0; }
+  .tiny-calendar-wrapper .days.set-date-popup .popup-set-price-wr .buttons-pop {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 10px; }
+    .tiny-calendar-wrapper .days.set-date-popup .popup-set-price-wr .buttons-pop .resend-reg {
+      color: #eb2d64;
+      border-color: #eb2d64;
+      width: 90px;
+      padding: 3px 0; }
+    .tiny-calendar-wrapper .days.set-date-popup .popup-set-price-wr .buttons-pop .continue-wr {
+      width: 71px;
+      margin: 0 auto; }
+      .tiny-calendar-wrapper .days.set-date-popup .popup-set-price-wr .buttons-pop .continue-wr .butt-style-1 {
+        border-width: 5px; }
+        .tiny-calendar-wrapper .days.set-date-popup .popup-set-price-wr .buttons-pop .continue-wr .butt-style-1 span {
+          padding: 5px 0;
+          text-align: center; }
 .tiny-calendar-wrapper.big-calendar-wrapper {
   width: 100%;
   background-color: #ffffff;
@@ -6545,6 +6638,8 @@ footer {
     .tiny-calendar-wrapper.big-calendar-wrapper .body-calendar .weekday-wrapp .one-week-day {
       text-align: right;
       padding-right: 10px; }
+    .tiny-calendar-wrapper.big-calendar-wrapper .body-calendar .days {
+      position: relative; }
     .tiny-calendar-wrapper.big-calendar-wrapper .body-calendar .days .one-day-wr {
       height: 105px;
       padding-top: 5px;

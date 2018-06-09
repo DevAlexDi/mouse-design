@@ -1017,8 +1017,10 @@
                                                             <div class="one-week-day">Fri</div>
                                                             <div class="one-week-day">Sat</div>
                                                         </div>
-                                                        <div class="days">
+                                                        <!--set-date-popup если пикнули-->
+                                                        <div class="days ">
                                                             <!--пустые one-day-wr всегда должны быть (42 штука)-->
+                                                            <!--pickedday если пикнули-->
                                                             <div class="one-day-wr not-active-month">
                                                                 <div class="one-day">
                                                                     <p>27</p>
@@ -1234,7 +1236,7 @@
                                                                     <p>22</p>
                                                                 </div>
                                                             </div>
-                                                            <div class="one-day-wr">
+                                                            <div class="one-day-wr pickedday">
                                                                 <div class="one-day">
                                                                     <p>23</p>
                                                                 </div>
@@ -1309,6 +1311,95 @@
                                                                     <p>6</p>
                                                                 </div>
                                                             </div>
+                                                            
+                                                            <div class="black-bg-dates"></div>
+                                                            
+                                                            <div class="popup-set-price-wr">
+                                                                <form class="popup-set-price">
+                                                                    <div class="flex-mac-checkbox">
+                                                                        <p>Availability</p>
+                                                                        <div class="yes-no">
+                                                                            <span>Yes</span>
+                                                                            <div class="mac-checkbox">
+                                                                                <input class="checkbox" checked="" type="checkbox" id="opt-calendar-1">
+                                                                                <label for="opt-calendar-1"></label>
+                                                                            </div>
+                                                                            <span>No</span>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="flex-mac-checkbox">
+                                                                        <p>Date Range</p>
+                                                                        <div class="yes-no">
+                                                                            <span>Yes</span>
+                                                                            <div class="mac-checkbox">
+                                                                                <input class="checkbox" checked="" type="checkbox" id="opt-calendar-2">
+                                                                                <label for="opt-calendar-2"></label>
+                                                                            </div>
+                                                                            <span>No</span>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="flex-select-range">
+                                                                        <p>From</p>
+                                                                        <div class="input-groupe-1">
+                                                                            <select>
+                                                                                <option>1</option>
+                                                                                <option>11</option>
+                                                                            </select>
+                                                                        </div>
+                                                                        <div class="input-groupe-1">
+                                                                            <select>
+                                                                                <option>Sep</option>
+                                                                                <option>Nov</option>
+                                                                            </select>
+                                                                        </div>
+                                                                        <div class="input-groupe-1">
+                                                                            <select>
+                                                                                <option>2018</option>
+                                                                                <option>2019</option>
+                                                                            </select>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="flex-select-range">
+                                                                        <p>To</p>
+                                                                        <div class="input-groupe-1">
+                                                                            <select>
+                                                                                <option>1</option>
+                                                                                <option>11</option>
+                                                                            </select>
+                                                                        </div>
+                                                                        <div class="input-groupe-1">
+                                                                            <select>
+                                                                                <option>Sep</option>
+                                                                                <option>Nov</option>
+                                                                            </select>
+                                                                        </div>
+                                                                        <div class="input-groupe-1">
+                                                                            <select>
+                                                                                <option>2018</option>
+                                                                                <option>2019</option>
+                                                                            </select>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="flex-price-inp">
+                                                                        <p class="d-inp inp-desc">Day</p>
+                                                                        <input type="text">
+                                                                        <span>/hr</span>
+                                                                    </div>
+                                                                    <div class="flex-price-inp">
+                                                                        <p class="n-inp inp-desc">Night</p>
+                                                                        <input type="text">
+                                                                        <span>/hr</span>
+                                                                    </div>
+                                                                    <div class="buttons-pop">
+                                                                        <span class="resend-reg">Cancel</span>
+                                                                        <div class="continue-wr">
+                                                                            <button class="butt-style-1" type="submit"><span>OK</span></button>
+                                                                        </div>
+                                                                    </div>
+                                                                </form>
+                                                            </div>
+                                                            
+                                                            
                                                         </div>
                                                     </div>
                                                 </div>
