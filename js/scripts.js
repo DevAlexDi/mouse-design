@@ -386,6 +386,28 @@ $(document).ready(function () {
         }
         $('#rate_star').val(parseInt(num)+1);
     });
+
+    $('#change_personal_phone_number').click(function() {
+        $('#modal_change_phone').modal('show');
+    });
+
+    $('#update_personal_phone').click(function(e) {
+        e.preventDefault();
+        $('#modal_change_phone').modal('hide');
+        $('#modal_change_phone_ver').modal('show');
+    });
+
+    $('#wrong_number').click(function(e) {
+        e.preventDefault();
+        $('#modal_change_phone_ver').modal('hide');
+        $('#modal_change_phone').modal('show');
+    });
+
+    $('#validate_personal_phone_code').click(function(e) {
+        e.preventDefault();
+        $('#modal_change_phone_ver').modal('hide');
+        $('#success_change_phone').modal('show');
+    });
 });
 
 

@@ -187,11 +187,13 @@
                                                 <input id="inp-info-6" name="" value="123456789123456" type="password">
                                                 <label for="inp-info-6">Verify Password</label>
                                             </div>
-                                            <div class="input-groupe-1">
+                                            <button type="submit" class="butt-style-1"><span>Save</span></button>
+
+                                            <div class="input-groupe-1 personal_phone_number">
                                                 <input id="inp-info-7" name="" value="(202) 555-8990" type="text">
                                                 <label for="inp-info-7">Phone Number (For Verification)</label>
+                                                <span id="change_personal_phone_number">Update</span>
                                             </div>
-                                            <button type="submit" class="butt-style-1"><span>Save</span></button>
                                         </form>
                                     </div>
                                 </div>
@@ -342,40 +344,56 @@
         
     </section>
     
-    <div class="modal fade modal-slider" id="modal-slider">
+    <div class="modal fade modal_change_phone" id="modal_change_phone">
         <div class="modal-dialog">
             <div class="modal-body">
-                <div class="rel-modal">
-                    <div class="close-modal" data-dismiss="modal"></div>
-                    <div class="slider-padd">
-                        <div class="slider-modal-wr">
-                            <div class="one-slide">
-                                <h4><span>Share</span> shows you like <span>with friends</span></h4>
-                            </div>
-                            <div class="one-slide">
-                                <h4>Watch shows in <span>360°</span> virtual reality devices</h4>
-                            </div>
-                            <div class="one-slide">
-                                <h4>Crowdfund <span>shows</span> of your favorite artists <span>in your hometown</span></h4>
-                            </div>
-                        </div>
+                <div class="head">Update phone number</div>
+                <div class="phone_form">
+                    <div class="input-groupe-1">
+                        <input id="inp-info-8" name="" value="+1 202-555-1208" type="text">
+                        <label for="inp-info-8">New Phone Number</label>
                     </div>
-                    <div class="flex-buttons-modal">
-                        <div class="one-butt-wr">
-                            <div class="style-b-op">
-                                <span data-dismiss="modal">Sign up later</span>
-                            </div>
-                        </div>
-                        <div class="one-butt-wr">
-                            <div class="style-b-op">
-                                <a href="#">Sign up</a>
-                            </div>
-                        </div>
-                    </div>
+                    <button class="butt-style-1" id="update_personal_phone"><span>UPDATE</span></button>
                 </div>
             </div>
         </div>
     </div>
+
+    <div class="modal fade modal_change_phone" id="modal_change_phone_ver">
+        <div class="modal-dialog">
+            <div class="modal-body">
+                <div class="head">Update phone number</div>
+                <div class="number">
+                    <p>Code has been sent to +1 202-555-1208</p>
+                    <span id="wrong_number">Wrong number?</span>
+                </div>
+                <p class="code_label">Enter Verification Code</p>
+                <div class="inp-code-wrapp">
+                    <input type="text">
+                    <input type="text">
+                    <input type="text">
+                    <input type="text">
+                    <div class="lines">
+                        <div class="line"></div>
+                        <div class="line"></div>
+                        <div class="line"></div>
+                    </div>
+                </div>
+                <p class="note">If you didn't get the code, press <span class="resend_personal_phone_verification_code">Resend</span></p>
+                <button class="butt-style-1" id="validate_personal_phone_code"><span>Enter</span></button>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade modal_change_phone modal_change_phone_success" id="success_change_phone">
+        <div class="modal-dialog">
+            <div class="modal-body">
+                <p>Phone Number was updated successfully</p>
+                <span class="butt-style-1" data-dismiss="modal"><span>DISMISS</span></span>
+            </div>
+        </div>
+    </div>
+
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.3/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/slick.min.js"></script>

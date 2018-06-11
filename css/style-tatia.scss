@@ -238,6 +238,29 @@
             button[type=submit] {
               margin-top: 23px;
             }
+
+            .personal_phone_number {
+              margin-top: 40px;
+
+              #change_personal_phone_number {
+                position: absolute;
+                right: 0;
+                bottom: 8px;
+                cursor: pointer;
+                color: #ff0062;
+                border-radius: 16.5px;
+                padding: 3px 20px;
+                font-size: 14px;
+                border: 1px solid #ff0062;
+                z-index: 10;
+                transition: 0.3s;
+
+                &:hover {
+                  background: #ff0062;
+                  color: #fff;
+                }
+              }
+            }
           }
 
           .preferences_form_group {
@@ -479,6 +502,138 @@
             p {
               line-height: 24px;
             }
+          }
+        }
+      }
+    }
+  }
+}
+
+.modal_change_phone {
+  .modal-dialog {
+    width: 465px;
+    max-width: 100%;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%)!important;
+
+    .modal-body {
+      background: #fff;
+      padding: 0;
+      border-radius: 6px;
+      overflow: hidden;
+
+      .head {
+        background: #efefef;
+        font: 16px AvenirLTStdBlack;
+        color: #000;
+        text-transform: uppercase;
+        padding: 15px 35px;
+      }
+
+      .phone_form {
+        padding: 30px 45px;
+
+        .butt-style-1 {
+          width: 115px;
+          margin: auto;
+          border-width: 5px;
+
+          span {
+            padding: 7px 21px;
+          }
+        }
+      }
+
+      .number {
+        display: flex;
+        justify-content: space-between;
+        margin: 15px 35px 25px;
+        align-items: flex-end;
+
+        p {
+          font-size: 14px;
+          font-weight: bold;
+          margin: 0;
+        }
+
+        #wrong_number {
+          color: #df205d;
+          text-decoration: underline;
+          font-size: 14px;
+          cursor: pointer;
+        }
+      }
+
+      .code_label {
+        margin: 0;
+        color: rgba(0,0,0,0.5);
+        font-size: 12px;
+        text-align: center;
+      }
+
+      .inp-code-wrapp {
+        background: #efefef;
+        margin-top: 10px;
+        margin-bottom: 15px;
+
+        input {
+          color: #cf385f;
+        }
+
+        .line {
+          background: #fff;
+        }
+      }
+
+      .note {
+        margin: 0;
+        text-align: center;
+        font-size: 14px;
+        font-weight: bold;
+        color: #000;
+
+        span {
+          cursor: pointer;
+          color: #cf385f;
+          text-decoration: underline;
+        }
+      }
+
+      #validate_personal_phone_code {
+        width: 140px;
+        margin: 25px auto 30px;
+        border-width: 5px;
+
+        span {
+          padding: 7px 21px;
+        }
+      }
+    }
+  }
+
+  &.modal_change_phone_success {
+
+    .modal-dialog {
+      width: 310px;
+
+      .modal-body {
+        padding: 20px 35px;
+
+        p {
+          font-size: 18px;
+          text-align: center;
+          margin-bottom: 15px;
+        }
+
+        .butt-style-1 {
+          width: 115px;
+          margin: auto;
+          border-width: 5px;
+
+          span {
+            padding: 5px 21px;
+            text-align: center;
           }
         }
       }
