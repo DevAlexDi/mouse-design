@@ -427,4 +427,192 @@
         padding: 5px 21px;
         text-align: center; }
 
+.admin_flex_wrap {
+  display: flex;
+  height: 100%;
+  flex-direction: column; }
+
+.admin_header {
+  box-shadow: 0px -5px 38px 0 rgba(0, 0, 0, 0.91);
+  background: #0f0f0f;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0; }
+  .admin_header .logo {
+    margin-left: 80px;
+    display: flex; }
+    .admin_header .logo .mouse_text {
+      margin-left: 24px; }
+      .admin_header .logo .mouse_text span {
+        font: 900 14px AvenirLTStdBlack;
+        letter-spacing: -0.1px;
+        color: #ffffff;
+        text-transform: uppercase;
+        display: block; }
+  .admin_header .search {
+    background: #474546;
+    border-radius: 25px;
+    margin: 0 auto;
+    padding: 0 25px;
+    position: relative; }
+    .admin_header .search:before {
+      content: 'Search';
+      font: 16px AvenirLTStdBook;
+      color: #898989;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      z-index: 0; }
+    .admin_header .search:after {
+      content: '';
+      position: absolute;
+      top: 50%;
+      right: 50%;
+      margin-right: 35px;
+      transform: translateY(-50%);
+      z-index: 0;
+      width: 15px;
+      height: 14px;
+      background: url(../img/admin/search_icon.png) no-repeat;
+      background-position: center center; }
+    .admin_header .search input {
+      width: 100%;
+      background: transparent;
+      border: 0;
+      text-align: center;
+      font: 16px AvenirLTStdBook;
+      color: #fff;
+      padding: 9px 0;
+      outline: none;
+      z-index: 1;
+      position: relative; }
+      .admin_header .search input:focus {
+        background: #474546; }
+  .admin_header .notification_panel {
+    margin-right: 26px;
+    display: flex;
+    align-items: center; }
+    .admin_header .notification_panel .not_block {
+      margin: 0 24px;
+      position: relative;
+      cursor: pointer; }
+      .admin_header .notification_panel .not_block .count {
+        position: absolute;
+        border-radius: 5.5px;
+        background-color: #ee2862;
+        color: #fff;
+        font: 10px AvenirLTStdLight;
+        padding: 0 3px;
+        top: -8px;
+        right: 0;
+        transform: translateX(70%); }
+  .admin_header .admin_user {
+    margin-right: 74px;
+    border-left: 1px solid rgba(255, 255, 255, 0.1);
+    display: flex;
+    align-items: center;
+    padding: 21px 26px 24px 40px;
+    position: relative;
+    cursor: pointer; }
+    .admin_header .admin_user:after {
+      content: '';
+      width: 12px;
+      height: 6px;
+      background: url(../img/admin/white_arrow.png) no-repeat;
+      position: absolute;
+      right: 0;
+      top: 50%;
+      margin-top: -3px; }
+    .admin_header .admin_user .user_info {
+      padding-right: 20px;
+      text-align: right; }
+      .admin_header .admin_user .user_info .name {
+        color: #fff;
+        font: 14px AvenirLTStdLight;
+        line-height: 1.0;
+        margin: 0 0 5px; }
+      .admin_header .admin_user .user_info .who {
+        color: rgba(255, 255, 255, 0.3);
+        font: 12px AvenirLTStdLight;
+        line-height: 1.0;
+        margin: 0; }
+    .admin_header .admin_user .user_ava {
+      width: 35px;
+      height: 35px;
+      border-radius: 50%;
+      border: 2px solid #eb2d64;
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat; }
+
+.admin_page {
+  display: flex;
+  height: 100%; }
+  .admin_page nav {
+    width: 390px;
+    flex-shrink: 0;
+    background: #1c1c1c;
+    height: 100%;
+    overflow: auto; }
+    .admin_page nav::-webkit-scrollbar {
+      background: transparent;
+      width: 5px; }
+    .admin_page nav::-webkit-scrollbar-thumb {
+      background: #eb2d64;
+      border-radius: 2.5px;
+      cursor: pointer; }
+    .admin_page nav .admin_menu_link {
+      padding: 25px 70px 25px 75px;
+      display: flex;
+      align-items: center;
+      transition: 0.3s;
+      border-left: 6px solid transparent;
+      color: #fff;
+      font: 16px AvenirLTStdBook;
+      text-transform: uppercase;
+      position: relative; }
+      .admin_page nav .admin_menu_link .count {
+        background: #d2355d;
+        border-radius: 11.5px;
+        color: #fff;
+        font: 14px AvenirLTStdBook;
+        padding: 3px 12px;
+        margin-left: 20px;
+        display: block; }
+      .admin_page nav .admin_menu_link:hover, .admin_page nav .admin_menu_link.active {
+        background: #131313;
+        border-left-color: #eb2d64; }
+      .admin_page nav .admin_menu_link.active {
+        font-family: AvenirLTStdBlack; }
+    .admin_page nav .opening .admin_menu_link:after {
+      content: '';
+      position: absolute;
+      display: block;
+      width: 11px;
+      height: 5px;
+      background: url(../img/admin/grey_arrow.png) no-repeat;
+      top: 50%;
+      right: 49px;
+      transform: translateY(-50%); }
+    .admin_page nav .opening .submenu {
+      padding: 10px 70px 10px 80px;
+      display: none;
+      height: 0;
+      overflow: hidden;
+      transition: 0.8s; }
+      .admin_page nav .opening .submenu a {
+        color: #fff;
+        font: 16px AvenirLTStdBook;
+        text-transform: uppercase;
+        display: block;
+        padding: 20px 0;
+        transition: 0.3s; }
+        .admin_page nav .opening .submenu a:hover {
+          color: #d2355d; }
+    .admin_page nav .opening.opened .submenu {
+      height: auto;
+      display: block; }
+
 /*# sourceMappingURL=style-tatia.css.map */
