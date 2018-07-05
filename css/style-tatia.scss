@@ -971,95 +971,70 @@
           box-shadow: 0px 10px 20px 0 rgba(22, 44, 122, 0.7);
         }
 
+        &.rose {
+          background: linear-gradient(42deg, #6c0a75, #d1286f);
+          box-shadow: 0px 10px 20px 0 rgba(148, 22, 115, 0.7);
+        }
+
+        &:before {
+          content: '';
+          position: absolute;
+          top: 0;
+          left: 0;
+          right: 4px;
+          bottom: 0;
+          background-repeat: no-repeat;
+          background-position: right bottom;
+        }
+
         &.music {
           &:before {
-            content: '';
-            position: absolute;
-            top: 0;
-            left: 0;
-            right: 4px;
-            bottom: 0;
             background-image: url(../img/admin/card_music.png);
-            background-repeat: no-repeat;
-            background-position: right bottom;
           }
         }
         &.kolonka {
           &:before {
-            content: '';
-            position: absolute;
-            top: 0;
-            left: 0;
-            right: 4px;
-            bottom: 0;
             background-image: url(../img/admin/card_kolonka.png);
-            background-repeat: no-repeat;
-            background-position: right bottom;
           }
         }
         &.mic {
           &:before {
-            content: '';
-            position: absolute;
-            top: 0;
-            left: 0;
-            right: 4px;
-            bottom: 0;
             background-image: url(../img/admin/card_mic.png);
-            background-repeat: no-repeat;
-            background-position: right bottom;
           }
         }
         &.vr {
           &:before {
-            content: '';
-            position: absolute;
-            top: 0;
-            left: 0;
-            right: 4px;
-            bottom: 0;
             background-image: url(../img/admin/card_vr.png);
-            background-repeat: no-repeat;
-            background-position: right bottom;
           }
         }
         &.ticket {
           &:before {
-            content: '';
-            position: absolute;
-            top: 0;
-            left: 0;
-            right: 4px;
-            bottom: 0;
             background-image: url(../img/admin/card_ticket.png);
-            background-repeat: no-repeat;
-            background-position: right bottom;
           }
         }
         &.repost {
           &:before {
-            content: '';
-            position: absolute;
-            top: 0;
-            left: 0;
-            right: 4px;
-            bottom: 0;
             background-image: url(../img/admin/card_repost.png);
-            background-repeat: no-repeat;
-            background-position: right bottom;
           }
         }
         &.coin {
           &:before {
-            content: '';
-            position: absolute;
-            top: 0;
-            left: 0;
-            right: 4px;
-            bottom: 0;
             background-image: url(../img/admin/card_coin.png);
-            background-repeat: no-repeat;
-            background-position: right bottom;
+          }
+        }
+        &.click {
+          &:before {
+            background-image: url(../img/admin/card_click.png);
+          }
+        }
+        &.heart {
+          &:before {
+            background-image: url(../img/admin/card_heart.png);
+          }
+        }
+        &.chat {
+          &:before {
+            background-image: url(../img/admin/card_chat.png);
           }
         }
       }
@@ -1080,6 +1055,56 @@
       font: 16px AvenirLTStdBlack;
       text-transform: uppercase;
       margin-top: 40px;
+
+      &.zag_with_tabs {
+        display: flex;
+        align-items: center;
+
+        span:first-child {
+          margin-right: 15px;
+        }
+
+        .zag_tab {
+          border-radius: 16px;
+          border: solid 1px #d2355d;
+          color: #d2355d;
+          display: block;
+          font-size: 16px;
+          font-family: AvenirLTStdBook;
+          text-transform: uppercase;
+          padding: 5px 16px;
+          cursor: pointer;
+          transition: 0.3s;
+          margin-left: 10px;
+
+          &.active, &:hover {
+            color: #fff;
+            background: #d2355d;
+          }
+        }
+      }
+    }
+
+    .admin_big_zag {
+      margin-top: 30px;
+      color: #0f0f0f;
+      font: 25px AvenirLTStdBlack;
+      text-transform: uppercase;
+    }
+
+    .soc {
+      margin: 0 0 5px;
+      padding: 0;
+      list-style: none;
+      display: flex;
+
+      li {
+        padding-right: 20px;
+
+        &:last-child {
+          padding-right: 0;
+        }
+      }
     }
 
     .admin_table {
@@ -1366,6 +1391,68 @@
             margin-right: 20px;
           }
         }
+
+        &.accounts_table_with_by {
+          .admin_table_th:nth-child(2),
+          .admin_table_td:nth-child(2) {
+            width: 14%;
+          }
+          .admin_table_th:nth-child(3),
+          .admin_table_td:nth-child(3) {
+            width: 21.6%;
+          }
+          .admin_table_th:nth-child(4),
+          .admin_table_td:nth-child(4) {
+            width: 11.7%;
+          }
+          .admin_table_th:nth-child(5),
+          .admin_table_td:nth-child(5) {
+            width: 17%;
+          }
+          .admin_table_th:nth-child(6),
+          .admin_table_td:nth-child(6) {
+            width: 13.5%;
+          }
+          .admin_table_th:nth-child(7),
+          .admin_table_td:nth-child(7) {
+            width: 20%;
+          }
+        }
+
+        &.accounts_table_with_contacts {
+          .admin_table_th:nth-child(2),
+          .admin_table_td:nth-child(2) {
+            width: 15.8%;
+          }
+          .admin_table_th:nth-child(3),
+          .admin_table_td:nth-child(3) {
+            width: 11%;
+          }
+          .admin_table_th:nth-child(4),
+          .admin_table_td:nth-child(4) {
+            width: 26%;
+          }
+          .admin_table_th:nth-child(5),
+          .admin_table_td:nth-child(5) {
+            width: 11%;
+          }
+          .admin_table_th:nth-child(6),
+          .admin_table_td:nth-child(6) {
+            width: 26%;
+          }
+
+          .admin_table_td.contact_td {
+            flex-direction: column;
+            justify-content: center;
+
+            span {
+              font-size: 12px;
+              text-overflow: ellipsis;
+              white-space: nowrap;
+              overflow: hidden;
+            }
+          }
+        }
       }
     }
 
@@ -1375,6 +1462,61 @@
       margin-bottom: 30px;
       box-shadow: 0px 8px 20px 0 rgba(0, 0, 0, 0.07);
       padding: 30px;
+      border-radius: 5px;
+    }
+
+    .acc_analytics_diag_desc {
+      display: flex;
+      padding-left: 30px;
+
+      span {
+        display: block;
+        color: #0f0f0f;
+        font: 14px AvenirLTStdBlack;
+        text-transform: uppercase;
+        padding-left: 41px;
+        padding-top: 4px;
+        position: relative;
+        margin-right: 50px;
+
+        &:before {
+          content: '';
+          width: 25px;
+          height: 25px;
+          border-radius: 50%;
+          position: absolute;
+          top: 0;
+          left: 0;
+        }
+
+        &.rose {
+          &:before {
+            background: linear-gradient(227deg, #d8275a, #d1286f);
+            box-shadow: 0px 4px 8px 0 rgba(238, 40, 98, 0.41);
+          }
+        }
+        &.violet {
+          &:before {
+            background: linear-gradient(212deg, #6472db, #5a49c6);
+            box-shadow: 0px 4px 8px 0 rgba(45, 76, 235, 0.41);
+          }
+        }
+        &.crossed {
+          &:before {
+            border: 2px solid #36c4c2;
+          }
+          &:after {
+            content: '';
+            position: absolute;
+            height: 1px;
+            width: 36px;
+            background: #656e6e;
+            top: 12px;
+            left: -6px;
+            transform: rotate(-45deg);
+          }
+        }
+      }
     }
 
     .admin_settings_wrap {
@@ -1477,6 +1619,86 @@
           &:hover {
             path {
               fill: #eb2d64;
+            }
+          }
+        }
+
+        &.zag_with_buttons {
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          padding: 20px 50px 10px 115px;
+
+          .arr {
+            top: 38px;
+          }
+
+          .buttons {
+            display: flex;
+
+            .butt {
+              font: 12px AvenirLTStdBook;
+              text-transform: none;
+              text-align: center;
+              width: 60px;
+
+              button {
+                background: #fff;
+                border-radius: 5px;
+                width: 40px;
+                height: 40px;
+                border: 0;
+                outline: 0;
+                display: flex;
+                margin: 0 auto 10px;
+
+                img {
+                  margin: auto;
+                }
+              }
+
+              &.remove {
+                color: #eb2d64;
+
+                button {
+                  box-shadow: 0px 3px 9px 0 rgba(235, 45, 100, 0.39);
+                }
+              }
+
+              &.deny {
+                color: #333;
+
+                button {
+                  box-shadow: 0px 3px 9px 0 rgba(109, 109, 109, 0.39);
+                }
+              }
+
+              &.approve {
+                color: #079392;
+
+                button {
+                  box-shadow: 0px 3px 9px 0 rgba(7, 147, 146, 0.39);
+                }
+              }
+            }
+          }
+
+          .contacts {
+            font: 14px AvenirLTStdBook;
+            text-transform: none;
+            line-height: 25px;
+
+            span {
+              color: #999;
+            }
+
+            a {
+              color: #eb2d64;
+              text-decoration: underline;
+
+              &:hover {
+                text-decoration: none;
+              }
             }
           }
         }
@@ -1651,6 +1873,178 @@
             }
           }
         }
+      }
+    }
+
+    .account_artist {
+      padding-top: 30px;
+
+      .uniq-padd-2 {
+        padding: 0 75px 0 45px;
+
+        .flex--info .side.side-info {
+          padding: 0;
+        }
+
+        .profile_about {
+
+          h1 {
+            font-size: 25px;
+            margin-bottom: 5px;
+          }
+          .hash {
+            font-size: 18px;
+            line-height: 1.0;
+            margin-bottom: 15px;
+          }
+          .manager {
+            font-size: 14px;
+            margin-bottom: 7px;
+
+            span {
+              color: #a3a3a3;
+            }
+          }
+          .about-text {
+            font-size: 14px;
+            line-height: 21px;
+            margin-top: 30px;
+            width: 80%;
+          }
+        }
+      }
+
+      .uniq-padd {
+        padding: 0 75px 0 45px;
+      }
+
+      .genres-info {
+        margin-top: 50px;
+        margin-bottom: 0;
+
+        h3 {
+          font-size: 25px;
+          line-height: 1.0;
+          font-family: AvenirLTStdBlack;
+          text-transform: uppercase;
+        }
+      }
+
+      .calendar-add-artist {
+        padding: 0;
+      }
+
+      .styles-audio-list {
+        .audio-wrapper {
+          width: 50%;
+          padding: 30px 47.5px 0;
+
+          &:nth-child(3n) .one-audio {
+            margin-left: 0;
+          }
+
+          &:nth-child(3n + 2) .one-audio {
+            margin-left: 0;
+          }
+        }
+      }
+
+      .new-photos-wr-scroll-preview {
+        padding-left: 45px;
+        margin-top: 25px;
+
+        /*.rel-wr-photoos {
+          min-height: 335px;
+
+          .photos-abs-wrapp {
+            width: 335px;
+
+            .one-slide {
+              width: 335px;
+              height: 390px;
+            }
+          }
+        }*/
+      }
+
+      .booking {
+        .flex--info {
+          justify-content: space-between;
+          margin-top: 25px;
+
+          .side {
+            width: 45%;
+
+            .about-text {
+              line-height: 21px;
+            }
+          }
+        }
+      }
+
+      .riders-flex-wrapp {
+        flex-wrap: wrap;
+        justify-content: space-between;
+
+        .side {
+          width: 45%;
+          padding: 0;
+          margin-bottom: 45px;
+        }
+      }
+    }
+
+    .account_venue {
+      .one-cover {
+        height: 280px!important;
+      }
+
+      .uniq-padd-2 .profile_about h1 {
+        margin-bottom: 20px;
+      }
+
+      .venue_details {
+        justify-content: space-between;
+        margin-top: 40px;
+
+        .side {
+          width: 50%!important;
+
+          h6{
+            font-size: 25px;
+            line-height: 1.0;
+          }
+        }
+
+        &.big_text {
+          justify-content: space-between;
+
+          .side {
+            width: 45%!important;
+          }
+        }
+
+        .hours-time-wr_right .hours-hover .hours-drop-show {
+          right: calc(100% + 14px);
+          left: auto;
+
+          &:before {
+            left: 100%;
+            border-width: 7px 0px 7px 7px;
+            border-color: transparent transparent transparent #fff;
+          }
+        }
+
+        .side-map {
+          .about-text {
+            margin-bottom: 10px;
+          }
+        }
+      }
+
+      .venue_calendar {
+        width: 800px;
+        height: 615px;
       }
     }
   }

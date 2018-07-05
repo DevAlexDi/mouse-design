@@ -9,4 +9,14 @@ $(document).ready(function () {
             $(this).parent().removeClass('opened');
         }
     });
+
+    $('.photos-abs-wrapp').css({
+        'max-height': $('.rel-wr-photoos').width()+'px'
+    });
+
+    $(window).resize(function(){
+        $('.photos-abs-wrapp').css({
+            'max-height': $('.rel-wr-photoos').width()+'px'
+        });
+    });
 });
