@@ -15,4 +15,36 @@
     padding-left: 35px;
     padding-right: 35px;
   }
+  .admin_page .admin_content .admin_table.accounts_funding_table .admin_table_th:nth-child(5),
+  .admin_page .admin_content .admin_table.accounts_funding_table .admin_table_td:nth-child(5) {
+    font-size: 12px;
+    width: 15%;
+  }
+  .admin_page .admin_content .admin_table.accounts_funding_table .admin_table_th:nth-child(7),
+  .admin_page .admin_content .admin_table.accounts_funding_table .admin_table_td:nth-child(7) {
+    width: 15%;
+    font-size: 12px;
+  }
+  .admin_page .admin_content .admin_table.events_table .admin_table_th:nth-child(5),
+  .admin_page .admin_content .admin_table.events_table .admin_table_td:nth-child(5) {
+    width: 19.8%;
+  }
+  .admin_page .admin_content .admin_table.events_table.events_table_with_by .admin_table_th:nth-child(5),
+  .admin_page .admin_content .admin_table.events_table.events_table_with_by .admin_table_td:nth-child(5) {
+    font-size: 12px;
+    width: 15%;
+  }
+  .admin_page .admin_content .admin_table.events_table.events_table_with_by .admin_table_th:nth-child(7),
+  .admin_page .admin_content .admin_table.events_table.events_table_with_by .admin_table_td:nth-child(7) {
+    font-size: 12px;
+  }
+  .admin_page .admin_content .admin_table.events_table.events_table_with_by .admin_table_th:nth-child(6),
+  .admin_page .admin_content .admin_table.events_table.events_table_with_by .admin_table_td:nth-child(6) {
+    font-size: 12px;
+  }
+  .admin_page .admin_content .admin_table.events_table.events_table_with_by .admin_table_th:nth-child(8),
+  .admin_page .admin_content .admin_table.events_table.events_table_with_by .admin_table_td:nth-child(8) {
+    width: 13%;
+    font-size: 12px;
+  }
 }

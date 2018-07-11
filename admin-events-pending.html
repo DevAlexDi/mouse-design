@@ -52,7 +52,7 @@
                 <span class="text">Dashboard</span>
                 <span class="count">120</span>
             </a>
-            <div class="opening opened">
+            <div class="opening">
                 <a href="#" class="admin_menu_link">
                     <span class="icon">
                         <svg xmlns="http://www.w3.org/2000/svg" width="30" height="27">
@@ -62,7 +62,7 @@
                     <span class="text">Accounts</span>
                 </a>
                 <div class="submenu">
-                    <a href="#" class="active">New accounts</a>
+                    <a href="#">New accounts</a>
                     <a href="#">Pending accounts</a>
                     <a href="#">Approved accounts</a>
                     <a href="#">Denied accounts</a>
@@ -72,7 +72,7 @@
                     <a href="#">Funding</a>
                 </div>
             </div>
-            <div class="opening">
+            <div class="opening opened">
                 <a href="#" class="admin_menu_link">
                     <span class="icon">
                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 35 35">
@@ -88,7 +88,7 @@
                 </a>
                 <div class="submenu">
                     <a href="#">New events</a>
-                    <a href="#">Pending events</a>
+                    <a href="#" class="active">Pending events</a>
                     <a href="#">Approved events</a>
                     <a href="#">Denied events</a>
                     <a href="#">Active events</a>
@@ -163,17 +163,12 @@
                     <div class="filter_checkbox">
                         <input type="checkbox" id="fan_acc">
                         <label for="fan_acc"></label>
-                        <span>Fan</span>
+                        <span>Crowdfund</span>
                     </div>
                     <div class="filter_checkbox">
                         <input type="checkbox" id="venue_acc">
                         <label for="venue_acc"></label>
-                        <span>Venue</span>
-                    </div>
-                    <div class="filter_checkbox">
-                        <input type="checkbox" id="artist_acc">
-                        <label for="artist_acc"></label>
-                        <span>Artist</span>
+                        <span>Regular</span>
                     </div>
                     <div class="filter_checkbox">
                         <input type="checkbox" id="all_acc" checked>
@@ -183,13 +178,14 @@
                 </div>
             </section>
             <section>
-                <div class="admin_table accounts_table">
+                <div class="admin_table events_table">
                     <div class="admin_table_thead">
                         <div class="admin_table_th check_column"><img src="img/admin/table_check_th.svg" alt=""></div>
                         <div class="admin_table_th">Date received</div>
-                        <div class="admin_table_th">Name</div>
-                        <div class="admin_table_th">Account</div>
-                        <div class="admin_table_th">Address</div>
+                        <div class="admin_table_th">Event Name</div>
+                        <div class="admin_table_th">Event Date</div>
+                        <div class="admin_table_th">Place</div>
+                        <div class="admin_table_th">Funding type</div>
                         <div class="admin_table_th">Status</div>
                     </div>
                     <div class="admin_table_tbody">
@@ -202,12 +198,12 @@
                             </div>
                             <div class="admin_table_td"><span>12.10.2018</span></div>
                             <div class="admin_table_td account">
-                                <span class="acc_ava" style="background-image: url(img/admin/example_revenue_event.jpg)"></span>
-                                <span>Mark<br>Smith</span>
+                                <span>Cool Event</span>
                             </div>
-                            <div class="admin_table_td"><span>Fan</span></div>
-                            <div class="admin_table_td"><span>Los Angeles, USA</span></div>
-                            <div class="admin_table_td text-uppercase"><span class="status_new">New</span></div>
+                            <div class="admin_table_td"><span>23.05.18 12:00 pm</span></div>
+                            <div class="admin_table_td"><span>1200 S Ave W, Westfield, NJ, 07090, USA</span></div>
+                            <div class="admin_table_td"><span>Crowdfund</span></div>
+                            <div class="admin_table_td text-uppercase"><span class="status_pending">Pending</span></div>
                         </div>
                         <!-- При выделении чекбокса добавляется класс CHECKED: -->
                         <div class="admin_table_tr checked">
@@ -219,12 +215,12 @@
                             </div>
                             <div class="admin_table_td"><span>12.10.2018</span></div>
                             <div class="admin_table_td account">
-                                <span class="acc_ava" style="background-image: url(img/admin/example_revenue_event.jpg)"></span>
-                                <span>Mark<br>Smith</span>
+                                <span>Cool Event</span>
                             </div>
-                            <div class="admin_table_td"><span>Fan</span></div>
-                            <div class="admin_table_td"><span>Los Angeles, USA</span></div>
-                            <div class="admin_table_td text-uppercase"><span class="status_new">New</span></div>
+                            <div class="admin_table_td"><span>23.05.18 12:00 pm</span></div>
+                            <div class="admin_table_td"><span>1200 S Ave W, Westfield, NJ, 07090, USA</span></div>
+                            <div class="admin_table_td"><span>Regular</span></div>
+                            <div class="admin_table_td text-uppercase"><span class="status_pending">Pending</span></div>
                         </div>
                         <div class="admin_table_tr">
                             <div class="admin_table_td check_column">
@@ -235,12 +231,12 @@
                             </div>
                             <div class="admin_table_td"><span>12.10.2018</span></div>
                             <div class="admin_table_td account">
-                                <span class="acc_ava" style="background-image: url(img/admin/example_revenue_event.jpg)"></span>
-                                <span>Mark<br>Smith</span>
+                                <span>Cool Event</span>
                             </div>
-                            <div class="admin_table_td"><span>Fan</span></div>
-                            <div class="admin_table_td"><span>Los Angeles, USA</span></div>
-                            <div class="admin_table_td text-uppercase"><span class="status_new">New</span></div>
+                            <div class="admin_table_td"><span>23.05.18 12:00 pm</span></div>
+                            <div class="admin_table_td"><span>1200 S Ave W, Westfield, NJ, 07090, USA</span></div>
+                            <div class="admin_table_td"><span>Crowdfund</span></div>
+                            <div class="admin_table_td text-uppercase"><span class="status_pending">Pending</span></div>
                         </div>
                         <div class="admin_table_tr">
                             <div class="admin_table_td check_column">
@@ -251,12 +247,12 @@
                             </div>
                             <div class="admin_table_td"><span>12.10.2018</span></div>
                             <div class="admin_table_td account">
-                                <span class="acc_ava" style="background-image: url(img/admin/example_revenue_event.jpg)"></span>
-                                <span>Mark<br>Smith</span>
+                                <span>Cool Event</span>
                             </div>
-                            <div class="admin_table_td"><span>Fan</span></div>
-                            <div class="admin_table_td"><span>Los Angeles, USA</span></div>
-                            <div class="admin_table_td text-uppercase"><span class="status_new">New</span></div>
+                            <div class="admin_table_td"><span>23.05.18 12:00 pm</span></div>
+                            <div class="admin_table_td"><span>1200 S Ave W, Westfield, NJ, 07090, USA</span></div>
+                            <div class="admin_table_td"><span>Crowdfund</span></div>
+                            <div class="admin_table_td text-uppercase"><span class="status_pending">Pending</span></div>
                         </div>
                         <div class="admin_table_tr">
                             <div class="admin_table_td check_column">
@@ -267,12 +263,12 @@
                             </div>
                             <div class="admin_table_td"><span>12.10.2018</span></div>
                             <div class="admin_table_td account">
-                                <span class="acc_ava" style="background-image: url(img/admin/example_revenue_event.jpg)"></span>
-                                <span>Mark<br>Smith</span>
+                                <span>Cool Event</span>
                             </div>
-                            <div class="admin_table_td"><span>Fan</span></div>
-                            <div class="admin_table_td"><span>Los Angeles, USA</span></div>
-                            <div class="admin_table_td text-uppercase"><span class="status_new">New</span></div>
+                            <div class="admin_table_td"><span>23.05.18 12:00 pm</span></div>
+                            <div class="admin_table_td"><span>1200 S Ave W, Westfield, NJ, 07090, USA</span></div>
+                            <div class="admin_table_td"><span>Regular</span></div>
+                            <div class="admin_table_td text-uppercase"><span class="status_pending">Pending</span></div>
                         </div>
                     </div>
                 </div>

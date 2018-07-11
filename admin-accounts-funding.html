@@ -62,14 +62,14 @@
                     <span class="text">Accounts</span>
                 </a>
                 <div class="submenu">
-                    <a href="#" class="active">New accounts</a>
+                    <a href="#">New accounts</a>
                     <a href="#">Pending accounts</a>
                     <a href="#">Approved accounts</a>
                     <a href="#">Denied accounts</a>
                     <a href="#">Inactive accounts</a>
                     <a href="#">Invites</a>
                     <a href="#">Analytics</a>
-                    <a href="#">Funding</a>
+                    <a href="#" class="active">Funding</a>
                 </div>
             </div>
             <div class="opening">
@@ -183,14 +183,15 @@
                 </div>
             </section>
             <section>
-                <div class="admin_table accounts_table">
+                <div class="admin_table accounts_funding_table">
                     <div class="admin_table_thead">
                         <div class="admin_table_th check_column"><img src="img/admin/table_check_th.svg" alt=""></div>
-                        <div class="admin_table_th">Date received</div>
                         <div class="admin_table_th">Name</div>
-                        <div class="admin_table_th">Account</div>
+                        <div class="admin_table_th">Username</div>
+                        <div class="admin_table_th">Account type</div>
                         <div class="admin_table_th">Address</div>
-                        <div class="admin_table_th">Status</div>
+                        <div class="admin_table_th">Banking service</div>
+                        <div class="admin_table_th">Response</div>
                     </div>
                     <div class="admin_table_tbody">
                         <div class="admin_table_tr">
@@ -200,14 +201,14 @@
                                     <label for="new_acc_1"></label>
                                 </div>
                             </div>
-                            <div class="admin_table_td"><span>12.10.2018</span></div>
+                            <div class="admin_table_td"><span>Mark<br>Smith</span></div>
                             <div class="admin_table_td account">
-                                <span class="acc_ava" style="background-image: url(img/admin/example_revenue_event.jpg)"></span>
-                                <span>Mark<br>Smith</span>
+                                <span>@Marksmith</span>
                             </div>
                             <div class="admin_table_td"><span>Fan</span></div>
-                            <div class="admin_table_td"><span>Los Angeles, USA</span></div>
-                            <div class="admin_table_td text-uppercase"><span class="status_new">New</span></div>
+                            <div class="admin_table_td"><span>Los Angeles, California, USA</span></div>
+                            <div class="admin_table_td"><span>Yandex</span></div>
+                            <div class="admin_table_td text-uppercase"><span class="status_approved">Approved</span></div>
                         </div>
                         <!-- При выделении чекбокса добавляется класс CHECKED: -->
                         <div class="admin_table_tr checked">
@@ -217,14 +218,14 @@
                                     <label for="new_acc_2"></label>
                                 </div>
                             </div>
-                            <div class="admin_table_td"><span>12.10.2018</span></div>
+                            <div class="admin_table_td"><span>Mark<br>Smith</span></div>
                             <div class="admin_table_td account">
-                                <span class="acc_ava" style="background-image: url(img/admin/example_revenue_event.jpg)"></span>
-                                <span>Mark<br>Smith</span>
+                                <span>@Marksmith</span>
                             </div>
                             <div class="admin_table_td"><span>Fan</span></div>
-                            <div class="admin_table_td"><span>Los Angeles, USA</span></div>
-                            <div class="admin_table_td text-uppercase"><span class="status_new">New</span></div>
+                            <div class="admin_table_td"><span>Los Angeles, California, USA</span></div>
+                            <div class="admin_table_td"><span>Yandex</span></div>
+                            <div class="admin_table_td text-uppercase"><span class="status_pending">Pending</span></div>
                         </div>
                         <div class="admin_table_tr">
                             <div class="admin_table_td check_column">
@@ -233,14 +234,14 @@
                                     <label for="new_acc_3"></label>
                                 </div>
                             </div>
-                            <div class="admin_table_td"><span>12.10.2018</span></div>
+                            <div class="admin_table_td"><span>Mark<br>Smith</span></div>
                             <div class="admin_table_td account">
-                                <span class="acc_ava" style="background-image: url(img/admin/example_revenue_event.jpg)"></span>
-                                <span>Mark<br>Smith</span>
+                                <span>@Marksmith</span>
                             </div>
                             <div class="admin_table_td"><span>Fan</span></div>
-                            <div class="admin_table_td"><span>Los Angeles, USA</span></div>
-                            <div class="admin_table_td text-uppercase"><span class="status_new">New</span></div>
+                            <div class="admin_table_td"><span>Los Angeles, California, USA</span></div>
+                            <div class="admin_table_td"><span>Yandex</span></div>
+                            <div class="admin_table_td text-uppercase"><span class="status_denied">Denied</span></div>
                         </div>
                         <div class="admin_table_tr">
                             <div class="admin_table_td check_column">
@@ -249,13 +250,13 @@
                                     <label for="new_acc_4"></label>
                                 </div>
                             </div>
-                            <div class="admin_table_td"><span>12.10.2018</span></div>
+                            <div class="admin_table_td"><span>Mark<br>Smith</span></div>
                             <div class="admin_table_td account">
-                                <span class="acc_ava" style="background-image: url(img/admin/example_revenue_event.jpg)"></span>
-                                <span>Mark<br>Smith</span>
+                                <span>@Marksmith</span>
                             </div>
                             <div class="admin_table_td"><span>Fan</span></div>
-                            <div class="admin_table_td"><span>Los Angeles, USA</span></div>
+                            <div class="admin_table_td"><span>Los Angeles, California, USA</span></div>
+                            <div class="admin_table_td"><span>Yandex</span></div>
                             <div class="admin_table_td text-uppercase"><span class="status_new">New</span></div>
                         </div>
                         <div class="admin_table_tr">
@@ -265,13 +266,13 @@
                                     <label for="new_acc_5"></label>
                                 </div>
                             </div>
-                            <div class="admin_table_td"><span>12.10.2018</span></div>
+                            <div class="admin_table_td"><span>Mark<br>Smith</span></div>
                             <div class="admin_table_td account">
-                                <span class="acc_ava" style="background-image: url(img/admin/example_revenue_event.jpg)"></span>
-                                <span>Mark<br>Smith</span>
+                                <span>@Marksmith</span>
                             </div>
                             <div class="admin_table_td"><span>Fan</span></div>
-                            <div class="admin_table_td"><span>Los Angeles, USA</span></div>
+                            <div class="admin_table_td"><span>Los Angeles, California, USA</span></div>
+                            <div class="admin_table_td"><span>Yandex</span></div>
                             <div class="admin_table_td text-uppercase"><span class="status_new">New</span></div>
                         </div>
                     </div>

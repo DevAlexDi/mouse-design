@@ -1192,6 +1192,9 @@
             &.status_denied {
               color: #ee2862;
             }
+            &.status_active {
+              color: #2ed1a9;
+            }
             &.status_inactive {
               color: #3f3f3f;
             }
@@ -1454,7 +1457,92 @@
           }
         }
       }
-    }
+
+      &.accounts_funding_table {
+        .admin_table_th:nth-child(2),
+        .admin_table_td:nth-child(2) {
+          width: 15.8%;
+        }
+        .admin_table_th:nth-child(3),
+        .admin_table_td:nth-child(3) {
+          width: 19.2%;
+        }
+        .admin_table_th:nth-child(4),
+        .admin_table_td:nth-child(4) {
+          width: 12.8%;
+        }
+        .admin_table_th:nth-child(5),
+        .admin_table_td:nth-child(5) {
+          width: 17%;
+        }
+        .admin_table_th:nth-child(6),
+        .admin_table_td:nth-child(6) {
+          width: 13.7%;
+        }
+        .admin_table_th:nth-child(7),
+        .admin_table_td:nth-child(7) {
+          width: 17%;
+        }
+      }
+
+      &.events_table {
+        .admin_table_th:nth-child(2),
+        .admin_table_td:nth-child(2) {
+          width: 15%;
+        }
+        .admin_table_th:nth-child(3),
+        .admin_table_td:nth-child(3) {
+          width: 15.8%;
+        }
+        .admin_table_th:nth-child(4),
+        .admin_table_td:nth-child(4) {
+          width: 10.5%;
+        }
+        .admin_table_th:nth-child(5),
+        .admin_table_td:nth-child(5) {
+          width: 22.8%;
+        }
+        .admin_table_th:nth-child(6),
+        .admin_table_td:nth-child(6) {
+          width: 14.9%;
+        }
+        .admin_table_th:nth-child(7),
+        .admin_table_td:nth-child(7) {
+          width: 17%;
+        }
+
+        &.events_table_with_by {
+          .admin_table_th:nth-child(2),
+          .admin_table_td:nth-child(2) {
+            width: 12%;
+          }
+          .admin_table_th:nth-child(3),
+          .admin_table_td:nth-child(3) {
+            width: 13.5%;
+          }
+          .admin_table_th:nth-child(4),
+          .admin_table_td:nth-child(4) {
+            width: 9%;
+          }
+          .admin_table_th:nth-child(5),
+          .admin_table_td:nth-child(5) {
+            width: 19%;
+          }
+          .admin_table_th:nth-child(6),
+          .admin_table_td:nth-child(6) {
+            width: 12%;
+          }
+          .admin_table_th:nth-child(7),
+          .admin_table_td:nth-child(7) {
+            width: 11%;
+          }
+          .admin_table_th:nth-child(8),
+          .admin_table_td:nth-child(8) {
+            width: 17%;
+          }
+        }
+      }
+      }
 
     .diagramm_block {
       background: #fff;
@@ -2045,6 +2133,45 @@
       .venue_calendar {
         width: 800px;
         height: 615px;
+      }
+    }
+  }
+
+  .dash_table {
+    padding-left: 37px;
+    position: relative;
+
+    .admin_dash_delete {
+      width: 46px;
+      height: 46px;
+      background: #fff;
+      border-radius: 5px;
+      box-shadow: 0 3px 9px 0 rgba(0, 0, 0, 0.07);
+      display: flex;
+      cursor: pointer;
+      position: absolute;
+      left: -24px;
+      top: 40px;
+
+      img {
+        margin: auto;
+      }
+    }
+
+    .admin_dash_look {
+      width: 46px;
+      height: 46px;
+      background: #fff;
+      border-radius: 5px;
+      box-shadow: 0 3px 9px 0 rgba(0, 0, 0, 0.07);
+      display: flex;
+      cursor: pointer;
+      position: absolute;
+      left: -24px;
+      top: 96px;
+
+      img {
+        margin: auto;
       }
     }
   }
