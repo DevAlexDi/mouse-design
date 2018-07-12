@@ -695,6 +695,18 @@
           background-image: url(../img/admin/card_heart.png); }
         .admin_page .admin_content .admin_cards .card.chat:before {
           background-image: url(../img/admin/card_chat.png); }
+        .admin_page .admin_content .admin_cards .card.world:before {
+          background-image: url(../img/admin/card_world.png);
+          right: 5px;
+          bottom: 5px; }
+        .admin_page .admin_content .admin_cards .card.cardcheck:before {
+          background-image: url(../img/admin/card_check.png);
+          right: 5px;
+          bottom: 5px; }
+        .admin_page .admin_content .admin_cards .card.canc:before {
+          background-image: url(../img/admin/card_canc.png);
+          right: 5px;
+          bottom: 5px; }
       .admin_page .admin_content .admin_cards.font25 .card {
         padding: 15px 15px 35px; }
         .admin_page .admin_content .admin_cards.font25 .card .num {
@@ -1029,6 +1041,75 @@
       .admin_page .admin_content .admin_table.events_table.events_table_with_by .admin_table_th:nth-child(8),
       .admin_page .admin_content .admin_table.events_table.events_table_with_by .admin_table_td:nth-child(8) {
         width: 17%; }
+      .admin_page .admin_content .admin_table.events_analytic_table {
+        margin-bottom: 30px; }
+        .admin_page .admin_content .admin_table.events_analytic_table .admin_table_th:nth-child(1),
+        .admin_page .admin_content .admin_table.events_analytic_table .admin_table_td:nth-child(1) {
+          width: 20%; }
+        .admin_page .admin_content .admin_table.events_analytic_table .admin_table_th:nth-child(2),
+        .admin_page .admin_content .admin_table.events_analytic_table .admin_table_td:nth-child(2) {
+          width: 11.7%; }
+        .admin_page .admin_content .admin_table.events_analytic_table .admin_table_th:nth-child(3),
+        .admin_page .admin_content .admin_table.events_analytic_table .admin_table_td:nth-child(3) {
+          width: 15%; }
+        .admin_page .admin_content .admin_table.events_analytic_table .admin_table_th:nth-child(4),
+        .admin_page .admin_content .admin_table.events_analytic_table .admin_table_td:nth-child(4) {
+          width: 11%; }
+        .admin_page .admin_content .admin_table.events_analytic_table .admin_table_th:nth-child(5),
+        .admin_page .admin_content .admin_table.events_analytic_table .admin_table_td:nth-child(5) {
+          width: 8%; }
+        .admin_page .admin_content .admin_table.events_analytic_table .admin_table_th:nth-child(6),
+        .admin_page .admin_content .admin_table.events_analytic_table .admin_table_td:nth-child(6) {
+          width: 13.3%; }
+        .admin_page .admin_content .admin_table.events_analytic_table .admin_table_th:nth-child(7),
+        .admin_page .admin_content .admin_table.events_analytic_table .admin_table_td:nth-child(7) {
+          width: 17%; }
+      .admin_page .admin_content .admin_table.events_status_table .admin_table_td {
+        padding: 20px; }
+      .admin_page .admin_content .admin_table.events_status_table .admin_table_th:nth-child(1),
+      .admin_page .admin_content .admin_table.events_status_table .admin_table_td:nth-child(1) {
+        width: 40%; }
+        .admin_page .admin_content .admin_table.events_status_table .admin_table_th:nth-child(1) span.blue,
+        .admin_page .admin_content .admin_table.events_status_table .admin_table_th:nth-child(1) span.yellow,
+        .admin_page .admin_content .admin_table.events_status_table .admin_table_th:nth-child(1) span.purple,
+        .admin_page .admin_content .admin_table.events_status_table .admin_table_td:nth-child(1) span.blue,
+        .admin_page .admin_content .admin_table.events_status_table .admin_table_td:nth-child(1) span.yellow,
+        .admin_page .admin_content .admin_table.events_status_table .admin_table_td:nth-child(1) span.purple {
+          position: relative;
+          display: block;
+          padding-left: 42px;
+          padding-top: 3px; }
+          .admin_page .admin_content .admin_table.events_status_table .admin_table_th:nth-child(1) span.blue:before,
+          .admin_page .admin_content .admin_table.events_status_table .admin_table_th:nth-child(1) span.yellow:before,
+          .admin_page .admin_content .admin_table.events_status_table .admin_table_th:nth-child(1) span.purple:before,
+          .admin_page .admin_content .admin_table.events_status_table .admin_table_td:nth-child(1) span.blue:before,
+          .admin_page .admin_content .admin_table.events_status_table .admin_table_td:nth-child(1) span.yellow:before,
+          .admin_page .admin_content .admin_table.events_status_table .admin_table_td:nth-child(1) span.purple:before {
+            content: '';
+            width: 25px;
+            height: 25px;
+            border-radius: 50%;
+            position: absolute;
+            top: 0;
+            left: 0; }
+        .admin_page .admin_content .admin_table.events_status_table .admin_table_th:nth-child(1) span.blue:before,
+        .admin_page .admin_content .admin_table.events_status_table .admin_table_td:nth-child(1) span.blue:before {
+          background: linear-gradient(-117deg, #079392, #031b6f);
+          box-shadow: 0px 4px 8px 0 rgba(22, 44, 122, 0.7); }
+        .admin_page .admin_content .admin_table.events_status_table .admin_table_th:nth-child(1) span.yellow:before,
+        .admin_page .admin_content .admin_table.events_status_table .admin_table_td:nth-child(1) span.yellow:before {
+          background: linear-gradient(-131deg, #ffd513, #cb3305);
+          box-shadow: 0px 4px 8px 0 rgba(228, 192, 93, 0.41); }
+        .admin_page .admin_content .admin_table.events_status_table .admin_table_th:nth-child(1) span.purple:before,
+        .admin_page .admin_content .admin_table.events_status_table .admin_table_td:nth-child(1) span.purple:before {
+          background: linear-gradient(45deg, #6c0a75, #d1286f);
+          box-shadow: 0px 4px 8px 0 rgba(65, 22, 97, 0.41); }
+      .admin_page .admin_content .admin_table.events_status_table .admin_table_th:nth-child(2),
+      .admin_page .admin_content .admin_table.events_status_table .admin_table_td:nth-child(2) {
+        width: 40%; }
+      .admin_page .admin_content .admin_table.events_status_table .admin_table_th:nth-child(3),
+      .admin_page .admin_content .admin_table.events_status_table .admin_table_td:nth-child(3) {
+        width: 20%; }
     .admin_page .admin_content .diagramm_block {
       background: #fff;
       margin-top: 20px;
@@ -1123,72 +1204,6 @@
     .admin_page .admin_content.whole_white {
       background: #fff;
       padding: 0; }
-      .admin_page .admin_content.whole_white .admin_white_back_zag {
-        color: #0f0f0f;
-        font: 30px AvenirLTStdBlack;
-        text-transform: uppercase;
-        padding: 26px 50px 26px 115px;
-        box-shadow: 0 0 16px 0 rgba(0, 0, 0, 0.13);
-        position: relative; }
-        .admin_page .admin_content.whole_white .admin_white_back_zag .arr {
-          cursor: pointer;
-          width: 35px;
-          height: 35px;
-          position: absolute;
-          top: 30px;
-          left: 50px; }
-          .admin_page .admin_content.whole_white .admin_white_back_zag .arr path {
-            transition: 0.3s; }
-          .admin_page .admin_content.whole_white .admin_white_back_zag .arr:hover path {
-            fill: #eb2d64; }
-        .admin_page .admin_content.whole_white .admin_white_back_zag.zag_with_buttons {
-          display: flex;
-          justify-content: space-between;
-          align-items: center;
-          padding: 20px 50px 10px 115px; }
-          .admin_page .admin_content.whole_white .admin_white_back_zag.zag_with_buttons .arr {
-            top: 38px; }
-          .admin_page .admin_content.whole_white .admin_white_back_zag.zag_with_buttons .buttons {
-            display: flex; }
-            .admin_page .admin_content.whole_white .admin_white_back_zag.zag_with_buttons .buttons .butt {
-              font: 12px AvenirLTStdBook;
-              text-transform: none;
-              text-align: center;
-              width: 60px; }
-              .admin_page .admin_content.whole_white .admin_white_back_zag.zag_with_buttons .buttons .butt button {
-                background: #fff;
-                border-radius: 5px;
-                width: 40px;
-                height: 40px;
-                border: 0;
-                outline: 0;
-                display: flex;
-                margin: 0 auto 10px; }
-                .admin_page .admin_content.whole_white .admin_white_back_zag.zag_with_buttons .buttons .butt button img {
-                  margin: auto; }
-              .admin_page .admin_content.whole_white .admin_white_back_zag.zag_with_buttons .buttons .butt.remove {
-                color: #eb2d64; }
-                .admin_page .admin_content.whole_white .admin_white_back_zag.zag_with_buttons .buttons .butt.remove button {
-                  box-shadow: 0px 3px 9px 0 rgba(235, 45, 100, 0.39); }
-              .admin_page .admin_content.whole_white .admin_white_back_zag.zag_with_buttons .buttons .butt.deny {
-                color: #333; }
-                .admin_page .admin_content.whole_white .admin_white_back_zag.zag_with_buttons .buttons .butt.deny button {
-                  box-shadow: 0px 3px 9px 0 rgba(109, 109, 109, 0.39); }
-              .admin_page .admin_content.whole_white .admin_white_back_zag.zag_with_buttons .buttons .butt.approve {
-                color: #079392; }
-                .admin_page .admin_content.whole_white .admin_white_back_zag.zag_with_buttons .buttons .butt.approve button {
-                  box-shadow: 0px 3px 9px 0 rgba(7, 147, 146, 0.39); }
-          .admin_page .admin_content.whole_white .admin_white_back_zag.zag_with_buttons .contacts {
-            font: 14px AvenirLTStdBook;
-            text-transform: none;
-            line-height: 25px; }
-            .admin_page .admin_content.whole_white .admin_white_back_zag.zag_with_buttons .contacts span {
-              color: #999; }
-            .admin_page .admin_content.whole_white .admin_white_back_zag.zag_with_buttons .contacts a {
-              color: #eb2d64;
-              text-decoration: underline; }
-              .admin_page .admin_content.whole_white .admin_white_back_zag.zag_with_buttons .contacts a:hover {
-                text-decoration: none; }
       .admin_page .admin_content.whole_white .revenue_content {
         padding: 35px 50px 45px; }
         .admin_page .admin_content.whole_white .revenue_content .flex_event {
@@ -1229,6 +1244,75 @@
               .admin_page .admin_content.whole_white .revenue_content .flex_event .event_info .location-wr .location-inp {
                 font-size: 14px;
                 line-height: 1.3; }
+    .admin_page .admin_content.nopadding {
+      padding: 0; }
+    .admin_page .admin_content .admin_white_back_zag {
+      color: #0f0f0f;
+      background: #fff;
+      font: 30px AvenirLTStdBlack;
+      text-transform: uppercase;
+      padding: 26px 50px 26px 115px;
+      box-shadow: 0 0 16px 0 rgba(0, 0, 0, 0.13);
+      position: relative; }
+      .admin_page .admin_content .admin_white_back_zag .arr {
+        cursor: pointer;
+        width: 35px;
+        height: 35px;
+        position: absolute;
+        top: 30px;
+        left: 50px; }
+        .admin_page .admin_content .admin_white_back_zag .arr path {
+          transition: 0.3s; }
+        .admin_page .admin_content .admin_white_back_zag .arr:hover path {
+          fill: #eb2d64; }
+      .admin_page .admin_content .admin_white_back_zag.zag_with_buttons {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px 50px 10px 115px; }
+        .admin_page .admin_content .admin_white_back_zag.zag_with_buttons .arr {
+          top: 38px; }
+        .admin_page .admin_content .admin_white_back_zag.zag_with_buttons .buttons {
+          display: flex; }
+          .admin_page .admin_content .admin_white_back_zag.zag_with_buttons .buttons .butt {
+            font: 12px AvenirLTStdBook;
+            text-transform: none;
+            text-align: center;
+            width: 60px; }
+            .admin_page .admin_content .admin_white_back_zag.zag_with_buttons .buttons .butt button {
+              background: #fff;
+              border-radius: 5px;
+              width: 40px;
+              height: 40px;
+              border: 0;
+              outline: 0;
+              display: flex;
+              margin: 0 auto 10px; }
+              .admin_page .admin_content .admin_white_back_zag.zag_with_buttons .buttons .butt button img {
+                margin: auto; }
+            .admin_page .admin_content .admin_white_back_zag.zag_with_buttons .buttons .butt.remove {
+              color: #eb2d64; }
+              .admin_page .admin_content .admin_white_back_zag.zag_with_buttons .buttons .butt.remove button {
+                box-shadow: 0px 3px 9px 0 rgba(235, 45, 100, 0.39); }
+            .admin_page .admin_content .admin_white_back_zag.zag_with_buttons .buttons .butt.deny {
+              color: #333; }
+              .admin_page .admin_content .admin_white_back_zag.zag_with_buttons .buttons .butt.deny button {
+                box-shadow: 0px 3px 9px 0 rgba(109, 109, 109, 0.39); }
+            .admin_page .admin_content .admin_white_back_zag.zag_with_buttons .buttons .butt.approve {
+              color: #079392; }
+              .admin_page .admin_content .admin_white_back_zag.zag_with_buttons .buttons .butt.approve button {
+                box-shadow: 0px 3px 9px 0 rgba(7, 147, 146, 0.39); }
+        .admin_page .admin_content .admin_white_back_zag.zag_with_buttons .contacts {
+          font: 14px AvenirLTStdBook;
+          text-transform: none;
+          line-height: 25px; }
+          .admin_page .admin_content .admin_white_back_zag.zag_with_buttons .contacts span {
+            color: #999; }
+          .admin_page .admin_content .admin_white_back_zag.zag_with_buttons .contacts a {
+            color: #eb2d64;
+            text-decoration: underline; }
+            .admin_page .admin_content .admin_white_back_zag.zag_with_buttons .contacts a:hover {
+              text-decoration: none; }
     .admin_page .admin_content .admin_delete,
     .admin_page .admin_content .admin_look {
       width: 46px;
@@ -1406,35 +1490,324 @@
     .admin_page .admin_content .account_venue .venue_calendar {
       width: 800px;
       height: 615px; }
-  .admin_page .dash_table {
-    padding-left: 37px;
-    position: relative; }
-    .admin_page .dash_table .admin_dash_delete {
-      width: 46px;
-      height: 46px;
-      background: #fff;
-      border-radius: 5px;
-      box-shadow: 0 3px 9px 0 rgba(0, 0, 0, 0.07);
+    .admin_page .admin_content .dash_table {
+      padding-left: 37px;
+      position: relative; }
+      .admin_page .admin_content .dash_table .admin_dash_delete {
+        width: 46px;
+        height: 46px;
+        background: #fff;
+        border-radius: 5px;
+        box-shadow: 0 3px 9px 0 rgba(0, 0, 0, 0.07);
+        display: flex;
+        cursor: pointer;
+        position: absolute;
+        left: -24px;
+        top: 40px; }
+        .admin_page .admin_content .dash_table .admin_dash_delete img {
+          margin: auto; }
+      .admin_page .admin_content .dash_table .admin_dash_look {
+        width: 46px;
+        height: 46px;
+        background: #fff;
+        border-radius: 5px;
+        box-shadow: 0 3px 9px 0 rgba(0, 0, 0, 0.07);
+        display: flex;
+        cursor: pointer;
+        position: absolute;
+        left: -24px;
+        top: 96px; }
+        .admin_page .admin_content .dash_table .admin_dash_look img {
+          margin: auto; }
+    .admin_page .admin_content .events_filters_wrap {
       display: flex;
-      cursor: pointer;
-      position: absolute;
-      left: -24px;
-      top: 40px; }
-      .admin_page .dash_table .admin_dash_delete img {
-        margin: auto; }
-    .admin_page .dash_table .admin_dash_look {
-      width: 46px;
-      height: 46px;
-      background: #fff;
-      border-radius: 5px;
-      box-shadow: 0 3px 9px 0 rgba(0, 0, 0, 0.07);
+      justify-content: space-between; }
+      .admin_page .admin_content .events_filters_wrap .events_filters_left {
+        background: #fff;
+        margin-top: 20px;
+        box-shadow: 0px 8px 20px 0 rgba(0, 0, 0, 0.07);
+        padding: 10px 20px;
+        border-radius: 5px;
+        width: 35%; }
+        .admin_page .admin_content .events_filters_wrap .events_filters_left input[type=text] {
+          background: #ebebeb;
+          border: 0;
+          border-radius: 15px;
+          font-size: 14px;
+          color: #898989;
+          outline: none;
+          text-align: center;
+          padding: 5px 15px;
+          width: 100%; }
+        .admin_page .admin_content .events_filters_wrap .events_filters_left p {
+          font-size: 14px;
+          color: rgba(0, 0, 0, 0.5);
+          margin-top: 15px;
+          margin-bottom: 0; }
+        .admin_page .admin_content .events_filters_wrap .events_filters_left .radios {
+          display: flex;
+          justify-content: space-between;
+          margin-bottom: 15px; }
+          .admin_page .admin_content .events_filters_wrap .events_filters_left .radios .filter_radio {
+            position: relative;
+            display: flex;
+            align-items: center;
+            margin-top: 10px; }
+            .admin_page .admin_content .events_filters_wrap .events_filters_left .radios .filter_radio input {
+              width: 0;
+              height: 0;
+              display: block;
+              position: absolute;
+              left: -5000px;
+              top: 0; }
+            .admin_page .admin_content .events_filters_wrap .events_filters_left .radios .filter_radio label {
+              display: block;
+              width: 21px;
+              flex-shrink: 0;
+              height: 21px;
+              border-radius: 50%;
+              background-color: #fff;
+              border: 1px solid #eb2d64;
+              position: relative;
+              cursor: pointer;
+              margin-right: 14px; }
+              .admin_page .admin_content .events_filters_wrap .events_filters_left .radios .filter_radio label:before {
+                content: "";
+                display: block;
+                position: absolute;
+                top: 2px;
+                left: 2px;
+                width: 15px;
+                height: 15px;
+                background-color: #eb2d64;
+                border-radius: 50%;
+                opacity: 0; }
+            .admin_page .admin_content .events_filters_wrap .events_filters_left .radios .filter_radio span {
+              font-size: 14px; }
+            .admin_page .admin_content .events_filters_wrap .events_filters_left .radios .filter_radio input:checked + label:before {
+              opacity: 1; }
+      .admin_page .admin_content .events_filters_wrap .events_filters_right {
+        background: #fff;
+        margin-top: 20px;
+        box-shadow: 0px 8px 20px 0 rgba(0, 0, 0, 0.07);
+        padding: 12px 20px;
+        border-radius: 5px;
+        width: 63%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between; }
+        .admin_page .admin_content .events_filters_wrap .events_filters_right .filter_row {
+          display: flex;
+          justify-content: space-between;
+          padding-left: 35px;
+          position: relative; }
+          .admin_page .admin_content .events_filters_wrap .events_filters_right .filter_row:before {
+            color: #eb2d64;
+            font: 14px AvenirLTStdBlack;
+            position: absolute;
+            left: 0;
+            top: 50%;
+            transform: translateY(-50%); }
+          .admin_page .admin_content .events_filters_wrap .events_filters_right .filter_row:nth-child(1):before {
+            content: '1.'; }
+          .admin_page .admin_content .events_filters_wrap .events_filters_right .filter_row:nth-child(2):before {
+            content: '2.'; }
+          .admin_page .admin_content .events_filters_wrap .events_filters_right .filter_row:nth-child(3):before {
+            content: '3.'; }
+          .admin_page .admin_content .events_filters_wrap .events_filters_right .filter_row .filter_checkbox {
+            position: relative;
+            display: flex;
+            align-items: center;
+            width: 33.3%;
+            flex-shrink: 0; }
+            .admin_page .admin_content .events_filters_wrap .events_filters_right .filter_row .filter_checkbox input {
+              width: 0;
+              height: 0;
+              display: block;
+              position: absolute;
+              left: -5000px;
+              top: 0; }
+            .admin_page .admin_content .events_filters_wrap .events_filters_right .filter_row .filter_checkbox label {
+              display: block;
+              width: 21px;
+              height: 21px;
+              border-radius: 3px;
+              background-color: #ebebeb;
+              position: relative;
+              cursor: pointer;
+              margin-right: 14px; }
+              .admin_page .admin_content .events_filters_wrap .events_filters_right .filter_row .filter_checkbox label:before {
+                content: "";
+                display: block;
+                position: absolute;
+                top: 3px;
+                left: 2px;
+                width: 17px;
+                height: 13px;
+                background-image: url(../img/admin/table_checked.svg);
+                background-size: cover;
+                opacity: 0; }
+            .admin_page .admin_content .events_filters_wrap .events_filters_right .filter_row .filter_checkbox span {
+              font-size: 14px; }
+            .admin_page .admin_content .events_filters_wrap .events_filters_right .filter_row .filter_checkbox input:checked + label {
+              background-color: #eb2d64;
+              box-shadow: 0 2px 4px 0 rgba(220, 30, 85, 0.3); }
+              .admin_page .admin_content .events_filters_wrap .events_filters_right .filter_row .filter_checkbox input:checked + label:before {
+                opacity: 1; }
+    .admin_page .admin_content .events_status_wrap {
       display: flex;
-      cursor: pointer;
-      position: absolute;
-      left: -24px;
-      top: 96px; }
-      .admin_page .dash_table .admin_dash_look img {
-        margin: auto; }
+      justify-content: space-between; }
+      .admin_page .admin_content .events_status_wrap .events_status_table {
+        width: 55%; }
+      .admin_page .admin_content .events_status_wrap .events_status_diagramm {
+        background: #fff;
+        margin-top: 20px;
+        box-shadow: 0px 8px 20px 0 rgba(0, 0, 0, 0.07);
+        padding: 30px;
+        border-radius: 5px;
+        width: 40%; }
+    .admin_page .admin_content .event_preview {
+      padding: 30px 45px 30px 35px; }
+      .admin_page .admin_content .event_preview .event_block {
+        display: flex;
+        justify-content: space-between;
+        background: url(../img/admin/event_preview_bg.jpg) no-repeat center;
+        background-size: cover;
+        padding: 35px 105px 75px 35px; }
+        .admin_page .admin_content .event_preview .event_block .event_photo {
+          background-size: cover;
+          background-position: center;
+          width: 50%; }
+        .admin_page .admin_content .event_preview .event_block .event_info_wrap {
+          width: 44%; }
+          .admin_page .admin_content .event_preview .event_block .event_info_wrap h2 {
+            color: #fff;
+            font: 30px AvenirLTStdBlack;
+            line-height: 30px;
+            text-transform: uppercase;
+            margin: 0 0 25px; }
+          .admin_page .admin_content .event_preview .event_block .event_info_wrap .event_info {
+            background: linear-gradient(0deg, #411660, #991e88);
+            color: #fff;
+            padding: 25px 35px; }
+            .admin_page .admin_content .event_preview .event_block .event_info_wrap .event_info .date, .admin_page .admin_content .event_preview .event_block .event_info_wrap .event_info .hash {
+              font-size: 16px;
+              margin-bottom: 10px; }
+            .admin_page .admin_content .event_preview .event_block .event_info_wrap .event_info .ev_label {
+              font-size: 14px;
+              color: rgba(255, 255, 255, 0.5);
+              margin: 0; }
+            .admin_page .admin_content .event_preview .event_block .event_info_wrap .event_info .genres {
+              display: flex;
+              flex-wrap: wrap;
+              margin-bottom: 20px; }
+              .admin_page .admin_content .event_preview .event_block .event_info_wrap .event_info .genres span {
+                display: block;
+                text-transform: uppercase;
+                margin-right: 15px;
+                background-color: #eb2d64;
+                font-size: 14px;
+                padding: 2px 10px;
+                margin-top: 8px;
+                border-radius: 50px; }
+            .admin_page .admin_content .event_preview .event_block .event_info_wrap .event_info .char {
+              font-size: 14px;
+              margin-bottom: 20px; }
+            .admin_page .admin_content .event_preview .event_block .event_info_wrap .event_info .location-wr {
+              margin-top: 5px; }
+              .admin_page .admin_content .event_preview .event_block .event_info_wrap .event_info .location-wr .mark {
+                background: rgba(238, 40, 98, 0.8);
+                position: relative;
+                border: 0; }
+                .admin_page .admin_content .event_preview .event_block .event_info_wrap .event_info .location-wr .mark:before {
+                  content: '';
+                  display: block;
+                  border-radius: 50%;
+                  width: 36px;
+                  height: 36px;
+                  background-color: #ee2862;
+                  top: 3px;
+                  left: 3px;
+                  position: absolute;
+                  background-image: url(../img/mark.svg);
+                  background-repeat: no-repeat;
+                  background-position: center;
+                  background-size: 18px; }
+              .admin_page .admin_content .event_preview .event_block .event_info_wrap .event_info .location-wr .location-inp {
+                font-size: 14px; }
+            .admin_page .admin_content .event_preview .event_block .event_info_wrap .event_info .butts {
+              margin-top: 85px;
+              display: flex;
+              justify-content: space-between;
+              align-items: flex-end; }
+              .admin_page .admin_content .event_preview .event_block .event_info_wrap .event_info .butts span {
+                cursor: pointer; }
+      .admin_page .admin_content .event_preview .event_links {
+        display: flex;
+        margin: 45px 25px; }
+        .admin_page .admin_content .event_preview .event_links .e_l {
+          font-size: 20px;
+          color: #000;
+          text-transform: uppercase;
+          margin-right: 45px; }
+          .admin_page .admin_content .event_preview .event_links .e_l .count {
+            color: rgba(0, 0, 0, 0.5);
+            font-size: 16px; }
+          .admin_page .admin_content .event_preview .event_links .e_l.active {
+            color: #ee2862;
+            font-family: AvenirLTStdBlack; }
+      .admin_page .admin_content .event_preview .event_text {
+        padding: 55px 25px 0; }
+        .admin_page .admin_content .event_preview .event_text .zag {
+          font: 18px AvenirLTStdBlack;
+          text-transform: uppercase;
+          margin-bottom: 20px; }
+        .admin_page .admin_content .event_preview .event_text .columns_text {
+          column-count: 2;
+          column-gap: 55px; }
+      .admin_page .admin_content .event_preview .event_videos_slider {
+        padding: 40px 25px 0;
+        width: 755px;
+        position: relative; }
+        .admin_page .admin_content .event_preview .event_videos_slider .slick-arrow {
+          display: block;
+          position: absolute;
+          border: none;
+          background-color: transparent;
+          top: 50%;
+          transform: translateY(-50%);
+          width: 12px;
+          height: 25px;
+          font-size: 0;
+          outline: none;
+          background-size: contain;
+          background-repeat: no-repeat;
+          background-position: center; }
+          .admin_page .admin_content .event_preview .event_videos_slider .slick-arrow.slick-prev {
+            background-image: url(../img/arrow-left.svg);
+            left: 0px; }
+          .admin_page .admin_content .event_preview .event_videos_slider .slick-arrow.slick-next {
+            background-image: url(../img/arrow-right.svg);
+            right: 0px; }
+          .admin_page .admin_content .event_preview .event_videos_slider .slick-arrow.slick-disabled {
+            cursor: not-allowed; }
+        .admin_page .admin_content .event_preview .event_videos_slider .video_item {
+          position: relative;
+          overflow: hidden; }
+          .admin_page .admin_content .event_preview .event_videos_slider .video_item:before {
+            content: '';
+            display: block;
+            padding-top: 56%; }
+          .admin_page .admin_content .event_preview .event_videos_slider .video_item .video {
+            position: absolute;
+            top: 0;
+            left: 0;
+            bottom: 0;
+            right: 0; }
+            .admin_page .admin_content .event_preview .event_videos_slider .video_item .video iframe {
+              border: 0;
+              width: 100%;
+              height: 100%; }
 
 .admin_footer {
   margin: 0;

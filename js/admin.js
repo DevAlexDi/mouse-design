@@ -19,4 +19,11 @@ $(document).ready(function () {
             'max-height': $('.rel-wr-photoos').width()+'px'
         });
     });
+
+    $('.event_videos_slider').slick({
+        dots: false,
+        arrows: true,
+        speed: 200
+
+    });
 });
