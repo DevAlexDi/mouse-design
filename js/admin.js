@@ -26,4 +26,17 @@ $(document).ready(function () {
         speed: 200
 
     });
+
+    $('.support_answers .answer_head').click(function() {
+        $(this).next().slideToggle();
+        $(this).parent().toggleClass('opened');
+    });
+
+    $('.answer_file span').click(function() {
+        $(this).parent().find('#answer_attach_file').click();
+    });
+
+    $('.mes_text_wrap span').click(function() {
+        $(this).parent().find('#mes_attach_file').click();
+    });
 });

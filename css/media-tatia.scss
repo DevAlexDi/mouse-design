@@ -6,6 +6,19 @@
   .messages-main-wrapp .main-mw.main_for_setts .settings_wrap .settings_right {
     width: 48%;
   }
+
+  .admin_page .admin_content .support_container {
+    padding-right: 45px;
+  }
+  .admin_page .admin_content .support_container .feedback_zag_block .checks .filter_checkbox {
+    margin-left: 15px;
+  }
+  .admin_page .admin_content .support_container .feedback_zag_block .checks .filter_checkbox span {
+    font-size: 12px;
+  }
+  .admin_page .admin_content .support_container .feedback_zag_block .big_stars_right_block .stars .star {
+    margin-left: 5px;
+  }
 }
 @media (max-width: 1300px) {
   .messages-main-wrapp .main-mw.main_for_setts .settings_wrap .settings_left .zag {
