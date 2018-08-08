@@ -1,12 +1,59 @@
 @media (max-width: 1400px) {
   .messages-main-wrapp .main-mw.main_for_setts .settings_wrap .settings_left .zag {
-    font-size: 50px; } }
+    font-size: 50px; }
+
+  .messages-main-wrapp .main-mw.main_for_setts .settings_wrap .settings_right {
+    width: 48%; }
+
+  .admin_page .admin_content .support_container {
+    padding-right: 45px; }
+
+  .admin_page .admin_content .support_container .feedback_zag_block .checks .filter_checkbox {
+    margin-left: 15px; }
+
+  .admin_page .admin_content .support_container .feedback_zag_block .checks .filter_checkbox span {
+    font-size: 12px; }
+
+  .admin_page .admin_content .support_container .feedback_zag_block .big_stars_right_block .stars .star {
+    margin-left: 5px; } }
 @media (max-width: 1300px) {
   .messages-main-wrapp .main-mw.main_for_setts .settings_wrap .settings_left .zag {
     font-size: 40px; }
 
   .messages-main-wrapp .main-mw.main_for_setts .settings_wrap .settings_left {
     padding-left: 35px;
-    padding-right: 35px; } }
+    padding-right: 35px; }
+
+  .admin_page .admin_content .admin_table.accounts_funding_table .admin_table_th:nth-child(5),
+  .admin_page .admin_content .admin_table.accounts_funding_table .admin_table_td:nth-child(5) {
+    font-size: 12px;
+    width: 15%; }
+
+  .admin_page .admin_content .admin_table.accounts_funding_table .admin_table_th:nth-child(7),
+  .admin_page .admin_content .admin_table.accounts_funding_table .admin_table_td:nth-child(7) {
+    width: 15%;
+    font-size: 12px; }
+
+  .admin_page .admin_content .admin_table.events_table .admin_table_th:nth-child(5),
+  .admin_page .admin_content .admin_table.events_table .admin_table_td:nth-child(5) {
+    width: 19.8%; }
+
+  .admin_page .admin_content .admin_table.events_table.events_table_with_by .admin_table_th:nth-child(5),
+  .admin_page .admin_content .admin_table.events_table.events_table_with_by .admin_table_td:nth-child(5) {
+    font-size: 12px;
+    width: 15%; }
+
+  .admin_page .admin_content .admin_table.events_table.events_table_with_by .admin_table_th:nth-child(7),
+  .admin_page .admin_content .admin_table.events_table.events_table_with_by .admin_table_td:nth-child(7) {
+    font-size: 12px; }
+
+  .admin_page .admin_content .admin_table.events_table.events_table_with_by .admin_table_th:nth-child(6),
+  .admin_page .admin_content .admin_table.events_table.events_table_with_by .admin_table_td:nth-child(6) {
+    font-size: 12px; }
+
+  .admin_page .admin_content .admin_table.events_table.events_table_with_by .admin_table_th:nth-child(8),
+  .admin_page .admin_content .admin_table.events_table.events_table_with_by .admin_table_td:nth-child(8) {
+    width: 13%;
+    font-size: 12px; } }
 
 /*# sourceMappingURL=media-tatia.css.map */

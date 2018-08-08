@@ -15,6 +15,13 @@
 }
 
 @font-face {
+    font-family: AvenirLTStdHeavy;
+    src: url(../fonts/AvenirLTStd-Heavy.otf);
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
     font-family: AvenirLTStdMedium;
     src: url(../fonts/AvenirNextCyr-Medium.eot);
     src: local('☺'), url('../fonts/AvenirNextCyr-Medium.ttf') format('truetype');
