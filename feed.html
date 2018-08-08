@@ -641,6 +641,21 @@
     <!--аудиоjs плеер-->
     <script src="js/audiojs/audio.min.js"></script>
     <script src="js/scripts.js"></script>
+    <script>
+        $('.body-feed-item .photos-wrapp').css({
+            'max-height': $('.for-min-height-photos').width()
+        });
+        $(window).resize(function(){
+            $('.body-feed-item .photos-wrapp').css({
+                'max-height': $('.for-min-height-photos').width()
+            });
+            
+            
+            
+        });
+        
+    
+    </script>
 </body>
 
 </html>

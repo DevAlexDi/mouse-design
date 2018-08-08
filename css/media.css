@@ -548,4 +548,146 @@
   footer .for-flex-footer .side.side-1 {
     width: 100%; } }
 
+
+
+
+
+
+
+
+@media (max-width: 1100px) {
+    .main-feed-wrapp .middle-feed .feed-text{
+        display: none;
+    }
+}
+@media (max-width: 715px) {
+    .main-feed-wrapp .middle-feed{
+        padding: 15px;
+    }
+    .main-feed-wrapp .middle-feed .feed-item .body-feed-item .photos-wrapp{
+        max-height: 669px;
+    }
+    .main-feed-wrapp .middle-feed .feed-item .body-feed-item .for-min-height-photos{
+        overflow: hidden;
+    }
+    .main-feed-wrapp .middle-feed .feed-item .head-feed-item{
+        padding: 15px;
+    }
+    .main-feed-wrapp .middle-feed .feed-item .head-feed-item .flex-ava-n .ava{
+        margin-right: 10px;
+        width: 40px;
+        height: 40px;
+    }
+    .main-feed-wrapp .middle-feed .feed-item .head-feed-item .flex-ava-n .name-desc{
+        padding-top: 0;
+    }
+    .main-feed-wrapp .middle-feed .feed-item .head-feed-item .when{
+       font-size: 12px;
+    }
+    .main-feed-wrapp .middle-feed .feed-item .head-feed-item .flex-ava-n .name-desc .name{
+        display: block;
+    }
+    .main-feed-wrapp .middle-feed .feed-item .head-feed-item .flex-ava-n .name-desc .name p{
+        margin-right: 0;
+        
+        
+    }
+    .main-feed-wrapp .middle-feed .feed-item .head-feed-item .flex-ava-n .name-desc .desc p{
+        font-size: 14px;
+    }
+    
+    .main-feed-wrapp .middle-feed .feed-item .head-feed-item .when{
+        top: 3px;
+        right: 9px;
+    }
+    .main-feed-wrapp .middle-feed .feed-item .footer-item{
+        padding: 8px 15px;
+    }
+    .main-feed-wrapp .middle-feed .feed-item .coments-item .one-coment{
+        padding: 15px;
+    }
+    .main-feed-wrapp .middle-feed .feed-item .coments-item .leave-coment-wrapp{
+        padding: 15px;
+        flex-wrap: wrap;
+    }
+    .main-feed-wrapp .middle-feed .feed-item .coments-item .leave-coment-wrapp .right-side{
+        width: 100%;
+        padding-left: 0;
+    }
+    .main-feed-wrapp .middle-feed .feed-item .coments-item .leave-coment-wrapp .right-side .butt-style-1{
+        max-width: 90px;
+        margin: 0 auto;
+    }
+    .main-feed-wrapp .middle-feed .feed-item .coments-item .leave-coment-wrapp .left-side{
+        padding-right: 0;
+        margin: 0 auto;
+    }
+    .main-feed-wrapp .middle-feed .feed-item .body-feed-item .iframe-wrapp iframe{
+        height: 220px;
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*# sourceMappingURL=media.css.map */
