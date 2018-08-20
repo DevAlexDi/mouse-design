@@ -12,7 +12,8 @@
     <link href="css/ion.rangeSlider.skinFlat.css" rel="stylesheet">
     <link href="css/slick.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
-    <link href="css/media.css" rel="stylesheet">  
+    <link href="css/media.css" rel="stylesheet">
+     <link href="css/styleSearch.css" rel="stylesheet"> 
     <style>
         .photo-wr-1{
             justify-content: flex-start;
@@ -1280,7 +1281,7 @@
                                                 
                                             </select>
                                             <label for="inp-modal-req-3">Time Frame we expect an answer</label>
-                                        </div>
+                                        </div><!--22222222-->
                                         <div class="input-groupe-1 more-padd">
                                             <div class="rel-wr">
                                                 <span class="abs-backs">$</span>
@@ -1372,7 +1373,7 @@
                         <div class="modal-dialog">
                             <div class="modal-body">
                                 <h6 class="head-m-p-a">Decline Request</h6>
-                            
+                          
                                 <div class="content-modal">
                                     <div class="padd-left-right">
                                         <p class="gray-some-t-13">You declined the offer because of...</p>
@@ -1428,6 +1429,7 @@
                         </div>
                     </div>
                     <!--//модалка для кликов на decline-->
+                    
                     <!--новая модалка с картой 2-->
                     <div class="modal fade modal-pick-artist" id="modal-pick-artist-map">
                         <div class="modal-dialog">
@@ -1828,13 +1830,106 @@
             </div>
         </div>
     </div>
+    <!--модалка 20.08.2018-->
+      11111
+    <div class="modal fade modal-send-request new-modal-inv" id="modal-send-unauth">
+        <div class="modal-dialog">
+            <div class="modal-body">
+                <h6 class="head-m-p-a">Invite Venue</h6>
+                <div class="close-modal" data-dismiss="modal"></div>
+                <div class="content-modal">
+                    <div class="padd-left-right">
+                        <div class="input-groupe-1 more-padd">
+                            <div class="rel-wr">
+                               
+                                <input id="inp-modal-inv-1"  name="" type="text">
+                            </div>
+                            <label for="inp-modal-inv-1">Name</label>
+
+                        </div>
+                        <div class="input-groupe-1 more-padd">
+                            <div class="rel-wr">
+                                <input id="inp-modal-inv-2"  name="" type="text">
+                            </div>
+                            <label for="inp-modal-inv-2">Email</label>
+
+                        </div>
+                        <span class="social-links-head">Social Media Links</span>
+                        <div class="checkboxes-decline-wrapp">
+                            <div class="checkbox-decline">
+                                <div>
+                                    <p class="desc-decil">Facebook</p>
+                                    <p class="username-soc">Username: хухухуху</p>
+                                </div>
+                                <div class="one-checkbox">
+                                    <div class="check-style">
+                                        <input type="checkbox" class="checkbox" name="" id="inv-check-1-1">
+                                        <label for="inv-check-1-1"></label>
+                                    </div>
+                                </div>
+                                
+                            </div>
+                            <div class="checkbox-decline">
+                                <div>
+                                    <p class="desc-decil">Twitter</p>
+                                    <p class="username-soc">Username: хухухуху</p>
+                                </div>
+                                <div class="one-checkbox">
+                                    <div class="check-style">
+                                        <input type="checkbox" class="checkbox" name="" id="inv-check-1-2">
+                                        <label for="inv-check-1-2"></label>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="checkbox-decline">
+                                <div>
+                                    <p class="desc-decil">YouTube</p>
+                                    <p class="username-soc">Username:</p>
+                                </div>
+                                <div class="one-checkbox">
+                                    <div class="check-style">
+                                        <input type="checkbox" class="checkbox" name="" id="inv-check-1-3">
+                                        <label for="inv-check-1-3"></label>
+                                    </div>
+                                </div>
+                                
+                            </div>
+                            <div class="checkbox-decline">
+                                <div>
+                                    <p class="desc-decil">VK</p>
+                                    <p class="username-soc">Username:</p>
+                                </div>
+                                <div class="one-checkbox">
+                                    <div class="check-style">
+                                        <input type="checkbox" class="checkbox" name="" id="inv-check-1-4">
+                                        <label for="inv-check-1-4"></label>
+                                    </div>
+                                </div>
+                                
+                            </div>
+                        </div>
+                    </div>
+                    <div class="send-request-b">
+                        <button class="butt-style-1" type="submit">
+                            <span>Invite</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--//модалка 20.08.2018-->
     
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.3/jquery.min.js"></script>
      
     <script src="js/bootstrap.min.js"></script>
+    <script>
+        $('#modal-send-unauth').modal('show');
+    </script>
     <script src="js/slick.min.js"></script>
     <script src="js/ion.rangeSlider.min.js"></script>
-    <script src="js/scripts.js"></script>
+    
 </body>
 
 </html>
