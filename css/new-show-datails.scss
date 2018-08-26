@@ -1,2 +1,601 @@
 $main_color: #eb2d64;
 
+.new-show-datails-wrapp{
+    background: #fff;
+    .flex-new-datails{
+        display: flex;
+        padding-top: 30px;
+        align-items: flex-start;
+        .information-side{
+            width: 100%;
+            .top-new-show-datails{
+                display: flex;
+                align-items: flex-start;
+                padding: 30px;
+                margin-bottom: 25px;
+                background-size: cover;
+                background-position: center;
+                background-image: url(../img/new-show-datails.jpg);
+                .baner-wr{
+                    padding-right: 20px;
+                    width: 50%;
+                    .baner-before{
+                        position: relative;
+                        width: 100%;
+                        overflow: hidden;
+                        &:before{
+                            content: '';
+                            display: block;
+                            padding-top: 155%;
+                            position: relative;
+                        }
+                        .baner{
+                            position: absolute;
+                            top: 0;
+                            left: 0;
+                            right: 0;
+                            bottom: 0;
+                            background: center no-repeat;
+                            background-size: cover;
+                            
+                        }
+                    }
+                    
+                }
+                .main-info-of-event{
+                    padding-left: 20px;
+                    width: 50%;
+                    h1{
+                        text-transform: uppercase;
+                        font-size: 25px;
+                        color: #fff;
+                        font-family: AvenirLTStdBlack;
+                        margin-bottom: 15px;
+                    }
+                    .gradient-info{
+                        position: relative;
+                        padding: 20px 30px 67px 30px;
+                        background: linear-gradient(to top, rgba(72, 23, 100, 0.9), rgba(131,34,128,0.4));
+                        min-height: 649px;
+                        .when{
+                            color: #fff;
+                            font-size: 14px;
+                            margin-bottom: 10px;
+                            span{
+                               font-family: AvenirLTStdBlack; 
+                            }
+                        }
+                        .hash{
+                            font-size: 14px;
+                            color: #fff;
+                            margin-bottom: 10px;
+                            span{
+                                color: $main_color;
+                            }
+                        }
+                        .head-of-blocks{
+                            font-size: 12px;
+                            margin-bottom: 5px;
+                            color: #B8A5BF;
+                        }
+                        .flex-genres {
+                            display: flex;
+                            flex-wrap: wrap;
+                            margin-bottom: 10px;
+                            .one-genre {
+                                display: block;
+                                text-transform: uppercase;
+                                margin-right: 15px;
+                                background-color: #eb2d64;
+                                font-size: 12px;
+                                padding: 2px 10px;
+                                color: #fff;
+                                margin-bottom: 10px;
+                         
+                                border-radius: 50px;
+                            }
+                        }
+                        .who-going{
+                            color: #fff;
+                        }
+                        .location-wr .mark{
+                            border: none;
+                            -webkit-box-shadow: 0px 0px 0px 3px rgba(238, 40, 98, 0.5);
+                            -moz-box-shadow: 0px 0px 0px 3px rgba(238, 40, 98, 0.5);
+                            box-shadow: 0px 0px 0px 3px rgba(238, 40, 98, 0.5);
+                            width: 39px;
+                            height: 39px;
+                            margin-left: 3px;
+                        }
+                        
+                        .location-wr .where{
+                            color: #fff;
+                            
+                        }
+                        .icons-new{
+                            position: absolute;
+                            bottom: 23px;
+                            left: 0;
+                            width: 100%;
+                            padding: 0 30px;
+                            display: flex;
+                            justify-content: space-between;
+                            align-items: center;
+                            .share{
+                                display: block;
+                                background:transparent;
+                                outline: none;
+                                border: none;
+                            }
+                        }
+                    }
+                }
+            }
+            .bott-new-show-datails{
+                .navigation-of-show-datail{
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    margin-bottom: 10px;
+                    .list-nav-show{
+                        list-style: none;
+                        margin: 0;
+                        padding: 0;
+                        display: flex;
+                        align-items: center;
+                        margin-bottom: 33px;
+                        li{
+                            padding-right: 52px;
+                            &:last-child{
+                                padding-right: 0;
+                            }
+                            .link-to-tab{
+                                display: block;
+                                text-transform: uppercase;
+                                font-size: 18px;
+                                color: #000;
+                                cursor: pointer;
+                               font-family: AvenirLTStdMedium; 
+                                &.active{
+                                    color: $main_color;
+                                }
+                                span{
+                                    opacity: 0.5;
+                                }
+                            }
+                        }
+                    }
+                    .going-wrapp{
+                        .going-ava{
+                            display: flex;
+                            justify-content: flex-end;
+                            margin-bottom: 12px;
+                            .ava{
+                                display: block;
+                                width: 38px;
+                                height: 38px;
+                                margin-left: 7px;
+                                border-radius: 50%;
+                                background-size: cover;
+                                background-position: center;
+                                
+                            }
+                            
+                        }
+                        .how-mutch{
+                            text-align: right;
+                            font-size: 14px;
+                            span{
+                                color: $main_color;
+                                cursor: pointer;
+                            }
+                        }
+                    }
+                    
+                    
+                    
+                }
+                .for-change-contant{
+                    padding-bottom: 33px;
+                    .information-route{
+                        h2{
+                            font-size: 25px;
+                            font-family: AvenirLTStdBlack;
+                            margin-bottom: 30px;
+                            text-transform: uppercase;
+                        }
+                        .artists-list-who-going{
+                            list-style: none;
+                            margin: 0;
+                            padding: 0;
+                            display: flex;
+                            flex-wrap: wrap;
+                            margin-bottom: 17px;
+                            li{
+                                padding-bottom: 10px;
+                                margin-right: 49px;
+                                &:last-child{
+                                    margin-right: 0;
+                                }
+                                a,span{
+                                    cursor: pointer;
+                                    display: block;
+                                    padding-bottom: 3px;
+                                    font-family: AvenirLTStdMedium;
+                                    font-size: 16px;
+                                    text-transform: uppercase;
+                                    border-bottom: 3px solid transparent;
+
+                                    &.active{
+                                        color: $main_color;
+                                        border-color: $main_color;
+                                    }
+
+                                }
+                            }
+                        }
+                        .artists-info-route{
+                            .one-artist{
+                                padding: 0 33px;
+                                margin-bottom: 60px;
+                                .info-artist{
+                                    display: flex;
+                                    align-items: flex-start;
+                                    margin-bottom: 25px;
+                                    .left-side{
+                                        flex-shrink: 0;
+
+                                        .ava{
+                                            width: 160px;
+                                            height: 160px;
+                                            border-radius: 50%;
+                                            display: block;
+                                            background-size: cover;
+                                            background-position: center;
+
+                                        }
+                                    }
+                                    .right-side{
+                                        padding-left: 30px;
+                                        .name{
+                                            margin-bottom: 0;
+                                            font-family: AvenirLTStdBlack;
+                                            font-size: 16px;
+                                        }
+                                        .mose-name{
+                                            font-size: 14px;
+                                            margin-bottom: 5px;
+                                            span{
+                                                color: $main_color;
+                                            }
+                                        }
+                                        .bio{
+                                            font-size: 14px;
+                                            margin-bottom: 15px;
+                                        }
+                                        .follow-unfollow{
+                                            display: flex;
+                                            .butt-style-1{
+                                                width: auto;
+
+                                                border-width: 4px;
+                                                span{
+                                                    padding: 5px 18px;
+                                                    text-transform: uppercase;
+                                                    font-size: 12px;
+                                                }
+
+
+                                            }
+                                        }
+                                    }
+                                }
+
+                            }
+                        }
+                        .about-show{
+
+                            h4{
+                                font-size: 25px;
+                                font-family: AvenirLTStdBlack;
+                                margin-bottom: 24px;
+                                text-transform: uppercase;
+                            }
+                            p{
+                                font-size: 14px;
+                                line-height: 18px;
+                                -webkit-column-count:2;  
+                                -moz-column-count:2;  
+                                column-count:2;
+                                -webkit-column-gap: 30px;  
+                                -moz-column-gap: 35px;  
+                                column-gap: 35px;  
+                            }
+                        }
+
+                    }
+                    .comments-route{
+                        h6{
+                            font-size: 16px;
+                            font-family: AvenirLTStdBlack;
+                            margin-bottom: 20px;
+                            text-transform: uppercase;
+                        }
+                        .my-comment {
+                            padding-bottom: 20px;
+                            border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+                            display: flex;
+                            .left-side {
+                                flex-shrink: 0;
+                                .ava {
+                                    width: 105px;
+                                    height: 105px;
+                                    border-radius: 50%;
+                                    background-size: cover;
+                                    background-position: center;
+
+                                }
+
+                            }
+                            .right-side {
+                                position: relative;
+                                padding-left: 25px;
+                                width: 100%;
+                                display: flex;
+                                align-items: flex-end;
+                                textarea {
+                                    display: block;
+                                    width: 100%;
+                                    height: 100px;
+                                    padding: 10px 0;
+                                    border: none;
+                                    background: #fff;
+                                    resize: none;
+                                    outline: none;
+                                }
+                                .send-coment-wrapp {
+                                   flex-shrink: 0;
+                                    padding-left: 20px;
+                                    .butt-style-1 {
+                                            border-width: 5px;
+                                        span{
+                                            padding: 5px 28px;
+                                            text-transform: uppercase;
+                                            font-size: 14px;
+                                        }
+                                    }
+                                }
+                            }
+                            
+                        }
+                        .other-comments {
+                            .comment-wrapper {
+                                position: relative;
+                                padding: 30px 0;
+                                border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+                                display: flex;
+                                &:first-child {
+                                    border-top: 1px solid rgba(0, 0, 0, 0.1);
+                                }
+                                .left-side {
+                                    flex-shrink: 0;
+                                    .ava {
+                                        width: 105px;
+                                        height: 105px;
+                                        border-radius: 50%;
+                                        background-size: cover;
+                                        background-position: center;
+
+                                    }
+                                }
+                                .right-side {
+                                    position: relative;
+                                    width: 100%;
+                                    padding-left: 25px;
+                                    .when {
+                                        position: absolute;
+                                        top: 0;
+                                        right: 0;
+                                        font-size: 16px;
+                                        color: rgba(0, 0, 0, 0.5);
+                                    }
+                                    .name {
+                                        font-family: AvenirLTStdBlack;
+                                        font-size: 20px;
+                                        padding-right: 40px;
+                                        margin-bottom: 0;
+                                    }
+                                    .hash {
+                                        font-size: 14px;
+                                        margin-bottom: 7px;
+                                        span {
+                                            color: $main_color;
+                                        }
+                                    }
+
+                                }
+                            }
+                        } 
+                    }
+                    .updates-route{
+                        .updates-list {
+                            margin: 0;
+                            list-style: none;
+                            li {
+                                padding: 33px 0;
+                                display: flex;
+                                align-items: center;
+                                justify-content: space-between;
+                                border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+                                &:first-child {
+                                    border-top: 1px solid rgba(0, 0, 0, 0.1);
+                                }
+                                &:first-child{
+                                    border-top: none;
+                                }
+                                p {
+                                    margin: 0;
+                                    font-size: 20px;
+                                    &:last-child {
+                                        font-size: 16px;
+                                        color: rgba(0, 0, 0, 0.5);
+
+
+
+                                    }
+                                }
+                            }
+                        }
+                    }  
+                    
+                    
+                }
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+            }
+        }
+        .tickets-side{
+            width: 370px;
+            margin-bottom: 40px;
+            flex-shrink: 0;
+            padding-left: 40px;
+            h3{
+                font-size: 50px;
+                font-family: AvenirLTStdBlack;
+                text-transform: uppercase;
+                margin-bottom: 0;
+            }
+            .you-have{
+                font-size: 14px;
+                margin-bottom: 12px;
+                span{
+                    font-family: AvenirLTStdBlack;
+                    color: $main_color;
+                }
+            }
+            .tickets-new-wr{
+                .price-and-buy{
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
+                    border: 1px solid #F3F3F3;
+                    padding: 10px 20px;
+                    .total{
+                        margin-bottom: 0;
+                        font-size: 14px;
+                        span{
+                            font-family: AvenirLTStdBlack;
+                            color: $main_color;
+                        }
+                    }
+                    .butt-buy{
+                        .butt-style-1{
+                            border-width: 4px;
+                            span{
+                                padding: 5px 18px;
+                                text-transform: uppercase;
+                                font-size: 12px;
+                            }
+                            
+                            
+                        }
+                    }
+                }
+                .all-tickets-new-wrapp{
+                    background: #F3F3F3;
+                    padding: 15px 24px;
+                    .one-tick{
+                        background: #fff;
+                        margin-bottom: 15px;
+                        box-shadow: 0px 2px 7.3px 0.7px rgba(0, 0, 0, 0.05);
+                        padding: 20px 15px;
+                        &:last-child{
+                            margin-bottom: 0;
+                        }
+                        p{
+                            text-align: center;
+                            &.f{
+                                font-size: 18px;
+                                color: #323232;
+                                font-family: AvenirLTStdMedium;
+                                margin-bottom: 0;
+                                text-transform: uppercase;
+
+                            }
+                            &.s {
+                                font-size: 14px;
+                                color: #323232;
+                                margin-bottom: 4px;
+                            }
+                            &.c {
+                                font-size: 35px;
+                                font-family: AvenirLTStdBlack;
+                                text-shadow: 0px 2px 7.3px rgba(0, 0, 0, 0.05);
+                                color: #eb2d64;
+                                margin-bottom: 12px;
+                                &.with-original-price{
+                                    margin-bottom: 0;
+                                }
+                                &.c-original{
+                                    font-size: 25px;
+                                    line-height: 30px
+                                }
+                            }
+                            &.t {
+                                letter-spacing: 1.4px;
+                                font-size: 14px;
+                                margin-bottom: 24px;
+                                line-height: 18px;
+                            }
+                            &.last {
+                                font-size: 14px;
+                                color: #5c5c5c;
+                            }
+                        }
+                        .conter-wrapp{
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                            margin-bottom: 5px;
+                            .arrow{
+                                background: transparent;
+                                outline: none;
+                                border: none;
+                                path{
+                                    transition: 0.3s;
+                                }
+                                &:hover{
+                                    path{
+                                        fill: #eb2d64;
+                                        opacity: 1;
+                                        
+                                    }
+                                }
+                            }
+                            span {
+                                width: auto;
+                                padding: 0 10px;
+                                text-align: center;
+                                display: block;
+                                color: #323232;
+                                font-size: 30px;
+                                
+                                position: relative;
+                                top: -2px;
+                            }
+                        }
+                        
+                    }
+                }
+            }
+        }
+    }
+}

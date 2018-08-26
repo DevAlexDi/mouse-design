@@ -1,3 +1,429 @@
-
+.new-show-datails-wrapp {
+  background: #fff; }
+  .new-show-datails-wrapp .flex-new-datails {
+    display: flex;
+    padding-top: 30px;
+    align-items: flex-start; }
+    .new-show-datails-wrapp .flex-new-datails .information-side {
+      width: 100%; }
+      .new-show-datails-wrapp .flex-new-datails .information-side .top-new-show-datails {
+        display: flex;
+        align-items: flex-start;
+        padding: 30px;
+        margin-bottom: 25px;
+        background-size: cover;
+        background-position: center;
+        background-image: url(../img/new-show-datails.jpg); }
+        .new-show-datails-wrapp .flex-new-datails .information-side .top-new-show-datails .baner-wr {
+          padding-right: 20px;
+          width: 50%; }
+          .new-show-datails-wrapp .flex-new-datails .information-side .top-new-show-datails .baner-wr .baner-before {
+            position: relative;
+            width: 100%;
+            overflow: hidden; }
+            .new-show-datails-wrapp .flex-new-datails .information-side .top-new-show-datails .baner-wr .baner-before:before {
+              content: '';
+              display: block;
+              padding-top: 155%;
+              position: relative; }
+            .new-show-datails-wrapp .flex-new-datails .information-side .top-new-show-datails .baner-wr .baner-before .baner {
+              position: absolute;
+              top: 0;
+              left: 0;
+              right: 0;
+              bottom: 0;
+              background: center no-repeat;
+              background-size: cover; }
+        .new-show-datails-wrapp .flex-new-datails .information-side .top-new-show-datails .main-info-of-event {
+          padding-left: 20px;
+          width: 50%; }
+          .new-show-datails-wrapp .flex-new-datails .information-side .top-new-show-datails .main-info-of-event h1 {
+            text-transform: uppercase;
+            font-size: 25px;
+            color: #fff;
+            font-family: AvenirLTStdBlack;
+            margin-bottom: 15px; }
+          .new-show-datails-wrapp .flex-new-datails .information-side .top-new-show-datails .main-info-of-event .gradient-info {
+            position: relative;
+            padding: 20px 30px 67px 30px;
+            background: linear-gradient(to top, rgba(72, 23, 100, 0.9), rgba(131, 34, 128, 0.4));
+            min-height: 649px; }
+            .new-show-datails-wrapp .flex-new-datails .information-side .top-new-show-datails .main-info-of-event .gradient-info .when {
+              color: #fff;
+              font-size: 14px;
+              margin-bottom: 10px; }
+              .new-show-datails-wrapp .flex-new-datails .information-side .top-new-show-datails .main-info-of-event .gradient-info .when span {
+                font-family: AvenirLTStdBlack; }
+            .new-show-datails-wrapp .flex-new-datails .information-side .top-new-show-datails .main-info-of-event .gradient-info .hash {
+              font-size: 14px;
+              color: #fff;
+              margin-bottom: 10px; }
+              .new-show-datails-wrapp .flex-new-datails .information-side .top-new-show-datails .main-info-of-event .gradient-info .hash span {
+                color: #eb2d64; }
+            .new-show-datails-wrapp .flex-new-datails .information-side .top-new-show-datails .main-info-of-event .gradient-info .head-of-blocks {
+              font-size: 12px;
+              margin-bottom: 5px;
+              color: #B8A5BF; }
+            .new-show-datails-wrapp .flex-new-datails .information-side .top-new-show-datails .main-info-of-event .gradient-info .flex-genres {
+              display: flex;
+              flex-wrap: wrap;
+              margin-bottom: 10px; }
+              .new-show-datails-wrapp .flex-new-datails .information-side .top-new-show-datails .main-info-of-event .gradient-info .flex-genres .one-genre {
+                display: block;
+                text-transform: uppercase;
+                margin-right: 15px;
+                background-color: #eb2d64;
+                font-size: 12px;
+                padding: 2px 10px;
+                color: #fff;
+                margin-bottom: 10px;
+                border-radius: 50px; }
+            .new-show-datails-wrapp .flex-new-datails .information-side .top-new-show-datails .main-info-of-event .gradient-info .who-going {
+              color: #fff; }
+            .new-show-datails-wrapp .flex-new-datails .information-side .top-new-show-datails .main-info-of-event .gradient-info .location-wr .mark {
+              border: none;
+              -webkit-box-shadow: 0px 0px 0px 3px rgba(238, 40, 98, 0.5);
+              -moz-box-shadow: 0px 0px 0px 3px rgba(238, 40, 98, 0.5);
+              box-shadow: 0px 0px 0px 3px rgba(238, 40, 98, 0.5);
+              width: 39px;
+              height: 39px;
+              margin-left: 3px; }
+            .new-show-datails-wrapp .flex-new-datails .information-side .top-new-show-datails .main-info-of-event .gradient-info .location-wr .where {
+              color: #fff; }
+            .new-show-datails-wrapp .flex-new-datails .information-side .top-new-show-datails .main-info-of-event .gradient-info .icons-new {
+              position: absolute;
+              bottom: 23px;
+              left: 0;
+              width: 100%;
+              padding: 0 30px;
+              display: flex;
+              justify-content: space-between;
+              align-items: center; }
+              .new-show-datails-wrapp .flex-new-datails .information-side .top-new-show-datails .main-info-of-event .gradient-info .icons-new .share {
+                display: block;
+                background: transparent;
+                outline: none;
+                border: none; }
+      .new-show-datails-wrapp .flex-new-datails .information-side .bott-new-show-datails .navigation-of-show-datail {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 10px; }
+        .new-show-datails-wrapp .flex-new-datails .information-side .bott-new-show-datails .navigation-of-show-datail .list-nav-show {
+          list-style: none;
+          margin: 0;
+          padding: 0;
+          display: flex;
+          align-items: center;
+          margin-bottom: 33px; }
+          .new-show-datails-wrapp .flex-new-datails .information-side .bott-new-show-datails .navigation-of-show-datail .list-nav-show li {
+            padding-right: 52px; }
+            .new-show-datails-wrapp .flex-new-datails .information-side .bott-new-show-datails .navigation-of-show-datail .list-nav-show li:last-child {
+              padding-right: 0; }
+            .new-show-datails-wrapp .flex-new-datails .information-side .bott-new-show-datails .navigation-of-show-datail .list-nav-show li .link-to-tab {
+              display: block;
+              text-transform: uppercase;
+              font-size: 18px;
+              color: #000;
+              cursor: pointer;
+              font-family: AvenirLTStdMedium; }
+              .new-show-datails-wrapp .flex-new-datails .information-side .bott-new-show-datails .navigation-of-show-datail .list-nav-show li .link-to-tab.active {
+                color: #eb2d64; }
+              .new-show-datails-wrapp .flex-new-datails .information-side .bott-new-show-datails .navigation-of-show-datail .list-nav-show li .link-to-tab span {
+                opacity: 0.5; }
+        .new-show-datails-wrapp .flex-new-datails .information-side .bott-new-show-datails .navigation-of-show-datail .going-wrapp .going-ava {
+          display: flex;
+          justify-content: flex-end;
+          margin-bottom: 12px; }
+          .new-show-datails-wrapp .flex-new-datails .information-side .bott-new-show-datails .navigation-of-show-datail .going-wrapp .going-ava .ava {
+            display: block;
+            width: 38px;
+            height: 38px;
+            margin-left: 7px;
+            border-radius: 50%;
+            background-size: cover;
+            background-position: center; }
+        .new-show-datails-wrapp .flex-new-datails .information-side .bott-new-show-datails .navigation-of-show-datail .going-wrapp .how-mutch {
+          text-align: right;
+          font-size: 14px; }
+          .new-show-datails-wrapp .flex-new-datails .information-side .bott-new-show-datails .navigation-of-show-datail .going-wrapp .how-mutch span {
+            color: #eb2d64;
+            cursor: pointer; }
+      .new-show-datails-wrapp .flex-new-datails .information-side .bott-new-show-datails .for-change-contant {
+        padding-bottom: 33px; }
+        .new-show-datails-wrapp .flex-new-datails .information-side .bott-new-show-datails .for-change-contant .information-route h2 {
+          font-size: 25px;
+          font-family: AvenirLTStdBlack;
+          margin-bottom: 30px;
+          text-transform: uppercase; }
+        .new-show-datails-wrapp .flex-new-datails .information-side .bott-new-show-datails .for-change-contant .information-route .artists-list-who-going {
+          list-style: none;
+          margin: 0;
+          padding: 0;
+          display: flex;
+          flex-wrap: wrap;
+          margin-bottom: 17px; }
+          .new-show-datails-wrapp .flex-new-datails .information-side .bott-new-show-datails .for-change-contant .information-route .artists-list-who-going li {
+            padding-bottom: 10px;
+            margin-right: 49px; }
+            .new-show-datails-wrapp .flex-new-datails .information-side .bott-new-show-datails .for-change-contant .information-route .artists-list-who-going li:last-child {
+              margin-right: 0; }
+            .new-show-datails-wrapp .flex-new-datails .information-side .bott-new-show-datails .for-change-contant .information-route .artists-list-who-going li a, .new-show-datails-wrapp .flex-new-datails .information-side .bott-new-show-datails .for-change-contant .information-route .artists-list-who-going li span {
+              cursor: pointer;
+              display: block;
+              padding-bottom: 3px;
+              font-family: AvenirLTStdMedium;
+              font-size: 16px;
+              text-transform: uppercase;
+              border-bottom: 3px solid transparent; }
+              .new-show-datails-wrapp .flex-new-datails .information-side .bott-new-show-datails .for-change-contant .information-route .artists-list-who-going li a.active, .new-show-datails-wrapp .flex-new-datails .information-side .bott-new-show-datails .for-change-contant .information-route .artists-list-who-going li span.active {
+                color: #eb2d64;
+                border-color: #eb2d64; }
+        .new-show-datails-wrapp .flex-new-datails .information-side .bott-new-show-datails .for-change-contant .information-route .artists-info-route .one-artist {
+          padding: 0 33px;
+          margin-bottom: 60px; }
+          .new-show-datails-wrapp .flex-new-datails .information-side .bott-new-show-datails .for-change-contant .information-route .artists-info-route .one-artist .info-artist {
+            display: flex;
+            align-items: flex-start;
+            margin-bottom: 25px; }
+            .new-show-datails-wrapp .flex-new-datails .information-side .bott-new-show-datails .for-change-contant .information-route .artists-info-route .one-artist .info-artist .left-side {
+              flex-shrink: 0; }
+              .new-show-datails-wrapp .flex-new-datails .information-side .bott-new-show-datails .for-change-contant .information-route .artists-info-route .one-artist .info-artist .left-side .ava {
+                width: 160px;
+                height: 160px;
+                border-radius: 50%;
+                display: block;
+                background-size: cover;
+                background-position: center; }
+            .new-show-datails-wrapp .flex-new-datails .information-side .bott-new-show-datails .for-change-contant .information-route .artists-info-route .one-artist .info-artist .right-side {
+              padding-left: 30px; }
+              .new-show-datails-wrapp .flex-new-datails .information-side .bott-new-show-datails .for-change-contant .information-route .artists-info-route .one-artist .info-artist .right-side .name {
+                margin-bottom: 0;
+                font-family: AvenirLTStdBlack;
+                font-size: 16px; }
+              .new-show-datails-wrapp .flex-new-datails .information-side .bott-new-show-datails .for-change-contant .information-route .artists-info-route .one-artist .info-artist .right-side .mose-name {
+                font-size: 14px;
+                margin-bottom: 5px; }
+                .new-show-datails-wrapp .flex-new-datails .information-side .bott-new-show-datails .for-change-contant .information-route .artists-info-route .one-artist .info-artist .right-side .mose-name span {
+                  color: #eb2d64; }
+              .new-show-datails-wrapp .flex-new-datails .information-side .bott-new-show-datails .for-change-contant .information-route .artists-info-route .one-artist .info-artist .right-side .bio {
+                font-size: 14px;
+                margin-bottom: 15px; }
+              .new-show-datails-wrapp .flex-new-datails .information-side .bott-new-show-datails .for-change-contant .information-route .artists-info-route .one-artist .info-artist .right-side .follow-unfollow {
+                display: flex; }
+                .new-show-datails-wrapp .flex-new-datails .information-side .bott-new-show-datails .for-change-contant .information-route .artists-info-route .one-artist .info-artist .right-side .follow-unfollow .butt-style-1 {
+                  width: auto;
+                  border-width: 4px; }
+                  .new-show-datails-wrapp .flex-new-datails .information-side .bott-new-show-datails .for-change-contant .information-route .artists-info-route .one-artist .info-artist .right-side .follow-unfollow .butt-style-1 span {
+                    padding: 5px 18px;
+                    text-transform: uppercase;
+                    font-size: 12px; }
+        .new-show-datails-wrapp .flex-new-datails .information-side .bott-new-show-datails .for-change-contant .information-route .about-show h4 {
+          font-size: 25px;
+          font-family: AvenirLTStdBlack;
+          margin-bottom: 24px;
+          text-transform: uppercase; }
+        .new-show-datails-wrapp .flex-new-datails .information-side .bott-new-show-datails .for-change-contant .information-route .about-show p {
+          font-size: 14px;
+          line-height: 18px;
+          -webkit-column-count: 2;
+          -moz-column-count: 2;
+          column-count: 2;
+          -webkit-column-gap: 30px;
+          -moz-column-gap: 35px;
+          column-gap: 35px; }
+        .new-show-datails-wrapp .flex-new-datails .information-side .bott-new-show-datails .for-change-contant .comments-route h6 {
+          font-size: 16px;
+          font-family: AvenirLTStdBlack;
+          margin-bottom: 20px;
+          text-transform: uppercase; }
+        .new-show-datails-wrapp .flex-new-datails .information-side .bott-new-show-datails .for-change-contant .comments-route .my-comment {
+          padding-bottom: 20px;
+          border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+          display: flex; }
+          .new-show-datails-wrapp .flex-new-datails .information-side .bott-new-show-datails .for-change-contant .comments-route .my-comment .left-side {
+            flex-shrink: 0; }
+            .new-show-datails-wrapp .flex-new-datails .information-side .bott-new-show-datails .for-change-contant .comments-route .my-comment .left-side .ava {
+              width: 105px;
+              height: 105px;
+              border-radius: 50%;
+              background-size: cover;
+              background-position: center; }
+          .new-show-datails-wrapp .flex-new-datails .information-side .bott-new-show-datails .for-change-contant .comments-route .my-comment .right-side {
+            position: relative;
+            padding-left: 25px;
+            width: 100%;
+            display: flex;
+            align-items: flex-end; }
+            .new-show-datails-wrapp .flex-new-datails .information-side .bott-new-show-datails .for-change-contant .comments-route .my-comment .right-side textarea {
+              display: block;
+              width: 100%;
+              height: 100px;
+              padding: 10px 0;
+              border: none;
+              background: #fff;
+              resize: none;
+              outline: none; }
+            .new-show-datails-wrapp .flex-new-datails .information-side .bott-new-show-datails .for-change-contant .comments-route .my-comment .right-side .send-coment-wrapp {
+              flex-shrink: 0;
+              padding-left: 20px; }
+              .new-show-datails-wrapp .flex-new-datails .information-side .bott-new-show-datails .for-change-contant .comments-route .my-comment .right-side .send-coment-wrapp .butt-style-1 {
+                border-width: 5px; }
+                .new-show-datails-wrapp .flex-new-datails .information-side .bott-new-show-datails .for-change-contant .comments-route .my-comment .right-side .send-coment-wrapp .butt-style-1 span {
+                  padding: 5px 28px;
+                  text-transform: uppercase;
+                  font-size: 14px; }
+        .new-show-datails-wrapp .flex-new-datails .information-side .bott-new-show-datails .for-change-contant .comments-route .other-comments .comment-wrapper {
+          position: relative;
+          padding: 30px 0;
+          border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+          display: flex; }
+          .new-show-datails-wrapp .flex-new-datails .information-side .bott-new-show-datails .for-change-contant .comments-route .other-comments .comment-wrapper:first-child {
+            border-top: 1px solid rgba(0, 0, 0, 0.1); }
+          .new-show-datails-wrapp .flex-new-datails .information-side .bott-new-show-datails .for-change-contant .comments-route .other-comments .comment-wrapper .left-side {
+            flex-shrink: 0; }
+            .new-show-datails-wrapp .flex-new-datails .information-side .bott-new-show-datails .for-change-contant .comments-route .other-comments .comment-wrapper .left-side .ava {
+              width: 105px;
+              height: 105px;
+              border-radius: 50%;
+              background-size: cover;
+              background-position: center; }
+          .new-show-datails-wrapp .flex-new-datails .information-side .bott-new-show-datails .for-change-contant .comments-route .other-comments .comment-wrapper .right-side {
+            position: relative;
+            width: 100%;
+            padding-left: 25px; }
+            .new-show-datails-wrapp .flex-new-datails .information-side .bott-new-show-datails .for-change-contant .comments-route .other-comments .comment-wrapper .right-side .when {
+              position: absolute;
+              top: 0;
+              right: 0;
+              font-size: 16px;
+              color: rgba(0, 0, 0, 0.5); }
+            .new-show-datails-wrapp .flex-new-datails .information-side .bott-new-show-datails .for-change-contant .comments-route .other-comments .comment-wrapper .right-side .name {
+              font-family: AvenirLTStdBlack;
+              font-size: 20px;
+              padding-right: 40px;
+              margin-bottom: 0; }
+            .new-show-datails-wrapp .flex-new-datails .information-side .bott-new-show-datails .for-change-contant .comments-route .other-comments .comment-wrapper .right-side .hash {
+              font-size: 14px;
+              margin-bottom: 7px; }
+              .new-show-datails-wrapp .flex-new-datails .information-side .bott-new-show-datails .for-change-contant .comments-route .other-comments .comment-wrapper .right-side .hash span {
+                color: #eb2d64; }
+        .new-show-datails-wrapp .flex-new-datails .information-side .bott-new-show-datails .for-change-contant .updates-route .updates-list {
+          margin: 0;
+          list-style: none; }
+          .new-show-datails-wrapp .flex-new-datails .information-side .bott-new-show-datails .for-change-contant .updates-route .updates-list li {
+            padding: 33px 0;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            border-bottom: 1px solid rgba(0, 0, 0, 0.1); }
+            .new-show-datails-wrapp .flex-new-datails .information-side .bott-new-show-datails .for-change-contant .updates-route .updates-list li:first-child {
+              border-top: 1px solid rgba(0, 0, 0, 0.1); }
+            .new-show-datails-wrapp .flex-new-datails .information-side .bott-new-show-datails .for-change-contant .updates-route .updates-list li:first-child {
+              border-top: none; }
+            .new-show-datails-wrapp .flex-new-datails .information-side .bott-new-show-datails .for-change-contant .updates-route .updates-list li p {
+              margin: 0;
+              font-size: 20px; }
+              .new-show-datails-wrapp .flex-new-datails .information-side .bott-new-show-datails .for-change-contant .updates-route .updates-list li p:last-child {
+                font-size: 16px;
+                color: rgba(0, 0, 0, 0.5); }
+    .new-show-datails-wrapp .flex-new-datails .tickets-side {
+      width: 370px;
+      margin-bottom: 40px;
+      flex-shrink: 0;
+      padding-left: 40px; }
+      .new-show-datails-wrapp .flex-new-datails .tickets-side h3 {
+        font-size: 50px;
+        font-family: AvenirLTStdBlack;
+        text-transform: uppercase;
+        margin-bottom: 0; }
+      .new-show-datails-wrapp .flex-new-datails .tickets-side .you-have {
+        font-size: 14px;
+        margin-bottom: 12px; }
+        .new-show-datails-wrapp .flex-new-datails .tickets-side .you-have span {
+          font-family: AvenirLTStdBlack;
+          color: #eb2d64; }
+      .new-show-datails-wrapp .flex-new-datails .tickets-side .tickets-new-wr .price-and-buy {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        border: 1px solid #F3F3F3;
+        padding: 10px 20px; }
+        .new-show-datails-wrapp .flex-new-datails .tickets-side .tickets-new-wr .price-and-buy .total {
+          margin-bottom: 0;
+          font-size: 14px; }
+          .new-show-datails-wrapp .flex-new-datails .tickets-side .tickets-new-wr .price-and-buy .total span {
+            font-family: AvenirLTStdBlack;
+            color: #eb2d64; }
+        .new-show-datails-wrapp .flex-new-datails .tickets-side .tickets-new-wr .price-and-buy .butt-buy .butt-style-1 {
+          border-width: 4px; }
+          .new-show-datails-wrapp .flex-new-datails .tickets-side .tickets-new-wr .price-and-buy .butt-buy .butt-style-1 span {
+            padding: 5px 18px;
+            text-transform: uppercase;
+            font-size: 12px; }
+      .new-show-datails-wrapp .flex-new-datails .tickets-side .tickets-new-wr .all-tickets-new-wrapp {
+        background: #F3F3F3;
+        padding: 15px 24px; }
+        .new-show-datails-wrapp .flex-new-datails .tickets-side .tickets-new-wr .all-tickets-new-wrapp .one-tick {
+          background: #fff;
+          margin-bottom: 15px;
+          box-shadow: 0px 2px 7.3px 0.7px rgba(0, 0, 0, 0.05);
+          padding: 20px 15px; }
+          .new-show-datails-wrapp .flex-new-datails .tickets-side .tickets-new-wr .all-tickets-new-wrapp .one-tick:last-child {
+            margin-bottom: 0; }
+          .new-show-datails-wrapp .flex-new-datails .tickets-side .tickets-new-wr .all-tickets-new-wrapp .one-tick p {
+            text-align: center; }
+            .new-show-datails-wrapp .flex-new-datails .tickets-side .tickets-new-wr .all-tickets-new-wrapp .one-tick p.f {
+              font-size: 18px;
+              color: #323232;
+              font-family: AvenirLTStdMedium;
+              margin-bottom: 0;
+              text-transform: uppercase; }
+            .new-show-datails-wrapp .flex-new-datails .tickets-side .tickets-new-wr .all-tickets-new-wrapp .one-tick p.s {
+              font-size: 14px;
+              color: #323232;
+              margin-bottom: 4px; }
+            .new-show-datails-wrapp .flex-new-datails .tickets-side .tickets-new-wr .all-tickets-new-wrapp .one-tick p.c {
+              font-size: 35px;
+              font-family: AvenirLTStdBlack;
+              text-shadow: 0px 2px 7.3px rgba(0, 0, 0, 0.05);
+              color: #eb2d64;
+              margin-bottom: 12px; }
+              .new-show-datails-wrapp .flex-new-datails .tickets-side .tickets-new-wr .all-tickets-new-wrapp .one-tick p.c.with-original-price {
+                margin-bottom: 0; }
+              .new-show-datails-wrapp .flex-new-datails .tickets-side .tickets-new-wr .all-tickets-new-wrapp .one-tick p.c.c-original {
+                font-size: 25px;
+                line-height: 30px; }
+            .new-show-datails-wrapp .flex-new-datails .tickets-side .tickets-new-wr .all-tickets-new-wrapp .one-tick p.t {
+              letter-spacing: 1.4px;
+              font-size: 14px;
+              margin-bottom: 24px;
+              line-height: 18px; }
+            .new-show-datails-wrapp .flex-new-datails .tickets-side .tickets-new-wr .all-tickets-new-wrapp .one-tick p.last {
+              font-size: 14px;
+              color: #5c5c5c; }
+          .new-show-datails-wrapp .flex-new-datails .tickets-side .tickets-new-wr .all-tickets-new-wrapp .one-tick .conter-wrapp {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-bottom: 5px; }
+            .new-show-datails-wrapp .flex-new-datails .tickets-side .tickets-new-wr .all-tickets-new-wrapp .one-tick .conter-wrapp .arrow {
+              background: transparent;
+              outline: none;
+              border: none; }
+              .new-show-datails-wrapp .flex-new-datails .tickets-side .tickets-new-wr .all-tickets-new-wrapp .one-tick .conter-wrapp .arrow path {
+                transition: 0.3s; }
+              .new-show-datails-wrapp .flex-new-datails .tickets-side .tickets-new-wr .all-tickets-new-wrapp .one-tick .conter-wrapp .arrow:hover path {
+                fill: #eb2d64;
+                opacity: 1; }
+            .new-show-datails-wrapp .flex-new-datails .tickets-side .tickets-new-wr .all-tickets-new-wrapp .one-tick .conter-wrapp span {
+              width: auto;
+              padding: 0 10px;
+              text-align: center;
+              display: block;
+              color: #323232;
+              font-size: 30px;
+              position: relative;
+              top: -2px; }
 
 /*# sourceMappingURL=new-show-datails.css.map */
