@@ -1,9 +1,23 @@
 .new-show-datails-wrapp {
-  background: #fff; }
+  background: #fff;
+  padding: 0 80px;
+  position: relative; }
   .new-show-datails-wrapp .flex-new-datails {
     display: flex;
     padding-top: 30px;
-    align-items: flex-start; }
+    align-items: flex-start;
+    position: relative; }
+    .new-show-datails-wrapp .flex-new-datails .back-page {
+      position: absolute;
+      right: calc(100% + 15px);
+      top: 30px; }
+      .new-show-datails-wrapp .flex-new-datails .back-page span {
+        display: block;
+        font-size: 12px;
+        color: #000;
+        font-weight: bold;
+        text-transform: uppercase;
+        text-align: center; }
     .new-show-datails-wrapp .flex-new-datails .information-side {
       width: 100%; }
       .new-show-datails-wrapp .flex-new-datails .information-side .top-new-show-datails {
@@ -425,5 +439,90 @@
               font-size: 30px;
               position: relative;
               top: -2px; }
+
+.modal-send-request.new-modal-inv.modal-share .modal-dialog {
+  max-width: 600px; }
+.modal-send-request.new-modal-inv.modal-share .flex-icons-share {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px; }
+  .modal-send-request.new-modal-inv.modal-share .flex-icons-share .soc-link {
+    display: block;
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    background-position: center;
+    background-repeat: no-repeat; }
+    .modal-send-request.new-modal-inv.modal-share .flex-icons-share .soc-link.f {
+      background-color: #3c589e;
+      background-image: url(../img/fb.svg);
+      background-size: 28px; }
+    .modal-send-request.new-modal-inv.modal-share .flex-icons-share .soc-link.g {
+      background-color: #df493a;
+      background-size: 57px;
+      background-image: url(../img/goo.svg); }
+    .modal-send-request.new-modal-inv.modal-share .flex-icons-share .soc-link.t {
+      background-color: #1ca1f1;
+      background-size: 57px;
+      background-image: url(../img/tw.svg); }
+    .modal-send-request.new-modal-inv.modal-share .flex-icons-share .soc-link.v {
+      background-size: 60px;
+      background-color: #5181b8;
+      background-image: url(../img/vk.svg); }
+    .modal-send-request.new-modal-inv.modal-share .flex-icons-share .soc-link.m {
+      background-size: 50px;
+      background-color: #c4c4c4;
+      background-image: url(../img/mail-share.svg); }
+.modal-send-request.new-modal-inv.modal-share .input-groupe-1 label {
+  font-weight: normal; }
+
+.modal-send-request.new-modal-inv.who-going-modal .modal-dialog {
+  max-width: 730px; }
+.modal-send-request.new-modal-inv.who-going-modal .input-groupe-1 {
+  padding-top: 0; }
+  .modal-send-request.new-modal-inv.who-going-modal .input-groupe-1 input {
+    padding-left: 28px;
+    background-image: url(../img/search.png);
+    background-repeat: no-repeat;
+    background-position: center left; }
+    .modal-send-request.new-modal-inv.who-going-modal .input-groupe-1 input::-webkit-input-placeholder {
+      color: rgba(0, 0, 0, 0.3); }
+    .modal-send-request.new-modal-inv.who-going-modal .input-groupe-1 input::-moz-placeholder {
+      color: rgba(0, 0, 0, 0.3); }
+    .modal-send-request.new-modal-inv.who-going-modal .input-groupe-1 input:-moz-placeholder {
+      color: rgba(0, 0, 0, 0.3); }
+    .modal-send-request.new-modal-inv.who-going-modal .input-groupe-1 input:-ms-input-placeholder {
+      color: rgba(0, 0, 0, 0.3); }
+.modal-send-request.new-modal-inv.who-going-modal .flex-people {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  max-height: 501px;
+  overflow: auto; }
+  .modal-send-request.new-modal-inv.who-going-modal .flex-people::-webkit-scrollbar {
+    background: #fff;
+    width: 5px; }
+  .modal-send-request.new-modal-inv.who-going-modal .flex-people::-webkit-scrollbar-thumb {
+    background: rgba(0, 0, 0, 0.1);
+    border-radius: 2.5px;
+    cursor: pointer; }
+  .modal-send-request.new-modal-inv.who-going-modal .flex-people .one-p {
+    padding: 0 14px;
+    margin-bottom: 20px;
+    width: 20%; }
+    .modal-send-request.new-modal-inv.who-going-modal .flex-people .one-p .ava {
+      width: 100px;
+      height: 100px;
+      border-radius: 50%;
+      background-size: cover;
+      background-position: center;
+      margin: 0 auto 5px auto; }
+    .modal-send-request.new-modal-inv.who-going-modal .flex-people .one-p p {
+      text-align: center;
+      font-size: 14px;
+      margin-bottom: 0;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis; }
 
 /*# sourceMappingURL=new-show-datails.css.map */
