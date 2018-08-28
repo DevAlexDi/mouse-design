@@ -474,7 +474,40 @@
       background-color: #c4c4c4;
       background-image: url(../img/mail-share.svg); }
 .modal-send-request.new-modal-inv.modal-share .input-groupe-1 label {
-  font-weight: normal; }
+  font-weight: normal;
+  margin-bottom: 5px;
+  display: block;
+  position: relative; }
+.modal-send-request.new-modal-inv.modal-share .input-groupe-1 {
+  display: flex;
+  flex-direction: column-reverse; }
+  .modal-send-request.new-modal-inv.modal-share .input-groupe-1 input {
+    border: 1px dashed rgba(0, 0, 0, 0.2);
+    padding: 6px 10px;
+    width: 100%; }
+.modal-send-request.new-modal-inv.modal-share .copy-link {
+  position: relative;
+  border: 1px dashed rgba(0, 0, 0, 0.2);
+  padding: 6px 10px;
+  padding-right: 95px;
+  background: #F7F7F7; }
+  .modal-send-request.new-modal-inv.modal-share .copy-link p {
+    margin-bottom: 0;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis; }
+  .modal-send-request.new-modal-inv.modal-share .copy-link .copy {
+    position: absolute;
+    top: 7px;
+    right: 11px;
+    display: block;
+    background: transparent;
+    outline: none;
+    border: none;
+    color: #eb2d64;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-family: AvenirLTStdMedium; }
 
 .modal-send-request.new-modal-inv.who-going-modal .modal-dialog {
   max-width: 730px; }
@@ -524,5 +557,165 @@
       white-space: nowrap;
       overflow: hidden;
       text-overflow: ellipsis; }
+
+.new-show-datails-wrapp .flex-new-datails .information-side .bott-new-show-datails .for-change-contant .comments-route .other-comments .comment-wrapper .right-side .name {
+  padding-right: 60px; }
+
+@media (max-width: 1300px) {
+  .new-show-datails-wrapp .flex-new-datails .information-side .top-new-show-datails .main-info-of-event .gradient-info {
+    min-height: 460px; }
+
+  .new-show-datails-wrapp .flex-new-datails .information-side .top-new-show-datails .main-info-of-event .gradient-info {
+    padding: 20px 15px 67px 15px; }
+
+  .new-show-datails-wrapp .flex-new-datails .information-side .bott-new-show-datails .navigation-of-show-datail .list-nav-show li {
+    padding-right: 20px; }
+
+  .new-show-datails-wrapp .flex-new-datails .information-side .bott-new-show-datails .navigation-of-show-datail .list-nav-show li .link-to-tab {
+    font-size: 17px; } }
+@media (max-width: 1199px) {
+  .new-show-datails-wrapp {
+    padding: 0 40px; }
+
+  .new-show-datails-wrapp .flex-new-datails .back-page {
+    right: calc(100% + 4px); }
+
+  .new-show-datails-wrapp .flex-new-datails {
+    display: block; }
+
+  .new-show-datails-wrapp .flex-new-datails .tickets-side {
+    width: 100%;
+    padding-left: 0; }
+
+  .new-show-datails-wrapp .flex-new-datails .tickets-side .tickets-new-wr .all-tickets-new-wrapp {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; }
+
+  .new-show-datails-wrapp .flex-new-datails .tickets-side .tickets-new-wr .all-tickets-new-wrapp .one-tick {
+    width: 48%; }
+
+  .new-show-datails-wrapp .flex-new-datails .tickets-side .tickets-new-wr .all-tickets-new-wrapp .one-tick:last-child {
+    margin-bottom: 15px; }
+
+  .new-show-datails-wrapp .flex-new-datails .tickets-side {
+    margin-bottom: 0; } }
+@media (max-width: 767px) {
+  .new-show-datails-wrapp .flex-new-datails .back-page {
+    display: none; }
+
+  .new-show-datails-wrapp {
+    padding: 0 15px; }
+
+  .new-show-datails-wrapp .flex-new-datails .information-side .top-new-show-datails {
+    display: block; }
+
+  .new-show-datails-wrapp .flex-new-datails .information-side .top-new-show-datails {
+    padding: 30px 15px; }
+
+  .new-show-datails-wrapp .flex-new-datails .information-side .top-new-show-datails .baner-wr {
+    padding-right: 0;
+    width: 100%;
+    margin-bottom: 30px; }
+
+  .new-show-datails-wrapp .flex-new-datails .information-side .top-new-show-datails .main-info-of-event {
+    padding-left: 0;
+    width: 100%; }
+
+  .new-show-datails-wrapp .flex-new-datails .information-side .top-new-show-datails .main-info-of-event .gradient-info {
+    min-height: auto; }
+
+  .new-show-datails-wrapp .flex-new-datails .information-side .bott-new-show-datails .navigation-of-show-datail .list-nav-show li {
+    padding-right: 15px;
+    margin-bottom: 10px; }
+
+  .new-show-datails-wrapp .flex-new-datails .information-side .bott-new-show-datails .navigation-of-show-datail {
+    flex-direction: column-reverse;
+    align-items: flex-start; }
+
+  .new-show-datails-wrapp .flex-new-datails .information-side .bott-new-show-datails .navigation-of-show-datail .going-wrapp {
+    margin-left: auto;
+    margin-bottom: 20px; }
+
+  .new-show-datails-wrapp .flex-new-datails .information-side .bott-new-show-datails .navigation-of-show-datail .list-nav-show li .link-to-tab {
+    font-size: 12px; }
+
+  .new-show-datails-wrapp .flex-new-datails .information-side .bott-new-show-datails .navigation-of-show-datail .list-nav-show {
+    margin-bottom: 20px; }
+
+  .new-show-datails-wrapp .flex-new-datails .information-side .bott-new-show-datails .for-change-contant .information-route .artists-info-route .one-artist {
+    padding: 0; }
+
+  .new-show-datails-wrapp .flex-new-datails .information-side .bott-new-show-datails .navigation-of-show-datail .list-nav-show {
+    flex-wrap: wrap; }
+
+  .new-show-datails-wrapp .flex-new-datails .information-side .bott-new-show-datails .for-change-contant .information-route h2 {
+    font-size: 18px;
+    margin-bottom: 15px; }
+
+  .new-show-datails-wrapp .flex-new-datails .information-side .bott-new-show-datails .for-change-contant .information-route .artists-list-who-going li {
+    margin-right: 17px; }
+
+  .new-show-datails-wrapp .flex-new-datails .information-side .bott-new-show-datails .for-change-contant .information-route .artists-info-route .one-artist .info-artist .left-side .ava {
+    width: 60px;
+    height: 60px; }
+
+  .new-show-datails-wrapp .flex-new-datails .information-side .bott-new-show-datails .for-change-contant .information-route .artists-info-route .one-artist .info-artist .right-side {
+    padding-left: 15px; }
+
+  .new-show-datails-wrapp .flex-new-datails .information-side .bott-new-show-datails .for-change-contant .information-route .about-show p {
+    column-count: 1; }
+
+  .new-show-datails-wrapp .flex-new-datails .tickets-side .tickets-new-wr .all-tickets-new-wrapp .one-tick {
+    width: 100%; }
+
+  .new-show-datails-wrapp .flex-new-datails .information-side .bott-new-show-datails .for-change-contant .comments-route .my-comment .left-side .ava {
+    width: 40px;
+    height: 40px; }
+
+  .new-show-datails-wrapp .flex-new-datails .information-side .bott-new-show-datails .for-change-contant .comments-route .my-comment .right-side {
+    display: block; }
+
+  .new-show-datails-wrapp .flex-new-datails .information-side .bott-new-show-datails .for-change-contant .comments-route .my-comment .right-side {
+    padding-left: 15px; }
+
+  .new-show-datails-wrapp .flex-new-datails .information-side .bott-new-show-datails .for-change-contant .comments-route .my-comment .right-side .send-coment-wrapp {
+    display: flex;
+    justify-content: center;
+    padding-left: 0; }
+
+  .new-show-datails-wrapp .flex-new-datails .information-side .bott-new-show-datails .for-change-contant .comments-route .my-comment .right-side .send-coment-wrapp .butt-style-1 {
+    width: auto; }
+
+  .new-show-datails-wrapp .flex-new-datails .information-side .bott-new-show-datails .for-change-contant .comments-route .other-comments .comment-wrapper .left-side .ava {
+    width: 40px;
+    height: 40px; }
+
+  .new-show-datails-wrapp .flex-new-datails .information-side .bott-new-show-datails .for-change-contant .comments-route .other-comments .comment-wrapper .right-side {
+    padding-left: 15px; }
+
+  .modal-send-request.new-modal-inv.modal-share .flex-icons-share {
+    flex-wrap: wrap;
+    justify-content: space-around; }
+
+  .modal-send-request.new-modal-inv.modal-share .flex-icons-share .soc-link {
+    margin-bottom: 10px; }
+
+  .modal-send-request.new-modal-inv.modal-share .modal-dialog {
+    max-width: 290px; }
+
+  .modal-send-request.new-modal-inv.who-going-modal .modal-dialog {
+    max-width: 290px; }
+
+  .modal-send-request.new-modal-inv.who-going-modal .flex-people .one-p {
+    width: 50%; }
+
+  .modal-send-request.modal-share .modal-dialog .padd-left-right {
+    padding-left: 15px;
+    padding-right: 15px; }
+
+  .modal-send-request.who-going-modal .modal-dialog .padd-left-right {
+    padding-left: 15px;
+    padding-right: 15px; } }
 
 /*# sourceMappingURL=new-show-datails.css.map */
