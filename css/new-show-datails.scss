@@ -1,5 +1,9 @@
 $main_color: #eb2d64;
-
+.second-router-outlet.disable-height{
+    height: 100%;
+    background: #fff;
+    min-height: calc(100vh - 83px);
+}
 .new-show-datails-wrapp{
     background: #fff;
     padding: 0 80px;
@@ -10,6 +14,13 @@ $main_color: #eb2d64;
         padding-top: 30px;
         align-items: flex-start;
         position: relative;
+        &.flex-new-datails-payment{
+            padding-left: 75px;
+            .back-page{
+                right: auto;
+                left: 0;
+            }  
+        }
         .back-page{
             position: absolute;
             right: calc(100% + 15px);
@@ -22,6 +33,196 @@ $main_color: #eb2d64;
                 text-transform: uppercase;
                 text-align: center;
             }
+        }
+        .info-payment-left{
+            width: 35%;
+             h1{
+                text-transform: uppercase;
+                font-size: 30px;
+                font-family: AvenirLTStdBlack;
+                margin-bottom: 20px;
+                word-wrap: break-word;
+            }
+            .bg-image{
+                padding: 30px;
+                margin-bottom: 20px;
+                background-position: center;
+                background-size: cover;
+                background-image: url(../img/new-show-datails.jpg);
+                .image-before{
+                    position: relative;
+                    width: 100%;
+                    overflow: hidden;
+                    &:before{
+                        content: '';
+                        display: block;
+                        padding-top: 155%;
+                        position: relative;
+                    }
+                    .image{
+                        position: absolute;
+                        top: 0;
+                        left: 0;
+                        right: 0;
+                        bottom: 0;
+                        background: center no-repeat;
+                        background-size: cover;
+
+                    }
+                }
+            }
+            .small-descr{
+                font-size: 14px;
+                span{
+                    display: block;
+                    font-family: AvenirLTStdBlack;
+                    font-size: 16px;
+                }
+            }
+        }
+        .info-payment-right{
+            width: 65%;
+            padding-left: 50px;
+            h2{
+                text-transform: uppercase;
+                font-size: 30px;
+                font-family: AvenirLTStdBlack;
+                margin-bottom: 10px;
+            }
+            .info-payment{
+                margin-bottom: 30px;
+                p{
+                   font-size: 14px;
+                    margin-bottom: 0;
+                    span{
+                        font-family: AvenirLTStdBlack;
+                    }
+                    &.total{
+                        text-transform: uppercase;
+                        font-family: AvenirLTStdBlack;
+                        span{
+                            color: $main_color;
+                        }
+                    }
+                }
+            }
+            .for-flex-payment-blocks{
+                display: flex;
+                flex-wrap: wrap;
+                .one-collapsed-block{
+                    background: #f3f3f3;
+                    padding: 13px 25px;
+                    margin-bottom: 40px;
+                    width: 50%;
+                    .head-collapsed-block {
+                        text-transform: uppercase;
+                        font-size: 16px;
+                        margin-bottom: 30px;
+                    }
+                    .flex-top-cart {
+                        display: flex;
+                        flex-wrap: wrap;
+                        align-items: center;
+                        position: relative;
+                        padding-right: 18px;
+                        cursor: pointer;
+                        margin-bottom: 15px;
+                    }
+                    .triangle {
+                        position: absolute;
+                        top: 23px;
+                        right: 0;
+                        width: 0;
+                        height: 0;
+                        border-style: solid;
+                        border-width: 9px 9.5px 0 9.5px;
+                        border-color: #918f90 transparent transparent transparent;
+                    }
+                    .flexed-buy{
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        .butt-style-1{
+                            width: auto;
+                            border-width: 4px;
+                            span{
+                                position: relative;
+                                text-transform: uppercase;
+                                font-size: 12px;
+                                padding: 5px 18px;
+                            }
+                        }
+                    }
+                }
+            }
+            .complete-route{
+                padding-top: 50px;
+                .middle-image{
+                    margin: 0 auto 30px auto;
+                }
+                p{
+                    text-align: center;
+                }
+                .c-1{
+                    text-transform: uppercase;
+                    font-size: 30px;
+                    font-family: AvenirLTStdBlack;
+                    margin-bottom: 34px;
+                    span{
+                        display: block;
+                        color: #2fb765;
+                    }
+                }
+                .c-2{
+                   font-family: AvenirLTStdBlack;
+                    font-size: 24px;
+                    margin-bottom: 27px;
+                    span{
+                        color: $main_color;
+                    }
+                }
+                .c-3-wrapp{
+                    margin-bottom: 27px;
+                    .c-3{
+                       font-size: 14px;
+                        margin-bottom: 0;
+                        span{
+                            font-family: AvenirLTStdBlack;
+                        }
+                    }
+                }
+                .code{
+                    font-size: 14px;
+                    margin-bottom: 40px;
+                    span{
+                        display: block;
+                        font-family: AvenirLTStdBlack;
+                        text-transform: uppercase;
+                    }
+                }
+                .flexed-print{
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    .butt-style-1{
+                        width: auto;
+                        border-width: 4px;
+                        span{
+                            position: relative;
+                            text-transform: uppercase;
+                            font-size: 12px;
+                            padding: 5px 18px;
+                        }
+                    }
+                }
+            }
+            
+            
+            
+            
+            
+            
+            
         }
         .information-side{
             width: 100%;
@@ -143,6 +344,59 @@ $main_color: #eb2d64;
                                 background:transparent;
                                 outline: none;
                                 border: none;
+                            }
+                        }
+                    }
+                    .if-crowdfunding{
+                        padding-top: 25px;
+                        .range{
+                            position: relative;
+                            height: 4px;
+                            border-radius: 50px;
+                            background: rgba(255, 255, 255, 0.5);
+                            margin-bottom: 10px;
+                            .done {
+                                position: absolute;
+                                background: #eb2d64;
+                                height: 5px;
+                                border-radius: 50px;
+                                top: 0;
+                                left: 0;
+                            }
+                        }
+                        .price-done{
+                            margin-bottom: 2px;
+                            font-size: 16px;
+                            font-family: AvenirLTStdBlack;
+                            color: $main_color;
+                        }
+                        .descr-crowd{
+                            color: #fff;
+                            font-size: 14px;
+                            margin-bottom: 10px;
+                        }
+                        .flex-crowd-info{
+                            display: flex;
+                            align-items: center;
+                            flex-wrap: wrap;
+                            p{
+                                color: #fff;
+                            }
+                            .one-side{
+                                margin-right: 50px;
+                                margin-bottom: 10px;
+                                 .biggy{
+                                    font-size: 16px;
+                                    font-family: AvenirLTStdBlack;
+                                    margin-bottom: 0;
+
+                                }
+                                .descr-side{
+                                    font-size: 14px;
+                                }
+                                &:last-child{
+                                    margin-right: 0;
+                                }
                             }
                         }
                     }
@@ -783,6 +1037,9 @@ $main_color: #eb2d64;
 .new-show-datails-wrapp .flex-new-datails .information-side .bott-new-show-datails .for-change-contant .comments-route .other-comments .comment-wrapper .right-side .name{
     padding-right: 60px;
 }
+.new-show-datails-wrapp .flex-new-datails .info-payment-left{
+    margin-bottom: 20px;
+}
 @media (max-width: 1300px) {
     .new-show-datails-wrapp .flex-new-datails .information-side .top-new-show-datails .main-info-of-event .gradient-info{
         min-height: 460px;
@@ -806,7 +1063,11 @@ $main_color: #eb2d64;
     }
     .new-show-datails-wrapp .flex-new-datails{
         display: block;
-        
+    }
+    .new-show-datails-wrapp .flex-new-datails{
+        &.flex-new-datails-payment{
+            display: flex;
+        }
     }
     .new-show-datails-wrapp .flex-new-datails .tickets-side{
         width: 100%;
@@ -825,6 +1086,20 @@ $main_color: #eb2d64;
     }
     .new-show-datails-wrapp .flex-new-datails .tickets-side{
         margin-bottom: 0;
+    }
+    .new-show-datails-wrapp .flex-new-datails .info-payment-left{
+        margin-bottom: 20px;
+    }
+}
+@media (max-width: 991px) {
+    .new-show-datails-wrapp .flex-new-datails .info-payment-right .for-flex-payment-blocks .one-collapsed-block{
+        width: 100%;
+    }
+    .new-show-datails-wrapp .flex-new-datails .info-payment-right{
+        padding-left: 20px;
+    }
+    .new-show-datails-wrapp .flex-new-datails .info-payment-left .bg-image{
+        padding: 15px;
     }
 }
 @media (max-width: 767px) {
@@ -945,6 +1220,26 @@ $main_color: #eb2d64;
      .modal-send-request.who-going-modal .modal-dialog .padd-left-right{
          padding-left: 15px;
         padding-right: 15px;
+    }
+    .new-show-datails-wrapp .flex-new-datails.flex-new-datails-payment{
+        padding-left: 0;
+    }
+    .new-show-datails-wrapp .flex-new-datails.flex-new-datails-payment{
+        display: block;
+    }
+    .new-show-datails-wrapp .flex-new-datails .info-payment-left{
+        width: 100%;
+    }
+    .new-show-datails-wrapp .flex-new-datails .info-payment-right{
+        width: 100%;
+        padding-left: 0;
+    }
+    .new-show-datails-wrapp .flex-new-datails .info-payment-right .complete-route{
+        margin-bottom: 20px;
+        padding-top: 10px;
+    }
+    .new-show-datails-wrapp .flex-new-datails .info-payment-left .bg-image{
+        max-width: 500px;
     }
 }
 
