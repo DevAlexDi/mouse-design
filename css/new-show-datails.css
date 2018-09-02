@@ -8,9 +8,13 @@
   padding: 0 80px;
   position: relative; }
   .new-show-datails-wrapp .flex-new-datails {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     padding-top: 30px;
-    align-items: flex-start;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
     position: relative; }
     .new-show-datails-wrapp .flex-new-datails.flex-new-datails-payment {
       padding-left: 75px; }
@@ -86,8 +90,11 @@
             .new-show-datails-wrapp .flex-new-datails .info-payment-right .info-payment p.total span {
               color: #eb2d64; }
       .new-show-datails-wrapp .flex-new-datails .info-payment-right .for-flex-payment-blocks {
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
-        flex-wrap: wrap; }
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap; }
         .new-show-datails-wrapp .flex-new-datails .info-payment-right .for-flex-payment-blocks .one-collapsed-block {
           background: #f3f3f3;
           padding: 13px 25px;
@@ -98,9 +105,14 @@
             font-size: 16px;
             margin-bottom: 30px; }
           .new-show-datails-wrapp .flex-new-datails .info-payment-right .for-flex-payment-blocks .one-collapsed-block .flex-top-cart {
+            display: -webkit-box;
+            display: -ms-flexbox;
             display: flex;
-            flex-wrap: wrap;
-            align-items: center;
+            -ms-flex-wrap: wrap;
+                flex-wrap: wrap;
+            -webkit-box-align: center;
+                -ms-flex-align: center;
+                    align-items: center;
             position: relative;
             padding-right: 18px;
             cursor: pointer;
@@ -115,9 +127,15 @@
             border-width: 9px 9.5px 0 9.5px;
             border-color: #918f90 transparent transparent transparent; }
           .new-show-datails-wrapp .flex-new-datails .info-payment-right .for-flex-payment-blocks .one-collapsed-block .flexed-buy {
+            display: -webkit-box;
+            display: -ms-flexbox;
             display: flex;
-            justify-content: center;
-            align-items: center; }
+            -webkit-box-pack: center;
+                -ms-flex-pack: center;
+                    justify-content: center;
+            -webkit-box-align: center;
+                -ms-flex-align: center;
+                    align-items: center; }
             .new-show-datails-wrapp .flex-new-datails .info-payment-right .for-flex-payment-blocks .one-collapsed-block .flexed-buy .butt-style-1 {
               width: auto;
               border-width: 4px; }
@@ -161,9 +179,15 @@
             font-family: AvenirLTStdBlack;
             text-transform: uppercase; }
         .new-show-datails-wrapp .flex-new-datails .info-payment-right .complete-route .flexed-print {
+          display: -webkit-box;
+          display: -ms-flexbox;
           display: flex;
-          justify-content: center;
-          align-items: center; }
+          -webkit-box-pack: center;
+              -ms-flex-pack: center;
+                  justify-content: center;
+          -webkit-box-align: center;
+              -ms-flex-align: center;
+                  align-items: center; }
           .new-show-datails-wrapp .flex-new-datails .info-payment-right .complete-route .flexed-print .butt-style-1 {
             width: auto;
             border-width: 4px; }
@@ -175,8 +199,12 @@
     .new-show-datails-wrapp .flex-new-datails .information-side {
       width: 100%; }
       .new-show-datails-wrapp .flex-new-datails .information-side .top-new-show-datails {
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
-        align-items: flex-start;
+        -webkit-box-align: start;
+            -ms-flex-align: start;
+                align-items: flex-start;
         padding: 30px;
         margin-bottom: 25px;
         background-size: cover;
@@ -199,12 +227,37 @@
               top: 0;
               left: 0;
               right: 0;
+              width: 100%;
+              height: 100%;
               bottom: 0;
               background: center no-repeat;
               background-size: cover; }
         .new-show-datails-wrapp .flex-new-datails .information-side .top-new-show-datails .main-info-of-event {
           padding-left: 20px;
           width: 50%; }
+          .new-show-datails-wrapp .flex-new-datails .information-side .top-new-show-datails .main-info-of-event .use-style {
+            position: relative;
+            overflow: hidden; }
+            .new-show-datails-wrapp .flex-new-datails .information-side .top-new-show-datails .main-info-of-event .use-style:before {
+              content: '';
+              display: block;
+              padding-top: 155%;
+              position: relative; }
+            .new-show-datails-wrapp .flex-new-datails .information-side .top-new-show-datails .main-info-of-event .use-style .rel-wr-for-before {
+              position: absolute;
+              top: 0;
+              left: 0;
+              right: 0;
+              bottom: 0;
+              display: -webkit-box;
+              display: -ms-flexbox;
+              display: flex;
+              -webkit-box-orient: vertical;
+              -webkit-box-direction: normal;
+                  -ms-flex-direction: column;
+                      flex-direction: column;
+              width: 100%;
+              height: 100%; }
           .new-show-datails-wrapp .flex-new-datails .information-side .top-new-show-datails .main-info-of-event h1 {
             text-transform: uppercase;
             font-size: 25px;
@@ -213,9 +266,26 @@
             margin-bottom: 15px; }
           .new-show-datails-wrapp .flex-new-datails .information-side .top-new-show-datails .main-info-of-event .gradient-info {
             position: relative;
-            padding: 20px 30px 67px 30px;
+            padding: 20px 3px 67px 3px;
+            background: -webkit-gradient(linear, left bottom, left top, from(rgba(72, 23, 100, 0.9)), to(rgba(131, 34, 128, 0.4)));
             background: linear-gradient(to top, rgba(72, 23, 100, 0.9), rgba(131, 34, 128, 0.4));
-            min-height: 649px; }
+            height: 100%;
+            width: 100%;
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex; }
+            .new-show-datails-wrapp .flex-new-datails .information-side .top-new-show-datails .main-info-of-event .gradient-info .overflow-scroll {
+              overflow: auto;
+              height: 100%;
+              padding: 0 27px;
+              width: 100%; }
+              .new-show-datails-wrapp .flex-new-datails .information-side .top-new-show-datails .main-info-of-event .gradient-info .overflow-scroll::-webkit-scrollbar {
+                background: transparent;
+                width: 3px; }
+              .new-show-datails-wrapp .flex-new-datails .information-side .top-new-show-datails .main-info-of-event .gradient-info .overflow-scroll::-webkit-scrollbar-thumb {
+                background: rgba(189, 189, 189, 0.5);
+                border-radius: 2.5px;
+                cursor: pointer; }
             .new-show-datails-wrapp .flex-new-datails .information-side .top-new-show-datails .main-info-of-event .gradient-info .when {
               color: #fff;
               font-size: 14px;
@@ -233,8 +303,11 @@
               margin-bottom: 5px;
               color: #B8A5BF; }
             .new-show-datails-wrapp .flex-new-datails .information-side .top-new-show-datails .main-info-of-event .gradient-info .flex-genres {
+              display: -webkit-box;
+              display: -ms-flexbox;
               display: flex;
-              flex-wrap: wrap;
+              -ms-flex-wrap: wrap;
+                  flex-wrap: wrap;
               margin-bottom: 10px; }
               .new-show-datails-wrapp .flex-new-datails .information-side .top-new-show-datails .main-info-of-event .gradient-info .flex-genres .one-genre {
                 display: block;
@@ -251,7 +324,6 @@
             .new-show-datails-wrapp .flex-new-datails .information-side .top-new-show-datails .main-info-of-event .gradient-info .location-wr .mark {
               border: none;
               -webkit-box-shadow: 0px 0px 0px 3px rgba(238, 40, 98, 0.5);
-              -moz-box-shadow: 0px 0px 0px 3px rgba(238, 40, 98, 0.5);
               box-shadow: 0px 0px 0px 3px rgba(238, 40, 98, 0.5);
               width: 39px;
               height: 39px;
@@ -260,13 +332,21 @@
               color: #fff; }
             .new-show-datails-wrapp .flex-new-datails .information-side .top-new-show-datails .main-info-of-event .gradient-info .icons-new {
               position: absolute;
-              bottom: 23px;
+              bottom: 0;
+              height: 67px;
               left: 0;
               width: 100%;
               padding: 0 30px;
+              display: -webkit-box;
+              display: -ms-flexbox;
               display: flex;
-              justify-content: space-between;
-              align-items: center; }
+              -webkit-box-pack: justify;
+                  -ms-flex-pack: justify;
+                      justify-content: space-between;
+              -webkit-box-align: center;
+                  -ms-flex-align: center;
+                      align-items: center;
+              border-top: 1px solid rgba(255, 255, 255, 0.07); }
               .new-show-datails-wrapp .flex-new-datails .information-side .top-new-show-datails .main-info-of-event .gradient-info .icons-new .share {
                 display: block;
                 background: transparent;
@@ -297,9 +377,14 @@
               font-size: 14px;
               margin-bottom: 10px; }
             .new-show-datails-wrapp .flex-new-datails .information-side .top-new-show-datails .main-info-of-event .if-crowdfunding .flex-crowd-info {
+              display: -webkit-box;
+              display: -ms-flexbox;
               display: flex;
-              align-items: center;
-              flex-wrap: wrap; }
+              -webkit-box-align: center;
+                  -ms-flex-align: center;
+                      align-items: center;
+              -ms-flex-wrap: wrap;
+                  flex-wrap: wrap; }
               .new-show-datails-wrapp .flex-new-datails .information-side .top-new-show-datails .main-info-of-event .if-crowdfunding .flex-crowd-info p {
                 color: #fff; }
               .new-show-datails-wrapp .flex-new-datails .information-side .top-new-show-datails .main-info-of-event .if-crowdfunding .flex-crowd-info .one-side {
@@ -314,16 +399,26 @@
                 .new-show-datails-wrapp .flex-new-datails .information-side .top-new-show-datails .main-info-of-event .if-crowdfunding .flex-crowd-info .one-side:last-child {
                   margin-right: 0; }
       .new-show-datails-wrapp .flex-new-datails .information-side .bott-new-show-datails .navigation-of-show-datail {
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
-        justify-content: space-between;
-        align-items: center;
+        -webkit-box-pack: justify;
+            -ms-flex-pack: justify;
+                justify-content: space-between;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
         margin-bottom: 10px; }
         .new-show-datails-wrapp .flex-new-datails .information-side .bott-new-show-datails .navigation-of-show-datail .list-nav-show {
           list-style: none;
           margin: 0;
           padding: 0;
+          display: -webkit-box;
+          display: -ms-flexbox;
           display: flex;
-          align-items: center;
+          -webkit-box-align: center;
+              -ms-flex-align: center;
+                  align-items: center;
           margin-bottom: 33px; }
           .new-show-datails-wrapp .flex-new-datails .information-side .bott-new-show-datails .navigation-of-show-datail .list-nav-show li {
             padding-right: 52px; }
@@ -341,8 +436,12 @@
               .new-show-datails-wrapp .flex-new-datails .information-side .bott-new-show-datails .navigation-of-show-datail .list-nav-show li .link-to-tab span {
                 opacity: 0.5; }
         .new-show-datails-wrapp .flex-new-datails .information-side .bott-new-show-datails .navigation-of-show-datail .going-wrapp .going-ava {
+          display: -webkit-box;
+          display: -ms-flexbox;
           display: flex;
-          justify-content: flex-end;
+          -webkit-box-pack: end;
+              -ms-flex-pack: end;
+                  justify-content: flex-end;
           margin-bottom: 12px; }
           .new-show-datails-wrapp .flex-new-datails .information-side .bott-new-show-datails .navigation-of-show-datail .going-wrapp .going-ava .ava {
             display: block;
@@ -369,8 +468,11 @@
           list-style: none;
           margin: 0;
           padding: 0;
+          display: -webkit-box;
+          display: -ms-flexbox;
           display: flex;
-          flex-wrap: wrap;
+          -ms-flex-wrap: wrap;
+              flex-wrap: wrap;
           margin-bottom: 17px; }
           .new-show-datails-wrapp .flex-new-datails .information-side .bott-new-show-datails .for-change-contant .information-route .artists-list-who-going li {
             padding-bottom: 10px;
@@ -392,11 +494,16 @@
           padding: 0 33px;
           margin-bottom: 60px; }
           .new-show-datails-wrapp .flex-new-datails .information-side .bott-new-show-datails .for-change-contant .information-route .artists-info-route .one-artist .info-artist {
+            display: -webkit-box;
+            display: -ms-flexbox;
             display: flex;
-            align-items: flex-start;
+            -webkit-box-align: start;
+                -ms-flex-align: start;
+                    align-items: flex-start;
             margin-bottom: 25px; }
             .new-show-datails-wrapp .flex-new-datails .information-side .bott-new-show-datails .for-change-contant .information-route .artists-info-route .one-artist .info-artist .left-side {
-              flex-shrink: 0; }
+              -ms-flex-negative: 0;
+                  flex-shrink: 0; }
               .new-show-datails-wrapp .flex-new-datails .information-side .bott-new-show-datails .for-change-contant .information-route .artists-info-route .one-artist .info-artist .left-side .ava {
                 width: 160px;
                 height: 160px;
@@ -419,6 +526,8 @@
                 font-size: 14px;
                 margin-bottom: 15px; }
               .new-show-datails-wrapp .flex-new-datails .information-side .bott-new-show-datails .for-change-contant .information-route .artists-info-route .one-artist .info-artist .right-side .follow-unfollow {
+                display: -webkit-box;
+                display: -ms-flexbox;
                 display: flex; }
                 .new-show-datails-wrapp .flex-new-datails .information-side .bott-new-show-datails .for-change-contant .information-route .artists-info-route .one-artist .info-artist .right-side .follow-unfollow .butt-style-1 {
                   width: auto;
@@ -436,10 +545,8 @@
           font-size: 14px;
           line-height: 18px;
           -webkit-column-count: 2;
-          -moz-column-count: 2;
           column-count: 2;
           -webkit-column-gap: 30px;
-          -moz-column-gap: 35px;
           column-gap: 35px; }
         .new-show-datails-wrapp .flex-new-datails .information-side .bott-new-show-datails .for-change-contant .comments-route h6 {
           font-size: 16px;
@@ -449,9 +556,12 @@
         .new-show-datails-wrapp .flex-new-datails .information-side .bott-new-show-datails .for-change-contant .comments-route .my-comment {
           padding-bottom: 20px;
           border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+          display: -webkit-box;
+          display: -ms-flexbox;
           display: flex; }
           .new-show-datails-wrapp .flex-new-datails .information-side .bott-new-show-datails .for-change-contant .comments-route .my-comment .left-side {
-            flex-shrink: 0; }
+            -ms-flex-negative: 0;
+                flex-shrink: 0; }
             .new-show-datails-wrapp .flex-new-datails .information-side .bott-new-show-datails .for-change-contant .comments-route .my-comment .left-side .ava {
               width: 105px;
               height: 105px;
@@ -462,8 +572,12 @@
             position: relative;
             padding-left: 25px;
             width: 100%;
+            display: -webkit-box;
+            display: -ms-flexbox;
             display: flex;
-            align-items: flex-end; }
+            -webkit-box-align: end;
+                -ms-flex-align: end;
+                    align-items: flex-end; }
             .new-show-datails-wrapp .flex-new-datails .information-side .bott-new-show-datails .for-change-contant .comments-route .my-comment .right-side textarea {
               display: block;
               width: 100%;
@@ -474,7 +588,8 @@
               resize: none;
               outline: none; }
             .new-show-datails-wrapp .flex-new-datails .information-side .bott-new-show-datails .for-change-contant .comments-route .my-comment .right-side .send-coment-wrapp {
-              flex-shrink: 0;
+              -ms-flex-negative: 0;
+                  flex-shrink: 0;
               padding-left: 20px; }
               .new-show-datails-wrapp .flex-new-datails .information-side .bott-new-show-datails .for-change-contant .comments-route .my-comment .right-side .send-coment-wrapp .butt-style-1 {
                 border-width: 5px; }
@@ -486,11 +601,14 @@
           position: relative;
           padding: 30px 0;
           border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+          display: -webkit-box;
+          display: -ms-flexbox;
           display: flex; }
           .new-show-datails-wrapp .flex-new-datails .information-side .bott-new-show-datails .for-change-contant .comments-route .other-comments .comment-wrapper:first-child {
             border-top: 1px solid rgba(0, 0, 0, 0.1); }
           .new-show-datails-wrapp .flex-new-datails .information-side .bott-new-show-datails .for-change-contant .comments-route .other-comments .comment-wrapper .left-side {
-            flex-shrink: 0; }
+            -ms-flex-negative: 0;
+                flex-shrink: 0; }
             .new-show-datails-wrapp .flex-new-datails .information-side .bott-new-show-datails .for-change-contant .comments-route .other-comments .comment-wrapper .left-side .ava {
               width: 105px;
               height: 105px;
@@ -522,9 +640,15 @@
           list-style: none; }
           .new-show-datails-wrapp .flex-new-datails .information-side .bott-new-show-datails .for-change-contant .updates-route .updates-list li {
             padding: 33px 0;
+            display: -webkit-box;
+            display: -ms-flexbox;
             display: flex;
-            align-items: center;
-            justify-content: space-between;
+            -webkit-box-align: center;
+                -ms-flex-align: center;
+                    align-items: center;
+            -webkit-box-pack: justify;
+                -ms-flex-pack: justify;
+                    justify-content: space-between;
             border-bottom: 1px solid rgba(0, 0, 0, 0.1); }
             .new-show-datails-wrapp .flex-new-datails .information-side .bott-new-show-datails .for-change-contant .updates-route .updates-list li:first-child {
               border-top: 1px solid rgba(0, 0, 0, 0.1); }
@@ -539,7 +663,8 @@
     .new-show-datails-wrapp .flex-new-datails .tickets-side {
       width: 370px;
       margin-bottom: 40px;
-      flex-shrink: 0;
+      -ms-flex-negative: 0;
+          flex-shrink: 0;
       padding-left: 40px; }
       .new-show-datails-wrapp .flex-new-datails .tickets-side h3 {
         font-size: 50px;
@@ -553,9 +678,15 @@
           font-family: AvenirLTStdBlack;
           color: #eb2d64; }
       .new-show-datails-wrapp .flex-new-datails .tickets-side .tickets-new-wr .price-and-buy {
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
-        align-items: center;
-        justify-content: space-between;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+        -webkit-box-pack: justify;
+            -ms-flex-pack: justify;
+                justify-content: space-between;
         border: 1px solid #F3F3F3;
         padding: 10px 20px; }
         .new-show-datails-wrapp .flex-new-datails .tickets-side .tickets-new-wr .price-and-buy .total {
@@ -576,7 +707,8 @@
         .new-show-datails-wrapp .flex-new-datails .tickets-side .tickets-new-wr .all-tickets-new-wrapp .one-tick {
           background: #fff;
           margin-bottom: 15px;
-          box-shadow: 0px 2px 7.3px 0.7px rgba(0, 0, 0, 0.05);
+          -webkit-box-shadow: 0px 2px 7.3px 0.7px rgba(0, 0, 0, 0.05);
+                  box-shadow: 0px 2px 7.3px 0.7px rgba(0, 0, 0, 0.05);
           padding: 20px 15px; }
           .new-show-datails-wrapp .flex-new-datails .tickets-side .tickets-new-wr .all-tickets-new-wrapp .one-tick:last-child {
             margin-bottom: 0; }
@@ -612,15 +744,22 @@
               font-size: 14px;
               color: #5c5c5c; }
           .new-show-datails-wrapp .flex-new-datails .tickets-side .tickets-new-wr .all-tickets-new-wrapp .one-tick .conter-wrapp {
+            display: -webkit-box;
+            display: -ms-flexbox;
             display: flex;
-            justify-content: center;
-            align-items: center;
+            -webkit-box-pack: center;
+                -ms-flex-pack: center;
+                    justify-content: center;
+            -webkit-box-align: center;
+                -ms-flex-align: center;
+                    align-items: center;
             margin-bottom: 5px; }
             .new-show-datails-wrapp .flex-new-datails .tickets-side .tickets-new-wr .all-tickets-new-wrapp .one-tick .conter-wrapp .arrow {
               background: transparent;
               outline: none;
               border: none; }
               .new-show-datails-wrapp .flex-new-datails .tickets-side .tickets-new-wr .all-tickets-new-wrapp .one-tick .conter-wrapp .arrow path {
+                -webkit-transition: 0.3s;
                 transition: 0.3s; }
               .new-show-datails-wrapp .flex-new-datails .tickets-side .tickets-new-wr .all-tickets-new-wrapp .one-tick .conter-wrapp .arrow:hover path {
                 fill: #eb2d64;
@@ -638,8 +777,12 @@
 .modal-send-request.new-modal-inv.modal-share .modal-dialog {
   max-width: 600px; }
 .modal-send-request.new-modal-inv.modal-share .flex-icons-share {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: space-between;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   margin-bottom: 20px; }
   .modal-send-request.new-modal-inv.modal-share .flex-icons-share .soc-link {
     display: block;
@@ -674,8 +817,13 @@
   display: block;
   position: relative; }
 .modal-send-request.new-modal-inv.modal-share .input-groupe-1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column-reverse; }
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: column-reverse;
+          flex-direction: column-reverse; }
   .modal-send-request.new-modal-inv.modal-share .input-groupe-1 input {
     border: 1px dashed rgba(0, 0, 0, 0.2);
     padding: 6px 10px;
@@ -722,9 +870,14 @@
     .modal-send-request.new-modal-inv.who-going-modal .input-groupe-1 input:-ms-input-placeholder {
       color: rgba(0, 0, 0, 0.3); }
 .modal-send-request.new-modal-inv.who-going-modal .flex-people {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-wrap: wrap;
-  align-items: flex-start;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
   max-height: 501px;
   overflow: auto; }
   .modal-send-request.new-modal-inv.who-going-modal .flex-people::-webkit-scrollbar {
@@ -760,11 +913,8 @@
   margin-bottom: 20px; }
 
 @media (max-width: 1300px) {
-  .new-show-datails-wrapp .flex-new-datails .information-side .top-new-show-datails .main-info-of-event .gradient-info {
-    min-height: 460px; }
-
-  .new-show-datails-wrapp .flex-new-datails .information-side .top-new-show-datails .main-info-of-event .gradient-info {
-    padding: 20px 15px 67px 15px; }
+  .new-show-datails-wrapp .flex-new-datails .information-side .top-new-show-datails .main-info-of-event .gradient-info .overflow-scroll {
+    padding: 0 15px; }
 
   .new-show-datails-wrapp .flex-new-datails .information-side .bott-new-show-datails .navigation-of-show-datail .list-nav-show li {
     padding-right: 20px; }
@@ -782,6 +932,8 @@
     display: block; }
 
   .new-show-datails-wrapp .flex-new-datails.flex-new-datails-payment {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex; }
 
   .new-show-datails-wrapp .flex-new-datails .tickets-side {
@@ -789,9 +941,14 @@
     padding-left: 0; }
 
   .new-show-datails-wrapp .flex-new-datails .tickets-side .tickets-new-wr .all-tickets-new-wrapp {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between; }
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between; }
 
   .new-show-datails-wrapp .flex-new-datails .tickets-side .tickets-new-wr .all-tickets-new-wrapp .one-tick {
     width: 48%; }
@@ -843,8 +1000,13 @@
     margin-bottom: 10px; }
 
   .new-show-datails-wrapp .flex-new-datails .information-side .bott-new-show-datails .navigation-of-show-datail {
-    flex-direction: column-reverse;
-    align-items: flex-start; }
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start; }
 
   .new-show-datails-wrapp .flex-new-datails .information-side .bott-new-show-datails .navigation-of-show-datail .going-wrapp {
     margin-left: auto;
@@ -860,7 +1022,8 @@
     padding: 0; }
 
   .new-show-datails-wrapp .flex-new-datails .information-side .bott-new-show-datails .navigation-of-show-datail .list-nav-show {
-    flex-wrap: wrap; }
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap; }
 
   .new-show-datails-wrapp .flex-new-datails .information-side .bott-new-show-datails .for-change-contant .information-route h2 {
     font-size: 18px;
@@ -877,7 +1040,8 @@
     padding-left: 15px; }
 
   .new-show-datails-wrapp .flex-new-datails .information-side .bott-new-show-datails .for-change-contant .information-route .about-show p {
-    column-count: 1; }
+    -webkit-column-count: 1;
+            column-count: 1; }
 
   .new-show-datails-wrapp .flex-new-datails .tickets-side .tickets-new-wr .all-tickets-new-wrapp .one-tick {
     width: 100%; }
@@ -893,8 +1057,12 @@
     padding-left: 15px; }
 
   .new-show-datails-wrapp .flex-new-datails .information-side .bott-new-show-datails .for-change-contant .comments-route .my-comment .right-side .send-coment-wrapp {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
     padding-left: 0; }
 
   .new-show-datails-wrapp .flex-new-datails .information-side .bott-new-show-datails .for-change-contant .comments-route .my-comment .right-side .send-coment-wrapp .butt-style-1 {
@@ -908,8 +1076,10 @@
     padding-left: 15px; }
 
   .modal-send-request.new-modal-inv.modal-share .flex-icons-share {
-    flex-wrap: wrap;
-    justify-content: space-around; }
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -ms-flex-pack: distribute;
+        justify-content: space-around; }
 
   .modal-send-request.new-modal-inv.modal-share .flex-icons-share .soc-link {
     margin-bottom: 10px; }
@@ -949,6 +1119,12 @@
     padding-top: 10px; }
 
   .new-show-datails-wrapp .flex-new-datails .info-payment-left .bg-image {
-    max-width: 500px; } }
+    max-width: 500px; }
+
+  .new-show-datails-wrapp .flex-new-datails .information-side .top-new-show-datails .main-info-of-event .use-style .rel-wr-for-before {
+    position: relative; }
+
+  .new-show-datails-wrapp .flex-new-datails .information-side .top-new-show-datails .main-info-of-event .use-style:before {
+    display: none; } }
 
 /*# sourceMappingURL=new-show-datails.css.map */

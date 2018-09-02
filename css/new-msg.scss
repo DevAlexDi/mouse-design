@@ -1,0 +1,786 @@
+$main_color: #eb2d64;
+
+.admin_page .admin_content .support_container{
+    &.new-msg-main-wrapp{
+        .msg-new-head{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 20px 0;
+            .l-s{
+                display: flex;
+                align-items: center;
+                h1{
+                    text-transform: uppercase;
+                    font-size: 25px;
+                    margin-bottom: 0;
+                    margin-right: 50px;
+                     font-family: AvenirLTStdBlack;
+                }
+                .inp-style-1 {
+                    background: #e2e2e2;
+                    color: #898989;
+                    text-align: center;
+                    padding: 11px 21px;
+                    margin-bottom: 0;
+                    width: 220px;
+                    &::-webkit-input-placeholder {
+                        color: #898989; }
+                    &::-moz-placeholder {
+                       color: #898989; }
+                    &:-moz-placeholder {
+                       color: #898989; }
+                    &:-ms-input-placeholder {
+                        color: #898989; }
+                }
+            }
+            .r-s{
+                display: flex;
+                align-items: center;
+                &.new-msg-style{
+                    .new-msg-text{
+                        color: #828282;
+                    }
+                    button{
+                        background: transparent;
+                        border: 1px solid #828282;
+                        cursor: auto;
+                        box-shadow: none;
+                        path{
+                            fill:#828282;
+                        }
+                    }
+                }
+                .new-msg-text{
+                    font-size: 14px;
+                    color: #828282;
+                    margin-bottom: 0;
+                    margin-right: 14px;
+                }
+                button{
+                    border: none;
+                    display: flex;
+                    width: 33px;
+                    height: 33px;
+                    justify-content: center;
+                    align-items: center;
+                    border-radius: 50%;
+                    background: linear-gradient(to top, #481764, #832280);
+                    outline: none;
+                    box-shadow: 0px 3px 10px 0 rgba(72, 23, 100, 0.81);
+                    svg{
+                        display: block;
+                        position: relative;
+                        top: -1px;
+                        left: 1px;
+                    }
+                }
+            }
+        
+        
+        }
+        
+        .support_grey .support_dialogs .support_dialogs_item .info .question .title{
+            font-family: AvenirLTStdMedium;
+            
+        }
+        .support_grey .support_dialogs .support_dialogs_item .info .username{
+            &.shared{
+                &:after{
+                    content: url(../img/shared.svg);
+                    padding-left: 7px;
+                }
+            }
+        }
+        .support_grey .support_dialogs .support_dialogs_item .info .address{
+            span{
+                font-family: AvenirLTStdBlack;
+                color: #000;
+            }
+           
+        }
+        .support_grey .support_dialogs .support_dialogs_item.active .info .address{
+            span{
+                color: #fff;
+                font-family: AvenirLTStdMedium;
+            }
+            &.done{
+                &:after{
+                    content: url(../img/ok-msg.svg);
+                    padding-left: 7px;
+                }
+            }
+        }
+        .support_right{
+             .abs-settings-msg{
+                position: absolute;
+                width: 150px;
+                z-index: 20;
+                top: calc(100% - 20px);
+                right: 0;
+                padding: 15px;
+                background: #fff;
+                border: 1px solid #E5E5E5;
+                box-shadow: 0px 5px 15px 0px rgba(0, 0, 0, 0.06);
+                transform: translateX(50%);
+                border-radius: 5px;
+                button{
+                    border: none;
+                    outline: none;
+                    display: block;
+                    background: transparent;
+                    padding: 0;
+                    margin-bottom: 10px;
+                    font-size: 14px;
+                    &:last-child{
+                        margin-bottom: 0;
+                    }
+                }
+            }
+            .all-main-msg-wrapp{
+                .head-of-msg{
+                    padding: 13px 40px 13px 20px;
+                    position: relative;
+                    border-bottom: 1px solid #E5E5E5;
+                    .name{
+                        margin-bottom: 0;
+                        font-size: 14px;
+                        font-family: AvenirLTStdBlack;
+                        text-transform: uppercase;
+                    }
+                    .topic{
+                        font-size: 12px;
+                        margin-bottom: 0;
+                        color: rgba(0, 0, 0, 0.5);
+                        span{
+                            color: #000;
+                        }
+                    }
+                    .close-msg{
+                        position: absolute;
+                        display: block;
+                        top: 10px;
+                        right: 10px;
+                        width: 19px;
+                        height: 25px;
+                        background: transparent;
+                        border: none;
+                        outline: none;
+                        
+                    }
+                    .opt-of-sel-msg{
+                        position: absolute;
+                        top: 0;
+                        right: 0;
+                        z-index: 20;
+                        width: 100%;
+                        height: 100%;
+                        background: #fff;
+                        display: flex;
+                        align-items: center;
+                        padding: 14px;
+                        justify-content: flex-start;
+                        .duplicate-options{
+                            background: transparent;
+                            display: block;
+                            margin-right: 15px;
+                            border-radius: 50px;
+                            border: 1px solid $main_color;
+                            outline: none;
+                            padding: 5px 17px;
+                            text-transform: uppercase;
+                            font-size: 12px;
+                            color: $main_color;
+                        }
+                    }
+                    
+                }
+                .msg-list-wr{
+                    padding: 0 5px;
+                    .msg-list{
+                        height: calc(100vh - 325px);
+                        overflow: auto;
+                        padding: 10px 11px;
+                        &::-webkit-scrollbar {
+                          background: #fff;
+                          width: 3px;
+                        }
+                        &::-webkit-scrollbar-thumb {
+                          background: rgba(0, 0, 0, 0.1);
+                          border-radius: 2.5px;
+                          cursor: pointer;
+                        }
+                        .some-day{
+                            .head-day{
+                                text-align: center;
+                                margin-bottom: 20px;
+                                color: #898989;
+                                font-size: 12px;
+                            }
+                            .not-my-msg{
+                                margin-bottom: 25px;
+                                display: flex;
+                                .ava-wr{
+                                    flex-shrink: 0;
+                                    width: 43px;
+                                    .ava{
+                                        width: 25px;
+                                        height: 25px;
+                                        border-radius: 50%;
+                                        background-size: cover;
+                                        background-position: center;
+                                        
+                                    }
+                                }
+                                .text-msg-wrapp{
+                                    display: flex;
+                                    flex-direction: column;
+                                    .one-msg{
+                                        max-width: 285px;
+                                        border-radius: 10px;
+                                        border: 1px solid #E5E5E5;
+                                        padding: 6px 9px;
+                                        font-size: 14px;
+                                        margin-bottom: 9px;
+                                        cursor: pointer;
+                                        position: relative;
+                                        span{
+                                            display: block;
+                                            font-family: AvenirLTStdBlack;
+                                            font-size: 12px;
+                                        }
+                                        &.selected-msg{
+                                            background: #F4EDFF;
+                                        }
+                                        &:last-child{
+                                            margin-bottom: 0;
+                                        }
+                                    }
+                                   
+                                }
+                            }
+                            .my-msg{
+                                display: flex;
+                                flex-direction: column;
+                                align-items: flex-end;
+                                margin-bottom: 25px;
+                                .one-msg{
+                                    max-width: 285px;
+                                    border-radius: 10px;
+                                    background: #F2F2F2;
+                                    cursor: pointer;
+                                    padding: 6px 9px;
+                                    font-size: 14px;
+                                    margin-bottom: 9px;
+                                    span{
+                                        display: block;
+                                        font-family: AvenirLTStdBlack;
+                                        font-size: 12px;
+                                    }
+                                    &.selected-msg{
+                                        background: #F4EDFF;
+                                    }
+                                    &:last-child{
+                                        margin-bottom: 0;
+                                    }
+                                }
+                            }
+                            .bug-style-msg{
+                                border-top: 1px solid #E5E5E5;
+                                padding: 11px 0;
+                                position: relative;
+                                &:first-child{
+                                    border-top: 0;
+                                }
+                                .abs-settings-msg{
+                                    left: 50%;
+                                    right: auto;
+                                    top: 0;
+                                    transform: translateX(-50%);
+                                }
+                                .info-user{
+                                    display: flex;
+                                    align-items: flex-start;
+                                    .ava{
+                                        flex-shrink: 0;
+                                        width: 40px;
+                                        height: 40px;
+                                        border-radius: 50%;
+                                        background-size: cover;
+                                        background-position: center;
+                                        
+                                    }
+                                    .r-s{
+                                        width: 100%;
+                                        padding-left: 15px;
+                                        margin-bottom: 10px;
+                                        .name{
+                                            margin-bottom: 0;
+                                            font-size: 14px;
+                                            font-family: AvenirLTStdMedium;
+                                        }
+                                        .mouse-name{
+                                            span{
+                                                color: $main_color;
+                                                font-size: 12px;
+                                            }
+                                        }
+                                    }
+                                }
+                                .comment{
+                                    display: block;
+                                    font-size: 14px;
+                                    margin-bottom: 10px;
+                                }
+                                .one-msg{
+                                    padding-left: 15px;
+                                    font-size: 14px;
+                                    margin-top: 20px;
+                                    border-left: 1px solid #832280;
+                                    margin-bottom: 10px;
+                                    span{
+                                        display: block;
+                                        font-family: AvenirLTStdBlack;
+                                        font-size: 12px;
+                                        margin-bottom: 4px;
+                                    }
+                                }
+                                .butt-wrapper-solved{
+                                    display: flex;
+                                    justify-content: flex-end;
+                                    button{
+                                        background: transparent;
+                                        display: block;
+                                        margin-right: 15px;
+                                        border-radius: 50px;
+                                        border: 1px solid $main_color;
+                                        outline: none;
+                                        padding: 5px 17px;
+                                        text-transform: uppercase;
+                                        font-size: 12px;
+                                        color: $main_color;
+                                    }
+                                    p{
+                                        padding-left: 22px;
+                                        background-image: url(../img/ok-msg.svg);
+                                        background-repeat: no-repeat;
+                                        background-position: center left;
+                                        text-transform: uppercase;
+                                        font-size: 12px;
+                                        color: $main_color;
+                                    }
+                                }
+                            }
+                            
+                            
+                            
+                        }
+                        
+                    }
+                   
+                }
+                .msg-send-form{
+                    display: flex;
+                    padding: 11px 30px;
+                    border-top: 1px solid rgba(0, 0, 0, 0.06);
+                    .msg-input{
+                        width: 100%;
+                        border: none;
+                        outline: none;
+                        font-size: 14px;
+                    }
+                    .feedback_buts{
+                        border: none;
+                        padding: 0;
+                        flex-shrink: 0;
+                        width: auto;
+                        padding-left: 20px;
+                        button{
+                            margin: 0;
+                        }
+                    }
+                }
+                .border-line{
+                    border-bottom: 1px solid #E5E5E5;  
+                }
+                .min-height-new-msg{
+                    min-height: calc(100vh - 255px);
+                }
+               .hard_addresses {
+                    padding: 15px 20px;
+                   &:first-child{
+                       padding-bottom: 0;
+                   }
+                    label {
+                        color: rgba(0, 0, 0, 0.5);
+                        font-size: 12px;
+                        display: block;
+                        font-weight: normal;
+                   }
+                   .addresses {
+                        width: 100%;
+                        border: 1px dotted #e5e5e5;
+                        min-height: 30px;
+                        position: relative;
+                        padding-right: 35px;
+                        position: relative;
+                       .open-autocomplete{
+                           display: block;
+                           position: absolute;
+                           top: 50%;
+                           right: 0;
+                           width: 35px;
+                           height: 30px;
+                           border: none;
+                           background: transparent;
+                           transform: translateY(-50%);
+                           &:after {
+                                position: absolute;
+                                content: '';
+                                right: 14px;
+                                top: 50%;
+                                transform: translateY(-50%);
+                                width: 0;
+                                height: 0;
+                                border-style: solid;
+                                border-width: 4px 4px 0 4px;
+                                border-color: #d3d2d3 transparent transparent transparent;
+                           }
+                       }
+                       .topic-autocomlete{
+                           display: block;
+                           width: 100%;
+                           border: none;
+                           outline: none;
+                           background: transparent;
+                           padding-left: 10px;
+                       }
+                   }
+                   .addresses .addr_labels {
+                      display: flex;
+                      flex-wrap: wrap;
+                        padding-top: 3px;
+                      
+                       .for-input-new-getter{
+                           width: 175px;
+                           display: flex;
+                           .abs-input-add{
+                               display: block;
+                               width: 100%;
+                               border: none;
+                               padding-left: 6px;
+                               outline: none;
+                               margin-bottom: 3px;
+                           }
+                       }
+                       
+                   }
+                   .addresses .addr_labels .addr,.addresses .addr_labels .add_addr {
+                        background: #fbecef;
+                        border-radius: 14px;
+                        font-size: 14px;
+                        line-height: 14px;
+                        padding: 4px 30px 5px 10px;
+                        margin-left: 6px;
+                        position: relative;
+                       margin-bottom: 3px;
+                   }
+                   .addresses .addr_labels .addr .un {
+                    color: #da4266;
+                   }
+                   .addresses .addr_labels .addr .del {
+                        position: absolute;
+                        width: 8px;
+                        height: 8px;
+                        cursor: pointer;
+                        background: url(../img/admin/addr_del.png) no-repeat;
+                        right: 10px;
+                        top: 50%;
+                        margin-top: -4px;
+                   }
+                   .addresses .addr_labels .add_addr {
+                        cursor: pointer;
+                        padding-right: 24px;
+                   }
+                   .addresses .addr_labels .add_addr .add {
+                      position: absolute;
+                      width: 11px;
+                      height: 11px;
+                      cursor: pointer;
+                      background: url(../img/admin/addr_add.png) no-repeat;
+                      right: 8px;
+                      top: 50%;
+                      margin-top: -5.5px;
+                   }
+                   .addresses_list {
+                      position: absolute;
+                      left: 0;
+                      width: 100%;
+                      height: auto;
+                    max-height: 126px;
+                      overflow: auto;
+                      top: 100%;
+                      background: #fff;
+                      border: 1px dotted #e5e5e5;
+                      box-shadow: 0px 4px 15px 2px rgba(0, 0, 0, 0.08);
+                   }
+                }
+                .hard_addresses .addresses .addresses_list::-webkit-scrollbar {
+                    background: transparent;
+                    width: 5px;
+                }
+                .hard_addresses .addresses .addresses_list::-webkit-scrollbar-thumb {
+                    background: #d8d8d8;
+                    border-radius: 2.5px;
+                    cursor: pointer;
+                }
+                .hard_addresses .addresses .addresses_list .adr {
+                    cursor: pointer;
+                    transition: 0.3s;
+                    font-size: 14px;
+                    padding: 5px 15px;
+                }
+                .hard_addresses .addresses .addresses_list .adr span {
+                      color: #da4266;
+                      font-family: AvenirLTStdBlack;
+                }
+                .hard_addresses .addresses .addresses_list .adr:hover {
+                      background: #f1f1f1;
+                }
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+            }
+            
+            
+            
+            
+            
+            
+        }
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+    }
+    
+}
+.modal-send-request.new-modal-inv.who-going-modal .input-groupe-1 input.pick-topic{
+    background-image: none;
+    padding-left: 0;
+}
+ 
+.modal-send-request.new-modal-inv.who-going-modal.for-forward-admin{
+    .flex-people .one-p{
+        cursor: pointer;
+    }
+    .hard_addresses {
+       padding: 0;
+        margin-bottom: 20px;
+       &:first-child{
+           padding-bottom: 0;
+       }
+        label {
+            color: rgba(0, 0, 0, 0.5);
+            font-size: 12px;
+            display: block;
+            font-weight: normal;
+       }
+       .addresses {
+            width: 100%;
+            border: 1px dotted #e5e5e5;
+            min-height: 30px;
+            position: relative;
+            padding-right: 35px;
+            position: relative;
+           &.has-arror{
+               border-color: $main_color;
+           }
+           .open-autocomplete{
+               display: block;
+               position: absolute;
+               top: 50%;
+               right: 0;
+               width: 35px;
+               height: 30px;
+               border: none;
+               background: transparent;
+               transform: translateY(-50%);
+               &:after {
+                    position: absolute;
+                    content: '';
+                    right: 14px;
+                    top: 50%;
+                    transform: translateY(-50%);
+                    width: 0;
+                    height: 0;
+                    border-style: solid;
+                    border-width: 4px 4px 0 4px;
+                    border-color: #d3d2d3 transparent transparent transparent;
+               }
+           }
+           .topic-autocomlete{
+               display: block;
+               width: 100%;
+               border: none;
+               outline: none;
+               background: transparent;
+               padding-left: 10px;
+           }
+       }
+       .addresses .addr_labels {
+          display: flex;
+          flex-wrap: wrap;
+            padding-top: 3px;
+
+           .for-input-new-getter{
+               width: 175px;
+               display: flex;
+               .abs-input-add{
+                   display: block;
+                   width: 100%;
+                   border: none;
+                   padding-left: 6px;
+                   outline: none;
+                   margin-bottom: 3px;
+               }
+           }
+
+       }
+       .addresses .addr_labels .addr,.addresses .addr_labels .add_addr {
+            background: #fbecef;
+            border-radius: 14px;
+            font-size: 14px;
+            line-height: 14px;
+            padding: 4px 30px 5px 10px;
+            margin-left: 6px;
+            position: relative;
+           margin-bottom: 3px;
+       }
+       .addresses .addr_labels .addr .un {
+        color: #da4266;
+       }
+       .addresses .addr_labels .addr .del {
+            position: absolute;
+            width: 8px;
+            height: 8px;
+            cursor: pointer;
+            background: url(../img/admin/addr_del.png) no-repeat;
+            right: 10px;
+            top: 50%;
+            margin-top: -4px;
+       }
+       .addresses .addr_labels .add_addr {
+            cursor: pointer;
+            padding-right: 24px;
+       }
+       .addresses .addr_labels .add_addr .add {
+          position: absolute;
+          width: 11px;
+          height: 11px;
+          cursor: pointer;
+          background: url(../img/admin/addr_add.png) no-repeat;
+          right: 8px;
+          top: 50%;
+          margin-top: -5.5px;
+       }
+       .addresses_list {
+          position: absolute;
+          left: 0;
+          width: 100%;
+          height: auto;
+           max-height: 126px;
+          overflow: auto;
+          top: 100%;
+          background: #fff;
+          border: 1px dotted #e5e5e5;
+          box-shadow: 0px 4px 15px 2px rgba(0, 0, 0, 0.08);
+       }
+    }
+    .hard_addresses .addresses .addresses_list::-webkit-scrollbar {
+        background: transparent;
+        width: 5px;
+    }
+    .hard_addresses .addresses .addresses_list::-webkit-scrollbar-thumb {
+        background: #d8d8d8;
+        border-radius: 2.5px;
+        cursor: pointer;
+    }
+    .hard_addresses .addresses .addresses_list .adr {
+        cursor: pointer;
+        transition: 0.3s;
+        font-size: 14px;
+        padding: 5px 15px;
+    }
+    .hard_addresses .addresses .addresses_list .adr span {
+          color: #da4266;
+          font-family: AvenirLTStdBlack;
+    }
+    .hard_addresses .addresses .addresses_list .adr:hover {
+          background: #f1f1f1;
+    }
+}
