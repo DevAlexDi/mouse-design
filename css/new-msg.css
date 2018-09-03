@@ -552,4 +552,111 @@
 .modal-send-request.new-modal-inv.who-going-modal.for-forward-admin .hard_addresses .addresses .addresses_list .adr:hover {
   background: #f1f1f1; }
 
+.main-feed-wrapp .middle-feed.f-m-h {
+  min-height: 100vh; }
+
+.admin_content .main-feed-wrapp .middle-feed .feed-text {
+  font-size: 28px;
+  text-transform: uppercase;
+  top: 18px; }
+.admin_content .main-feed-wrapp .wrapp-admin-item-notif {
+  position: relative;
+  padding: 20px 30px; }
+  .admin_content .main-feed-wrapp .wrapp-admin-item-notif .when {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    color: #898989;
+    font-size: 12px; }
+  .admin_content .main-feed-wrapp .wrapp-admin-item-notif .name-notif {
+    margin-bottom: 11px;
+    font-family: AvenirLTStdMedium; }
+    .admin_content .main-feed-wrapp .wrapp-admin-item-notif .name-notif span {
+      font-family: AvenirLTStdBlack;
+      color: #eb2d64; }
+  .admin_content .main-feed-wrapp .wrapp-admin-item-notif .who {
+    display: flex;
+    align-items: flex-start; }
+    .admin_content .main-feed-wrapp .wrapp-admin-item-notif .who .ava {
+      flex-shrink: 0;
+      width: 70px;
+      height: 70px;
+      border-radius: 50%;
+      background-size: cover;
+      background-position: center; }
+    .admin_content .main-feed-wrapp .wrapp-admin-item-notif .who .right-who {
+      width: 100%;
+      padding-top: 13px;
+      padding-left: 15px; }
+      .admin_content .main-feed-wrapp .wrapp-admin-item-notif .who .right-who .name {
+        margin-bottom: 5px;
+        font-family: AvenirLTStdMedium;
+        font-size: 14px; }
+      .admin_content .main-feed-wrapp .wrapp-admin-item-notif .who .right-who .mouse-name {
+        font-family: AvenirLTStdMedium;
+        margin-bottom: 10px;
+        font-size: 14px; }
+        .admin_content .main-feed-wrapp .wrapp-admin-item-notif .who .right-who .mouse-name span {
+          color: #eb2d64; }
+      .admin_content .main-feed-wrapp .wrapp-admin-item-notif .who .right-who .forwarded-msg {
+        padding-left: 15px;
+        margin-bottom: 10px;
+        border-left: 1px solid #832280;
+        font-size: 14px; }
+  .admin_content .main-feed-wrapp .wrapp-admin-item-notif .flex-congr {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start; }
+    .admin_content .main-feed-wrapp .wrapp-admin-item-notif .flex-congr img {
+      flex-shrink: 0; }
+    .admin_content .main-feed-wrapp .wrapp-admin-item-notif .flex-congr .right-congr {
+      width: 100%;
+      padding-left: 40px; }
+      .admin_content .main-feed-wrapp .wrapp-admin-item-notif .flex-congr .right-congr .f {
+        margin-bottom: 0px;
+        text-transform: uppercase;
+        font-family: AvenirLTStdBlack; }
+      .admin_content .main-feed-wrapp .wrapp-admin-item-notif .flex-congr .right-congr .s .mouse-t {
+        text-transform: uppercase;
+        font-family: AvenirLTStdMedium; }
+      .admin_content .main-feed-wrapp .wrapp-admin-item-notif .flex-congr .right-congr .s .count {
+        font-family: AvenirLTStdMedium;
+        color: #eb2d64; }
+  .admin_content .main-feed-wrapp .wrapp-admin-item-notif .button-option-notif {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center; }
+    .admin_content .main-feed-wrapp .wrapp-admin-item-notif .button-option-notif.forvard-notif button svg {
+      top: -2px;
+      left: 0; }
+    .admin_content .main-feed-wrapp .wrapp-admin-item-notif .button-option-notif .new-msg-text {
+      font-size: 14px;
+      color: #828282;
+      margin-bottom: 0;
+      margin-right: 14px; }
+    .admin_content .main-feed-wrapp .wrapp-admin-item-notif .button-option-notif button {
+      border: none;
+      display: flex;
+      width: 33px;
+      height: 33px;
+      justify-content: center;
+      align-items: center;
+      border-radius: 50%;
+      background: linear-gradient(to top, #481764, #832280);
+      outline: none;
+      box-shadow: 0px 3px 10px 0 rgba(72, 23, 100, 0.81); }
+      .admin_content .main-feed-wrapp .wrapp-admin-item-notif .button-option-notif button svg {
+        display: block;
+        position: relative;
+        top: -1px;
+        left: 1px; }
+
+@media (max-width: 1700px) {
+  .admin_content .main-feed-wrapp .middle-feed .feed-text {
+    right: calc(100% + 10px);
+    font-size: 20px; } }
+@media (max-width: 1500px) {
+  .admin_content .main-feed-wrapp .middle-feed .feed-text {
+    display: none; } }
+
 /*# sourceMappingURL=new-msg.css.map */
